@@ -1,6 +1,8 @@
 import type { Route } from "react-router";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import BrandsSlider from "@/components/BrandsSlider";
+import ReviewsSlider from "@/components/ReviewsSlider";
 import CTASection from "@/components/CTASection";
 import Services from "@/components/Services";
 import FeaturedProjects from "@/components/FeaturedProjects";
@@ -30,6 +32,8 @@ const HomePage = () => {
       />
       <Header />
       <Hero />
+      <BrandsSlider />
+      <ReviewsSlider />
       <Services />
       
       <CTASection />

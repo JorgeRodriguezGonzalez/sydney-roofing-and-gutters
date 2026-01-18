@@ -1,267 +1,232 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Award, Users, Clock, Mail, Phone, User } from "lucide-react";
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
+import { Check } from "lucide-react";
+
+const HERO_BG = "/images/hero-roof.webp";
+const TEAL = "#169fc3";
+
+const benefits = [
+  "SIMPLE, TRUSTED & CONVENIENT",
+  "PROFESSIONAL SERVICE",
+  "EXPERTS IN ALL ROOFING & GUTTERING",
+  "CALL FOR A FREE QUOTE",
+];
 
 const Hero = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
+
     const form = e.currentTarget;
     const formData = new FormData(form);
-    
+
     setIsSubmitting(true);
-    
+    setShowSuccess(false);
+
     try {
+      // Netlify-style post (safe default). If you use a different backend,
+      // swap this out later.
       const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData as any).toString()
+        body: new URLSearchParams(formData as any).toString(),
       });
-      
-      if (response.ok) {
-        setShowSuccess(true);
-        form.reset();
-        // Hide success message after 8 seconds
-        setTimeout(() => setShowSuccess(false), 8000);
-      } else {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
+
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+      setShowSuccess(true);
+      form.reset();
+      window.setTimeout(() => setShowSuccess(false), 6000);
     } catch (error) {
-      console.error('Form submission error:', error);
-      alert('Error submitting form. Please try again.');
+      console.error("Form submission error:", error);
+      alert("Error submitting form. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
   };
 
   return (
-    <section className="relative min-h-screen lg:h-[90vh] flex items-center">
-      {/* Background Video with Overlay */}
-      <div className="absolute inset-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="metadata"
-          className="w-full h-full object-cover"
-          poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect width='1920' height='1080' fill='%23374151'/%3E%3C/svg%3E"
-        >
-          <source
-            src="/videos/newcastle-local-roofers.mp4"
-            type="video/mp4"
-          />
-          {/* Fallback image in case video fails to load */}
-          Your browser does not support the video tag.
-        </video>
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/60 via-primary/40 to-primary/30"></div>
-        <div className="absolute inset-0 bg-accent/10"></div>
-      </div>
-      
-      {/* Content */}
-      <div className="relative container mx-auto px-4 sm:px-7 lg:px-14 xl:px-20 py-8 lg:py-[60px]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          
-          {/* Left Content */}
-          <div className="text-white">
-            {/* Blueprint Line Decoration */}
-            <div className="blueprint-line border-t-2 border-accent w-20 mb-8"></div>
-            
-            <h1 className="architectural-heading mb-6 leading-tight font-bold text-3xl sm:text-4xl lg:text-5xl xl:text-[3.24rem]" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Newcastle's Trusted <span className="text-accent">Roofing</span> Experts
-            </h1>
-            
-            <p className="mb-8 text-white/90 leading-relaxed" style={{ fontSize: '15px', fontFamily: 'Inter, sans-serif' }}>
-              Professional roof repairs, replacement, and restoration services. Available 24/7 for emergencies across Newcastle and the Hunter Region.
-            </p>
-            
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button variant="hero" size="xl" className="group" asChild>
-                <a href="tel:0240894613">
-                  Emergency Repairs 24/7
-                  <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                </a>
-              </Button>
-              <Button variant="architectural" size="xl" className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary" asChild>
-                <a href="/roof-inspections">
-                  Free Roof Inspection
-                </a>
-              </Button>
-            </div>
-            
-            {/* Trust Indicators */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6">
-              <div className="flex items-center gap-3 text-white/90">
-                <div className="bg-accent/20 p-3 rounded-lg">
-                  <Award className="h-6 w-6 text-accent" />
-                </div>
-                <div>
-                  <div className="font-semibold" style={{ fontSize: '0.9rem', fontFamily: 'Inter, Inc., sans-serif' }}>Licensed Roofers</div>
-                  <div className="text-white/70" style={{ fontSize: '0.765rem', fontFamily: 'Inter, sans-serif' }}>Fully qualified & insured</div>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-3 text-white/90">
-                <div className="bg-accent/20 p-3 rounded-lg">
-                  <Users className="h-6 w-6 text-accent" />
-                </div>
-                <div>
-                  <div className="font-semibold" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>1000+ Roofs</div>
-                  <div className="text-white/70" style={{ fontSize: '0.765rem', fontFamily: 'Inter, sans-serif' }}>Across Newcastle</div>
-                </div>
-              </div>
-              
-              <div className="flex items-center gap-3 text-white/90">
-                <div className="bg-accent/20 p-3 rounded-lg">
-                  <Clock className="h-6 w-6 text-accent" />
-                </div>
-                <div>
-                  <div className="font-semibold" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>24/7 Service</div>
-                  <div className="text-white/70" style={{ fontSize: '0.765rem', fontFamily: 'Inter, sans-serif' }}>Emergency response</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Right Form */}
-          <div className="bg-white/95 backdrop-blur-sm rounded-xl p-6 lg:p-8 shadow-2xl mt-8 lg:mt-0" style={{ fontFamily: 'Inter, sans-serif' }}>
-            {showSuccess ? (
-              // Success Message
-              <div className="text-center py-8">
-                <div className="bg-green-50 border-2 border-green-500 rounded-lg p-6 mb-4">
-                  <div className="flex justify-center mb-3">
-                    <svg className="w-12 h-12 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <h3 className="text-xl font-bold text-green-800 mb-2">
-                    Thank You! Message Received
-                  </h3>
-                  <p className="text-sm text-green-700 mb-2">
-                    We've received your request and will contact you soon to schedule your free roof inspection and quote.
-                  </p>
-                  <p className="text-xs text-green-600">
-                    One of our roofing experts will be in touch within 24 hours.
-                  </p>
-                </div>
-                <Button 
-                  variant="architectural" 
-                  size="lg"
-                  onClick={() => setShowSuccess(false)}
-                  className="text-sm"
+    <section className="relative">
+      {/* HERO IMAGE + OVERLAY */}
+      <div className="relative overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${HERO_BG})` }}
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-black/60" aria-hidden="true" />
+
+        {/* ✅ Content over image */}
+        <div className="relative z-10 mx-auto max-w-[1200px] px-4 pb-44 pt-16 sm:pt-20 lg:pb-56 lg:pt-24">
+          <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
+            {/* LEFT */}
+            <div className="text-white">
+              <h1 className="font-exo text-[38px] font-extrabold uppercase leading-[1.05] tracking-tight drop-shadow-[0_2px_2px_rgba(0,0,0,0.35)] sm:text-[48px] lg:text-[64px]">
+                SYDNEY ROOF &amp;
+                <br />
+                GUTTER SERVICE
+              </h1>
+
+              <div className="mt-5">
+                <span
+                  className="inline-flex rounded-md px-5 py-2 font-montserrat text-[18px] font-medium text-white shadow-sm sm:text-[20px]"
+                  style={{ backgroundColor: TEAL }}
                 >
-                  Submit Another Request
-                </Button>
+                  Roofing Sydney done by professionals
+                </span>
               </div>
-            ) : (
-              <>
-                <div className="mb-6">
-                  <h3 className="font-bold text-primary mb-2" style={{ fontSize: '1.44rem', fontFamily: 'Inter, sans-serif' }}>Get Your Free Roof Inspection</h3>
-                  <p className="text-gray-600" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>Fill out the form and we'll contact you within 24 hours</p>
+            </div>
+
+            {/* RIGHT */}
+            <ul className="space-y-4 text-white lg:justify-self-end lg:pt-2">
+              {benefits.map((b) => (
+                <li key={b} className="flex items-center gap-4">
+                  <span
+                    className="grid h-10 w-10 shrink-0 place-items-center rounded-full border-[3px] border-white/65 bg-[#2f80ed]"
+                    aria-hidden="true"
+                  >
+                    <Check className="h-6 w-6 text-white" />
+                  </span>
+                  <span className="font-exo text-[16px] font-bold uppercase tracking-wide sm:text-[17px]">
+                    {b}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* WHITE SECTION + FLOATING CARD */}
+      <div className="bg-white">
+        <div className="mx-auto max-w-[1200px] px-4">
+          {/* ✅ Negative margin pulls the card up over the hero */}
+          <div className="-mt-20 pb-10 sm:-mt-24 lg:-mt-28 lg:pb-14">
+            {/* ✅ z-index ensures it sits above image/overlay */}
+            <div
+              id="quote"
+              className="relative z-30 mx-auto max-w-[920px] rounded-[28px] border border-black/5 bg-white px-5 py-7 shadow-[0_14px_40px_rgba(0,0,0,0.18)] sm:px-8 sm:py-9"
+            >
+              <h2 className="text-center font-exo text-[26px] font-extrabold tracking-tight text-black sm:text-[32px] lg:text-[38px]">
+                Request a <span style={{ color: TEAL }}>FREE</span> Quote{" "}
+                <span style={{ color: TEAL }}>TODAY</span>
+              </h2>
+
+              {showSuccess && (
+                <div className="mx-auto mt-3 max-w-[560px] text-center font-montserrat text-sm text-emerald-700">
+                  Thanks! We&apos;ll contact you shortly.
                 </div>
-                
-                <form name="home-roof-quote" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} className="space-y-4">
-                  <input type="hidden" name="bot-field" />
-                  <input type="hidden" name="form-name" value="home-roof-quote" />
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block font-medium text-gray-700 mb-2" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>
-                        <User className="inline h-4 w-4 mr-2" />
-                        Full Name
-                      </label>
-                      <input
-                        type="text"
-                        name="fullName"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
-                        placeholder="Enter your full name"
-                        style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}
-                        required
-                      />
-                    </div>
-                    
-                    <div>
-                      <label className="block font-medium text-gray-700 mb-2" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>
-                        <Phone className="inline h-4 w-4 mr-2" />
-                        Phone Number
-                      </label>
-                      <input
-                        type="tel"
-                        name="phone"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
-                        placeholder="Enter your phone number"
-                        style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}
-                        required
-                      />
-                    </div>
-                  </div>
-                  
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block font-medium text-gray-700 mb-2" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>
-                        <Mail className="inline h-4 w-4 mr-2" />
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        name="email"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
-                        placeholder="Enter your email"
-                        style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}
-                        required
-                      />
-                    </div>
-                    
-                    <div>
-                      <label className="block font-medium text-gray-700 mb-2" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>
-                        Address
-                      </label>
-                      <input
-                        type="text"
-                        name="address"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors"
-                        placeholder="Enter your address"
-                        style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}
-                      />
-                    </div>
-                  </div>
-                  
+              )}
+
+              <form
+                name="home-quote"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                onSubmit={handleSubmit}
+                className="mx-auto mt-7 max-w-[760px]"
+              >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="home-quote" />
+
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-5">
+                  {/* Row 1 */}
                   <div>
-                    <label className="block font-medium text-gray-700 mb-2" style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}>
-                      Project Details
+                    <label className="sr-only" htmlFor="firstName">
+                      First Name
                     </label>
-                    <textarea
-                      rows={3}
-                      name="details"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-colors resize-none"
-                      placeholder="Tell us about your roofing needs (repairs, replacement, inspection, emergency, etc.)..."
-                      style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}
+                    <input
+                      id="firstName"
+                      name="firstName"
+                      type="text"
+                      placeholder="First Name"
+                      required
+                      className="h-12 w-full rounded-lg border border-gray-300 px-4 font-montserrat text-[15px] text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black/10"
                     />
                   </div>
-                  
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-primary hover:bg-primary/90 text-white py-3" 
-                    style={{ fontSize: '0.9rem', fontFamily: 'Inter, sans-serif' }}
-                    disabled={isSubmitting}
-                  >
-                    {isSubmitting ? 'Sending...' : 'Request Free Inspection'}
-                    {!isSubmitting && <ArrowRight className="h-4 w-4 ml-2" />}
-                  </Button>
-                </form>
-                
-                <div className="mt-4 text-center">
-                  <p className="text-gray-500" style={{ fontSize: '0.765rem', fontFamily: 'Inter, sans-serif' }}>
-                    By submitting this form, you agree to our privacy policy
-                  </p>
+
+                  <div>
+                    <label className="sr-only" htmlFor="lastName">
+                      Last Name
+                    </label>
+                    <input
+                      id="lastName"
+                      name="lastName"
+                      type="text"
+                      placeholder="Last Name"
+                      required
+                      className="h-12 w-full rounded-lg border border-gray-300 px-4 font-montserrat text-[15px] text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black/10"
+                    />
+                  </div>
+
+                  {/* Row 2 */}
+                  <div>
+                    <label className="sr-only" htmlFor="phone">
+                      Phone Number
+                    </label>
+                    <input
+                      id="phone"
+                      name="phone"
+                      type="tel"
+                      placeholder="Phone Number"
+                      required
+                      className="h-12 w-full rounded-lg border border-gray-300 px-4 font-montserrat text-[15px] text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black/10"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="sr-only" htmlFor="email">
+                      Email Address
+                    </label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="Email Address"
+                      required
+                      className="h-12 w-full rounded-lg border border-gray-300 px-4 font-montserrat text-[15px] text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black/10"
+                    />
+                  </div>
+
+                  {/* Row 3 */}
+                  <div className="sm:col-span-2">
+                    <label className="sr-only" htmlFor="suburb">
+                      Suburb
+                    </label>
+                    <input
+                      id="suburb"
+                      name="suburb"
+                      type="text"
+                      placeholder="Suburb"
+                      className="h-12 w-full rounded-lg border border-gray-300 px-4 font-montserrat text-[15px] text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black/10"
+                    />
+                  </div>
+
+                  {/* Row 4 */}
+                  <div className="sm:col-span-2">
+                    <label className="sr-only" htmlFor="issue">
+                      What seems to be the issue?
+                    </label>
+                    <textarea
+                      id="issue"
+                      name="issue"
+                      placeholder="What seems to be the issue?"
+                      className="min-h-[120px] w-full resize-none rounded-lg border border-gray-300 px-4 py-3 font-montserrat text-[15px] text-black placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black/10"
+                    />
+                  </div>
                 </div>
-              </>
-            )}
+
+                <button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="mt-6 h-12 w-full rounded-lg bg-[#169fc3] font-montserrat text-sm font-bold uppercase tracking-wide text-white transition-colors hover:bg-[#ff1616] disabled:cursor-not-allowed disabled:opacity-70"
+                >
+                  {isSubmitting ? "SENDING..." : "GET QUOTE"}
+                </button>
+              </form>
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
