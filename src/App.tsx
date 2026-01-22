@@ -7,7 +7,14 @@ import { HelmetProvider } from "react-helmet-async";
 import { Layout } from "./components/Layout";
 import { route as homeRoute } from "./routes/home";
 import { route as aboutUsRoute } from "./routes/about-us";
+import { route as aboutRoute } from "./routes/about";
+import { route as servicesRoute } from "./routes/services";
 import { route as contactUsRoute } from "./routes/contact-us";
+import { route as contactRoute } from "./routes/contact";
+import { route as TermsAndConditionsRoute } from "./routes/terms-and-conditions";
+import { route as privacyPolicyRoute } from "./routes/privacy-policy";
+import { route as roofingSydneyCbdRoute } from "./routes/roofing-sydney-cbd";
+
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
 import { route as roofReplacementRoute } from "./routes/roof-replacement";
 import { route as roofRestorationRoute } from "./routes/roof-restoration";
@@ -114,6 +121,8 @@ import Gallery from "./pages/Gallery";
 import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import Locations from "./pages/Locations";
+import About from "./pages/About";
+
 
 const queryClient = new QueryClient();
 
@@ -124,7 +133,13 @@ const router = createBrowserRouter([
     children: [
       homeRoute,
       aboutUsRoute,
+      aboutRoute,
+      servicesRoute,
       contactUsRoute,
+      contactRoute,
+      TermsAndConditionsRoute,
+      privacyPolicyRoute,
+      roofingSydneyCbdRoute,
       roofRepairsRoute,
       roofReplacementRoute,
       roofRestorationRoute,

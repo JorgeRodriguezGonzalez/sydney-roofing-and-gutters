@@ -2,6 +2,16 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BrandsSlider from "@/components/BrandsSlider";
 import ReviewsSlider from "@/components/ReviewsSlider";
+import Testimonials from "@/components/Testimonials";
+import ContentBlock from "@/components/ContentBlock";
+import ColorSwitchWidget from "@/components/ColorSwitchWidget";
+import ContentBlock2 from "@/components/ContentBlock2";
+import ContentBlock3 from "@/components/ContentBlock3";
+import MapWithForm.tsx from "@/components/MapWithForm.tsx";
+import FaqSection from "@/components/FaqSection";
+
+
+
 import CTASection from "@/components/CTASection";
 import Services from "@/components/Services";
 import FeaturedProjects from "@/components/FeaturedProjects";
@@ -33,7 +43,15 @@ const Index = () => {
       <Hero />
       <BrandsSlider />
       <ReviewsSlider />
+      <Testimonials />
       <Services />
+      <ContentBlock />
+      <ColorSwitchWidget />
+      <ContentBlock2 />
+      <ContentBlock3 />
+      <MapWithForm />
+      <FaqSection />
+
       <CTASection />
       <WhyChooseUs />
       <FeaturedProjects />

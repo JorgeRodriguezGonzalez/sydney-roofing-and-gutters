@@ -73,11 +73,10 @@ const ReviewsSlider: React.FC = () => {
         id: "r2",
         name: "Julian Portelli",
         yearsAgo: "4 years ago",
-        avatarType: "letter",
-        avatarLetter: "J",
-        avatarBg: "bg-[#94a3b8]",
+        avatarType: "image",
+        avatarImg: "/public/images/julian-portelli.webp",
         text:
-          "Awesome job! Sydney roof and gutters recently installed our new roof and it looks amazing. Great team who kept us updated throughout the entire job.Would definitely recommend them for anyone needing roofing work done.",
+          "Awesome job! Sydney roof and gutters recently installed our new roof and it looks amazing. Great team who kept us updated throughout the entire job. Would definitely recommend them for anyone needing roofing work done.",
       },
       {
         id: "r3",
@@ -93,9 +92,8 @@ const ReviewsSlider: React.FC = () => {
         id: "r4",
         name: "Kirsty M",
         yearsAgo: "3 years ago",
-        avatarType: "letter",
-        avatarLetter: "K",
-        avatarBg: "bg-[#22c55e]",
+        avatarType: "image",
+        avatarImg: "/public/images/kirsty-m.webp",
         text:
           "From quote to completion, everything was smooth. The crew arrived on time, explained what they were doing, and cleaned up after. Very happy with the roof restoration result and the finish looks fantastic.",
       },
@@ -174,7 +172,7 @@ const ReviewsSlider: React.FC = () => {
             <div className="flex items-start gap-4">
               <div className="h-12 w-12 overflow-hidden rounded-md border border-black/10 bg-black/5">
                 <img
-                  src="/images/hero-roof.jpg"
+                  src="/public/images/google-reviews-thumbnail-roof.webp"
                   alt="Sydney Roofing and Gutters"
                   className="h-full w-full object-cover"
                   loading="lazy"
@@ -213,7 +211,7 @@ const ReviewsSlider: React.FC = () => {
                 </div>
 
                 <a
-                  href="#"
+                  href="https://search.google.com/local/writereview?placeid=ChIJoblQLoWvEmsRrd5EZOYBAoA" target="_blank"
                   className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#4285F4] px-5 py-2 font-montserrat text-sm font-medium text-white shadow-[0_6px_16px_rgba(0,0,0,0.15)] transition-colors hover:bg-[#2f6fe0]"
                 >
                   review us on <GoogleMiniMark />
@@ -223,11 +221,9 @@ const ReviewsSlider: React.FC = () => {
           </div>
 
           {/* RIGHT: Slider */}
-          {/* ✅ min-w-0 evita overflow en flex row */}
           <div className="relative w-full min-w-0 lg:flex-1">
-            {/* ✅ overflow-hidden mantiene todo “dentro de la caja” */}
             <div className="relative min-w-0 overflow-hidden">
-              {/* Arrows (inside the container, no translate) */}
+              {/* Arrows */}
               <button
                 type="button"
                 onClick={handlePrev}
@@ -258,7 +254,7 @@ const ReviewsSlider: React.FC = () => {
                 <ChevronRight className="h-7 w-7" />
               </button>
 
-              {/* Scroll container (snap + hidden scrollbar) */}
+              {/* Scroll container */}
               <div
                 ref={scrollerRef}
                 className="
@@ -332,7 +328,7 @@ const ReviewsSlider: React.FC = () => {
                         <StarsRow />
                       </div>
 
-                      {/* Scrollable text area */}
+                      {/* Text */}
                       <div className="mt-4">
                         <div className="h-[160px] overflow-y-auto pr-2 font-montserrat text-[15px] leading-relaxed text-black/75">
                           {r.text}

@@ -188,7 +188,7 @@ const Header = () => {
             <img
               src="/images/icons-banner.webp"
               alt="Sydney Roofing and Gutters services icons"
-              className="h-10 w-auto max-w-full object-contain"
+              className="h-16 w-auto max-w-full object-contain"
               loading="lazy"
               decoding="async"
             />

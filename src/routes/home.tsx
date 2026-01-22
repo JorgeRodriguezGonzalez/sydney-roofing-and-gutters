@@ -3,16 +3,25 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BrandsSlider from "@/components/BrandsSlider";
 import ReviewsSlider from "@/components/ReviewsSlider";
-import CTASection from "@/components/CTASection";
+import Testimonials from "@/components/Testimonials";
+import ContentBlock from "@/components/ContentBlock";
+import ColorSwitchWidget from "@/components/ColorSwitchWidget";
+import ContentBlock2 from "@/components/ContentBlock2";
+import ContentBlock3 from "@/components/ContentBlock3";
+import MapWithForm from "@/components/MapWithForm";
+import FaqSection from "@/components/FaqSection";
 import Services from "@/components/Services";
-import FeaturedProjects from "@/components/FeaturedProjects";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import TestimonialsNew from "@/components/TestimonialsNew";
-import RoofingTypesGuide from "@/components/RoofingTypesGuide";
-import ServiceAreas from "@/components/ServiceAreas";
-import ContactCTA from "@/components/ContactCTA";
+
+// import CTASection from "@/components/CTASection";
+// 
+// import FeaturedProjects from "@/components/FeaturedProjects";
+// import WhyChooseUs from "@/components/WhyChooseUs";
+// import TestimonialsNew from "@/components/TestimonialsNew";
+// import RoofingTypesGuide from "@/components/RoofingTypesGuide";
+// import ServiceAreas from "@/components/ServiceAreas";
+// import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
-import FloatingBanner from "@/components/FloatingBanner";
+// import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
  
 
@@ -34,17 +43,24 @@ const HomePage = () => {
       <Hero />
       <BrandsSlider />
       <ReviewsSlider />
+      <Testimonials />
       <Services />
-      
-      <CTASection />
+      <ContentBlock />
+      <ColorSwitchWidget />
+      <ContentBlock2 />
+      <ContentBlock3 />
+      <MapWithForm />
+      <FaqSection />
+
+      {/* <CTASection />
       <WhyChooseUs />
       <FeaturedProjects />
       <TestimonialsNew />
       <RoofingTypesGuide />
       <ServiceAreas />
-      <ContactCTA />
+      <ContactCTA /> */}
       <Footer />
-      <FloatingBanner />
+      {/* <FloatingBanner /> */}
     </div>
   );
 };

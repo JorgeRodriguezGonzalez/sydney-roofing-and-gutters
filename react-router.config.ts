@@ -1,6 +1,13 @@
 import { route as homeRoute } from "./src/routes/home";
 import { route as aboutUsRoute } from "./src/routes/about-us";
+import { route as aboutRoute } from "./src/routes/about";
 import { route as contactUsRoute } from "./src/routes/contact-us";
+import { route as contactRoute } from "./src/routes/contact";
+import { route as privacyPolicyRoute } from "./src/routes/privacy-policy";
+import { route as TermsAndConditionsRoute } from "./src/routes/terms-and-conditions";
+import { route as roofingSydneyCbdRoute } from "./src/routes/roofing-sydney-cbd";
+
+
 import { route as blogRoute } from "./src/routes/blog";
 import { route as galleryRoute } from "./src/routes/gallery";
 import { route as locationsRoute } from "./src/routes/locations";
@@ -55,6 +62,10 @@ const config = {
     homeRoute,
     aboutUsRoute,
     contactUsRoute,
+    contactRoute,
+    privacyPolicyRoute,
+    TermsAndConditionsRoute,
+    roofingSydneyCbdRoute,
     blogRoute,
     galleryRoute,
     locationsRoute,
