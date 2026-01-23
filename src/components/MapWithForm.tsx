@@ -58,6 +58,7 @@ export default function MapWithForm() {
               <form
                 className="mt-10 text-left"
                 onSubmit={(e) => e.preventDefault()}
+                netlify
               >
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                   <Input placeholder="First Name" name="firstName" />

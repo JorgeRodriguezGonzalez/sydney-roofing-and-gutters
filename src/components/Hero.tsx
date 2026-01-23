@@ -126,6 +126,7 @@ const Hero = () => {
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
                 className="mx-auto mt-7 max-w-[760px]"
+                netlify
               >
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="home-quote" />
