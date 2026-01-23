@@ -56,6 +56,7 @@ export default function MapWithForm() {
               </a>
 
               <form
+                name="Bottom form"
                 className="mt-10 text-left"
                 onSubmit={(e) => e.preventDefault()}
                 netlify
