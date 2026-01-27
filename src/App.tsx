@@ -14,6 +14,7 @@ import { route as contactRoute } from "./routes/contact";
 import { route as TermsAndConditionsRoute } from "./routes/terms-and-conditions";
 import { route as privacyPolicyRoute } from "./routes/privacy-policy";
 import { route as roofingSydneyCbdRoute } from "./routes/roofing-sydney-cbd";
+import { route as roofingMarayongRoute } from "./routes/locations/marayong";
 
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
 import { route as roofReplacementRoute } from "./routes/roof-replacement";
@@ -140,6 +141,7 @@ const router = createBrowserRouter([
       TermsAndConditionsRoute,
       privacyPolicyRoute,
       roofingSydneyCbdRoute,
+      roofingMarayongRoute,
       roofRepairsRoute,
       roofReplacementRoute,
       roofRestorationRoute,

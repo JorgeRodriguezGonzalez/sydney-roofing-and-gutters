@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import SchemaMarkup, { SchemaType, ServiceType, LocationType } from './SchemaMarkup';
 
 interface SEOHeadProps {
@@ -8,6 +8,8 @@ interface SEOHeadProps {
   ogTitle?: string;
   ogDescription?: string;
   ogImage?: string;
+  canonicalUrl?: string;
+  robots?: string;
   schemaType?: SchemaType;
   service?: ServiceType;
   location?: LocationType;
@@ -16,6 +18,8 @@ interface SEOHeadProps {
   customUrl?: string;
 }
 
+const BASE_URL = 'https://newcastlelocalroofers.com.au';
+
 const SEOHead = ({ 
   title, 
   description, 
@@ -23,6 +27,8 @@ const SEOHead = ({
   ogTitle,
   ogDescription,
   ogImage,
+  canonicalUrl,
+  robots = 'index, follow',
   schemaType,
   service,
   location,
@@ -30,93 +36,61 @@ const SEOHead = ({
   customDescription,
   customUrl
 }: SEOHeadProps) => {
-  useEffect(() => {
-    // Update document title
-    if (title) {
-      document.title = title;
-    }
+  // Construir canonical URL
+  const canonical = canonicalUrl 
+    ? (canonicalUrl.startsWith('http') ? canonicalUrl : `${BASE_URL}${canonicalUrl}`)
+    : typeof window !== 'undefined' 
+      ? window.location.href 
+      : BASE_URL;
 
-    // Update meta description
-    if (description) {
-      const metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute('content', description);
-      } else {
-        const meta = document.createElement('meta');
-        meta.name = 'description';
-        meta.content = description;
-        document.head.appendChild(meta);
-      }
-    }
+  // Usar ogTitle como fallback de title si no se proporciona
+  const finalTitle = title || ogTitle;
+  // Usar ogDescription como fallback de description si no se proporciona
+  const finalDescription = description || ogDescription;
+  // Usar title como fallback de ogTitle si no se proporciona
+  const finalOgTitle = ogTitle || title;
+  // Usar description como fallback de ogDescription si no se proporciona
+  const finalOgDescription = ogDescription || description;
 
-    // Update meta keywords
-    if (keywords) {
-      const metaKeywords = document.querySelector('meta[name="keywords"]');
-      if (metaKeywords) {
-        metaKeywords.setAttribute('content', keywords);
-      } else {
-        const meta = document.createElement('meta');
-        meta.name = 'keywords';
-        meta.content = keywords;
-        document.head.appendChild(meta);
-      }
-    }
-
-    // Update Open Graph title
-    if (ogTitle) {
-      const ogTitleMeta = document.querySelector('meta[property="og:title"]');
-      if (ogTitleMeta) {
-        ogTitleMeta.setAttribute('content', ogTitle);
-      } else {
-        const meta = document.createElement('meta');
-        meta.setAttribute('property', 'og:title');
-        meta.content = ogTitle;
-        document.head.appendChild(meta);
-      }
-    }
-
-    // Update Open Graph description
-    if (ogDescription) {
-      const ogDescMeta = document.querySelector('meta[property="og:description"]');
-      if (ogDescMeta) {
-        ogDescMeta.setAttribute('content', ogDescription);
-      } else {
-        const meta = document.createElement('meta');
-        meta.setAttribute('property', 'og:description');
-        meta.content = ogDescription;
-        document.head.appendChild(meta);
-      }
-    }
-
-    // Update Open Graph image
-    if (ogImage) {
-      const ogImageMeta = document.querySelector('meta[property="og:image"]');
-      if (ogImageMeta) {
-        ogImageMeta.setAttribute('content', ogImage);
-      } else {
-        const meta = document.createElement('meta');
-        meta.setAttribute('property', 'og:image');
-        meta.content = ogImage;
-        document.head.appendChild(meta);
-      }
-    }
-  }, [title, description, keywords, ogTitle, ogDescription, ogImage]);
-
-  // Render Schema Markup si se proporciona
-  if (schemaType) {
-    return (
+  return (
+    <>
+      <Helmet>
+        {finalTitle && <title>{finalTitle}</title>}
+        {finalDescription && <meta name="description" content={finalDescription} />}
+        {keywords && <meta name="keywords" content={keywords} />}
+        {robots && <meta name="robots" content={robots} />}
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={canonical} />
+        
+        {/* Open Graph */}
+        {finalOgTitle && <meta property="og:title" content={finalOgTitle} />}
+        {finalOgDescription && <meta property="og:description" content={finalOgDescription} />}
+        {ogImage && <meta property="og:image" content={ogImage.startsWith('http') ? ogImage : `${BASE_URL}${ogImage}`} />}
+        <meta property="og:url" content={canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Newcastle Local Roofers" />
+        
+        {/* Twitter Card */}
+        {finalOgTitle && <meta name="twitter:title" content={finalOgTitle} />}
+        {finalOgDescription && <meta name="twitter:description" content={finalOgDescription} />}
+        {ogImage && <meta name="twitter:image" content={ogImage.startsWith('http') ? ogImage : `${BASE_URL}${ogImage}`} />}
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+      
+      {/* Schema Markup */}
+      {schemaType && (
       <SchemaMarkup
         type={schemaType}
         service={service}
         location={location}
         customName={customName}
         customDescription={customDescription}
-        customUrl={customUrl}
+          customUrl={customUrl || canonical}
       />
+      )}
+    </>
     );
-  }
-
-  return null; // This component doesn't render anything
 };
 
 export default SEOHead;

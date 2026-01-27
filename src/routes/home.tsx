@@ -22,23 +22,11 @@ import Services from "@/components/Services";
 // import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
 // import FloatingBanner from "@/components/FloatingBanner";
-import SEOHead from "@/components/SEOHead";
- 
+// SEOHead ahora se aplica automáticamente desde route.handle.seo vía RouteMeta en Layout
 
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-background">
-      <SEOHead 
-        title="Newcastle Local Roofers - Professional Roofing Services | 24/7 Emergency"
-        description="Professional roofing services in Newcastle and Hunter Region. Roof repairs, replacement, restoration, and emergency service. Licensed roofers available 24/7. Free inspections."
-        keywords="roofing newcastle, roof repairs newcastle, roof replacement, emergency roof repairs, newcastle roofers, hunter region roofing, roof restoration, licensed roofers nsw"
-        ogTitle="Newcastle Local Roofers - Professional Roofing Services 24/7"
-        ogDescription="Expert roofing services across Newcastle and the Hunter Region. Emergency repairs, roof replacement, restoration, and inspections. Licensed & insured."
-        schemaType="RoofingContractor"
-        location="newcastle"
-        customName="Newcastle Local Roofers"
-        customDescription="Professional roofing services in Newcastle and Hunter Region with 24/7 emergency response"
-      />
       <Header />
       <Hero />
       <BrandsSlider />
@@ -69,11 +57,26 @@ export const route = {
   path: "/",
   element: <HomePage />,
   handle: {
+    // Formato legacy (compatible con RouteMeta)
     title: "Newcastle Local Roofers - Professional Roofing Services | 24/7 Emergency",
     meta: [
       { name: "description", content: "Professional roofing services in Newcastle and Hunter Region. Roof repairs, replacement, restoration, and emergency service. Licensed roofers available 24/7." },
       { name: "keywords", content: "roofing newcastle, roof repairs newcastle, roof replacement, emergency roof repairs, newcastle roofers, hunter region roofing" }
-    ]
+    ],
+    // Nuevo formato (recomendado) - RouteMeta lo leerá automáticamente
+    seo: {
+      title: "Newcastle Local Roofers - Professional Roofing Services | 24/7 Emergency",
+      description: "Professional roofing services in Newcastle and Hunter Region. Roof repairs, replacement, restoration, and emergency service. Licensed roofers available 24/7. Free inspections.",
+      keywords: "roofing newcastle, roof repairs newcastle, roof replacement, emergency roof repairs, newcastle roofers, hunter region roofing, roof restoration, licensed roofers nsw",
+      ogTitle: "Newcastle Local Roofers - Professional Roofing Services 24/7",
+      ogDescription: "Expert roofing services across Newcastle and the Hunter Region. Emergency repairs, roof replacement, restoration, and inspections. Licensed & insured.",
+      ogImage: "https://newcastlelocalroofers.com.au/images/roofing-services-newcastle.jpg",
+      canonicalUrl: "/",
+      schemaType: "RoofingContractor" as const,
+      location: "newcastle" as const,
+      customName: "Newcastle Local Roofers",
+      customDescription: "Professional roofing services in Newcastle and Hunter Region with 24/7 emergency response"
+    }
   }
 };
 

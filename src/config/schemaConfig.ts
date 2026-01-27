@@ -7,6 +7,7 @@ export interface PageSchemaConfig {
   ogTitle: string;
   ogDescription: string;
   ogImage: string;
+  canonicalUrl?: string;
   schemaType: 'RoofingContractor' | 'Service' | 'ProfessionalService';
   service?: string;
   location: 'newcastle' | 'surrounding';
