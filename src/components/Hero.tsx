@@ -120,7 +120,7 @@ const Hero = () => {
               )}
 
               <form
-                name="HeroForm"
+                name="Hero"
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
@@ -129,7 +129,7 @@ const Hero = () => {
                 netlify
               >
                 <input type="hidden" name="bot-field" />
-                <input type="hidden" name="form-name" value="home-quote" />
+                <input type="hidden" name="form-name" value="Hero" />
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-5">
                   {/* Row 1 */}
