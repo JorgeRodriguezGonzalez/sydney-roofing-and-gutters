@@ -7,6 +7,7 @@ import { route as privacyPolicyRoute } from "./src/routes/privacy-policy";
 import { route as TermsAndConditionsRoute } from "./src/routes/terms-and-conditions";
 import { route as roofingSydneyCbdRoute } from "./src/routes/roofing-sydney-cbd";
 import { route as roofingMarayongRoute } from "./src/routes/locations/marayong";
+import { route as guideRoofLeakCostRoute } from "./src/routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
 
 import { route as blogRoute } from "./src/routes/blog";
 import { route as galleryRoute } from "./src/routes/gallery";
@@ -67,6 +68,7 @@ const config = {
     TermsAndConditionsRoute,
     roofingSydneyCbdRoute,
     roofingMarayongRoute,
+    guideRoofLeakCostRoute,
     blogRoute,
     galleryRoute,
     locationsRoute,
