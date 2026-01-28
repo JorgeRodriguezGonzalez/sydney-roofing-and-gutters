@@ -11,6 +11,8 @@ const benefits = [
   "CALL FOR A FREE QUOTE",
 ];
 
+const FORM_NAME = "Hero";
+
 const Hero = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
@@ -21,12 +23,17 @@ const Hero = () => {
     const form = e.currentTarget;
     const formData = new FormData(form);
 
+    // ✅ Optional: also send a "fullName" field (Netlify-friendly)
+    const first = (formData.get("firstName") ?? "").toString().trim();
+    const last = (formData.get("lastName") ?? "").toString().trim();
+    const fullName = `${first} ${last}`.trim();
+    if (fullName) formData.set("fullName", fullName);
+
     setIsSubmitting(true);
     setShowSuccess(false);
 
     try {
-      // Netlify-style post (safe default). If you use a different backend,
-      // swap this out later.
+      // ✅ Netlify form post
       const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -120,16 +127,20 @@ const Hero = () => {
               )}
 
               <form
-                name="Hero"
+                name={FORM_NAME}
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
                 className="mx-auto mt-7 max-w-[760px]"
-                netlify
               >
+                {/* Netlify honeypot */}
                 <input type="hidden" name="bot-field" />
-                <input type="hidden" name="form-name" value="home-quote" />
+                {/* ✅ IMPORTANT: must match the form name */}
+                <input type="hidden" name="form-name" value={FORM_NAME} />
+
+                {/* Optional: keep this hidden so Netlify shows it even if you don’t compute it */}
+                <input type="hidden" name="fullName" value="" />
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-5">
                   {/* Row 1 */}
