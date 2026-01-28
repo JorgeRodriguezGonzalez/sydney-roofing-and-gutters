@@ -120,7 +120,7 @@ const Hero = () => {
               )}
 
               <form
-                name="Hero"
+                name="HeroForm"
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
