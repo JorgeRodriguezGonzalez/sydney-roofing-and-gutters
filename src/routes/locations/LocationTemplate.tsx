@@ -1,6 +1,7 @@
 // src/routes/locations/LocationTemplate.tsx
 import type { Route } from "react-router";
-import { useMemo, useState } from "react";
+import { useMemo, useState, type FormEvent } from "react";
+import { submitNetlifyForm } from "@/lib/netlifyForm";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -439,12 +440,40 @@ function InlineCtaPill() {
 function HeroWithQuoteForm({ config, content }: { config: LocationSEOConfig; content: LocationContent }) {
   const heroBg = DEFAULTS.heroBg;
 
+  const FORM_NAME = "LocationHeroQuote";
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    setIsSubmitting(true);
+    setShowSuccess(false);
+
+    try {
+      const response = await submitNetlifyForm({
+        form,
+        endpoint: "/",
+        fullName: { firstField: "firstName", lastField: "lastName", targetField: "fullName" },
+      });
+
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+      setShowSuccess(true);
+      form.reset();
+      window.setTimeout(() => setShowSuccess(false), 6000);
+    } catch (error) {
+      console.error("Form submission error:", error);
+      alert("Error submitting form. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section className="relative">
-      <div
-        className="relative bg-cover bg-center"
-        style={{ backgroundImage: `url('${heroBg}')` }}
-      >
+      <div className="relative bg-cover bg-center" style={{ backgroundImage: `url('${heroBg}')` }}>
         <div className="absolute inset-0 bg-black/55" />
         <div className="container mx-auto px-7 lg:px-14 xl:px-20 relative pt-10 pb-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
@@ -494,25 +523,79 @@ function HeroWithQuoteForm({ config, content }: { config: LocationSEOConfig; con
               Request a <span className="text-[#179DC2]">FREE</span> Quote{" "}
               <span className="text-[#179DC2]">TODAY</span>
             </div>
+
+            {showSuccess && (
+              <div className="mt-2 text-sm text-emerald-700">
+                Thanks! We&apos;ll contact you shortly.
+              </div>
+            )}
           </div>
 
-          <form className="px-6 pb-6">
+          <form
+            name={FORM_NAME}
+            method="POST"
+            action="/thanks/"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit}
+            className="px-6 pb-6"
+          >
+            {/* Netlify required hidden inputs */}
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value={FORM_NAME} />
+            {/* Helps Netlify show full name in UI */}
+            <input type="hidden" name="fullName" value="" />
+            {/* Helpful context for submissions */}
+            <input type="hidden" name="location" value={config.suburb} />
+            <input type="hidden" name="locationSlug" value={config.slug} />
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input className="h-11 rounded-md border px-4" placeholder="First Name" />
-              <input className="h-11 rounded-md border px-4" placeholder="Last Name" />
-              <input className="h-11 rounded-md border px-4" placeholder="Phone Number" />
-              <input className="h-11 rounded-md border px-4" placeholder="Email Address" />
-              <input className="h-11 rounded-md border px-4 md:col-span-2" placeholder="Suburb" />
+              <input
+                name="firstName"
+                required
+                className="h-11 rounded-md border px-4"
+                placeholder="First Name"
+              />
+              <input
+                name="lastName"
+                required
+                className="h-11 rounded-md border px-4"
+                placeholder="Last Name"
+              />
+              <input
+                name="phone"
+                required
+                className="h-11 rounded-md border px-4"
+                placeholder="Phone Number"
+              />
+              <input
+                name="email"
+                type="email"
+                required
+                className="h-11 rounded-md border px-4"
+                placeholder="Email Address"
+              />
+              <input
+                name="suburb"
+                className="h-11 rounded-md border px-4 md:col-span-2"
+                placeholder="Suburb"
+                defaultValue={config.suburb}
+              />
               <textarea
+                name="issue"
                 className="min-h-[110px] rounded-md border px-4 py-3 md:col-span-2"
                 placeholder="What seems to be the issue?"
               />
             </div>
 
-            <Button type="button" className="w-full mt-5 h-11 rounded-md">
+            <Button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full mt-5 h-11 rounded-md bg-[#169fc3] hover:bg-[#ff1616] disabled:opacity-70"
+            >
               <span className="inline-flex items-center gap-2">
                 <Send className="h-4 w-4" />
-                GET QUOTE
+                {isSubmitting ? "SENDING..." : "GET QUOTE"}
               </span>
             </Button>
 
@@ -531,6 +614,7 @@ function HeroWithQuoteForm({ config, content }: { config: LocationSEOConfig; con
     </section>
   );
 }
+
 
 export function LocationPageTemplate({
   config,
