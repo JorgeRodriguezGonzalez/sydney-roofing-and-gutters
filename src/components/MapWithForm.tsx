@@ -1,7 +1,7 @@
 import React, { useState, type FormEvent } from "react";
 import { submitNetlifyForm } from "@/lib/netlifyForm";
 
-const FORM_NAME = "MapWithForm";
+const FORM_NAME = "Bottom form";
 
 export default function MapWithForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
