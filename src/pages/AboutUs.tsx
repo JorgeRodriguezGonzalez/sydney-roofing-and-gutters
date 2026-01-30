@@ -12,15 +12,15 @@ const AboutUs = () => {
     <div className="min-h-screen flex flex-col">
       <SEOHead
         title="About Sydney Roofing & Gutters - Expert Roofing Team | 12+ Years Experience"
-        description="Learn about Sydney Roofing & Gutters' expert team and 12+ years of roofing excellence. Licensed contractors delivering quality roofing services across Newcastle and Hunter Region since 2012."
-        keywords="about newcastle roofers, roofing team newcastle, licensed roofers, newcastle roofing company, professional roofers hunter region"
+        description="Learn about Sydney Roofing & Gutters' expert team and 12+ years of roofing excellence. Licensed contractors delivering quality roofing services across Sydney Region since 2012."
+        keywords="about sydney roofers, roofing team sydney, licensed roofers, sydney roofing company, professional roofers sydney region"
         ogTitle="About Sydney Roofing & Gutters - Expert Roofing Team"
-        ogDescription="Meet Newcastle's premier roofing specialists. 12+ years of quality craftsmanship and 1000+ satisfied customers."
-        ogImage="https://newcastlelocalroofers.com.au/images/team-experts.jpg"
+        ogDescription="Meet Sydney's premier roofing specialists. 12+ years of quality craftsmanship and 1000+ satisfied customers."
+        ogImage="/public/images/Sydney-Roofing-and-Gutters.webp"
         schemaType="RoofingContractor"
-        location="newcastle"
+        location="sydney"
         customName="Sydney Roofing & Gutters"
-        customDescription="Newcastle's trusted roofing specialists providing professional services since 2012"
+        customDescription="Sydney's trusted roofing specialists providing professional services since 2012"
       />
       <Header />
       
@@ -34,7 +34,7 @@ const AboutUs = () => {
               About Sydney Roofing & Gutters
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto">
-              Newcastle's trusted roofing specialists, delivering expert roof repairs, 
+              Sydney's trusted roofing specialists, delivering expert roof repairs, 
               replacements, and installations with 24/7 emergency service since 2012.
             </p>
           </div>
@@ -51,18 +51,17 @@ const AboutUs = () => {
               <div className="space-y-4 leading-relaxed" style={{color: '#666666'}}>
                 <p>
                   Founded in 2012 by a team of licensed roofing contractors, Sydney Roofing & Gutters 
-                  was established to provide Newcastle homeowners with reliable, high-quality roofing 
+                  was established to provide Sydney homeowners with reliable, high-quality roofing 
                   services backed by 24/7 emergency response. We understand that roof problems don't 
                   wait for business hours.
                 </p>
                 <p>
-                  We specialise in protecting homes from Newcastle's challenging weather conditions, 
+                  We specialise in protecting homes from Sydney's challenging weather conditions, 
                   using premium materials like Colorbond steel and quality terracotta tiles to ensure 
                   lasting protection and structural integrity.
                 </p>
                 <p>
-                  Over 12 years, we've completed over 1000 roofing projects across Newcastle and 
-                  the Hunter Region, from emergency repairs to complete roof replacements, always 
+                  Over 12 years, we've completed over 1000 roofing projects across Sydney Region, from emergency repairs to complete roof replacements, always 
                   maintaining our commitment to quality craftsmanship and customer satisfaction.
                 </p>
               </div>
@@ -170,7 +169,7 @@ const AboutUs = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Licensed & Insured Roofers</h3>
                   <p style={{color: '#666666'}}>
-                    Every project is completed by fully licensed roofing contractors who understand Newcastle's building codes and weather requirements.
+                    Every project is completed by fully licensed roofing contractors who understand Sydney's building codes and weather requirements.
                   </p>
                 </div>
               </div>
@@ -220,7 +219,7 @@ const AboutUs = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-2">24/7 Emergency Response</h3>
                   <p style={{color: '#666666'}}>
-                    Storm damage? Roof leak? We provide immediate emergency response 24 hours a day, 7 days a week across Newcastle and Hunter Region.
+                    Storm damage? Roof leak? We provide immediate emergency response 24 hours a day, 7 days a week across Sydney and Hunter Region.
                   </p>
                 </div>
               </div>
