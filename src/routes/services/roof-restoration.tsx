@@ -80,7 +80,8 @@ const content: ServiceContent = {
   },
 };
 
-const { Page, route } = createServiceRoute(config, content);
+const { Page, route: serviceRoute } = createServiceRoute(config, content);
 
-export const route = route;
+export const route = serviceRoute;
 export default Page;
+
