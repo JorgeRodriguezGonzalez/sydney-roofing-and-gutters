@@ -12,6 +12,7 @@ import MapWithForm from "@/components/MapWithForm";
 import FaqSection from "@/components/FaqSection";
 import ContentBlock3 from "@/components/ContentBlock3";
 import ColorSwitchWidget from "@/components/ColorSwitchWidget";
+import BrandsSlider from "@/components/BrandsSlider";
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ChevronDown, Phone, Calculator, Send } from "lucide-react";
@@ -644,7 +645,7 @@ export function LocationPageTemplate({
       <Header />
 
       <HeroWithQuoteForm config={config} content={content} />
-      <BrandLogosRow />
+      <BrandsSlider />
       <TestimonialsMini local={content.testimonial} />
 
       <ServicesIncludeGrid items={content.servicesInclude ?? defaultServices} />
