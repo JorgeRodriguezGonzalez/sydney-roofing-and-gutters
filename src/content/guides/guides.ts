@@ -1143,7 +1143,22 @@ const GUIDES: Record<string, GuideData> = {
 };
 
 export function getGuideConfig(slug: string): GuideData | undefined {
-  return GUIDES[slug];
+  const data = GUIDES[slug];
+  if (!data) return undefined;
+
+  const sectionsRaw: any = data.content?.sections;
+
+  const sections = Array.isArray(sectionsRaw)
+    ? sectionsRaw
+    : sectionsRaw?.items ?? [];
+
+  return {
+    ...data,
+    content: {
+      ...data.content,
+      sections,
+    },
+  };
 }
 
 export const guideSlugs = Object.keys(GUIDES);
