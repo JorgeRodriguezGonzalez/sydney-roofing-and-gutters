@@ -86,7 +86,7 @@ const Services: React.FC = () => {
               className="group flex flex-col items-center"
             >
               {/* Thumbnail circle */}
-              <div className="relative z-10">
+              <div className="relative">
                 <div className="h-[120px] w-[120px] overflow-hidden rounded-full border border-black/50 bg-white shadow-[0_8px_18px_rgba(0,0,0,0.12)] sm:h-[132px] sm:w-[132px]">
                   <img
                     src={`/images/${s.thumbnail}.webp`}
