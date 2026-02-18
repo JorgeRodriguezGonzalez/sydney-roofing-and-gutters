@@ -42,34 +42,34 @@ const locationData = {
   sydney: {
     address: {
       "@type": "PostalAddress",
-      "streetAddress": "1 Tudor Street",
-      "addressLocality": "sydney West",
+      "streetAddress": "5/11 West St",
+      "addressLocality": "North Sydney",
       "addressRegion": "NSW",
-      "postalCode": "2302",
+      "postalCode": "2060",
       "addressCountry": "AU"
     },
     geo: {
       "@type": "GeoCoordinates",
-      "latitude": -32.9283,
-      "longitude": 151.7817
+      "latitude": -33.8329,
+      "longitude": 151.2056
     },
-    areaServed: "sydney, NSW, Australia"
+    areaServed: "Sydney, NSW, Australia"
   },
   surrounding: {
     address: {
       "@type": "PostalAddress",
-      "streetAddress": "1 Tudor Street",
-      "addressLocality": "sydney West",
+      "streetAddress": "60 St Albans Rd",
+      "addressLocality": "Schofields",
       "addressRegion": "NSW",
-      "postalCode": "2302",
+      "postalCode": "2762",
       "addressCountry": "AU"
     },
     geo: {
       "@type": "GeoCoordinates",
-      "latitude": -32.9283,
-      "longitude": 151.7817
+      "latitude": -33.6925,
+      "longitude": 150.8749
     },
-    areaServed: "sydney and surrounding suburbs, NSW, Australia"
+    areaServed: "Sydney and surrounding suburbs, NSW, Australia"
   }
 };
 
