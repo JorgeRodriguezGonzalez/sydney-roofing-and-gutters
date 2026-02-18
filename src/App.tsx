@@ -13,18 +13,79 @@ import { route as contactUsRoute } from "./routes/contact-us";
 import { route as contactRoute } from "./routes/contact";
 import { route as TermsAndConditionsRoute } from "./routes/terms-and-conditions";
 import { route as privacyPolicyRoute } from "./routes/privacy-policy";
-// import { route as roofingSydneyCbdRoute } from "./routes/roofing-sydney-cbd";
-import { route as roofingSydneyCbdRoute } from "./routes/locations/sydney-cbd";
-import { route as roofingMarayongRoute } from "./routes/locations/marayong";
+
+// === LOCATION IMPORTS ===
+import { route as roofingAbbotsburyRoute } from "./routes/locations/abbotsbury";
+import { route as roofingAbbotsfordRoute } from "./routes/locations/abbotsford";
+import { route as roofingAcaciaGardensRoute } from "./routes/locations/acacia-gardens";
+import { route as roofingAgnesBanksRoute } from "./routes/locations/agnes-banks";
+import { route as roofingAirdsRoute } from "./routes/locations/airds";
+import { route as roofingAlexandriaRoute } from "./routes/locations/alexandria";
+import { route as roofingAlfordsPointRoute } from "./routes/locations/alfords-point";
+import { route as roofingAllambieHeightsRoute } from "./routes/locations/allambie-heights";
+import { route as roofingAllawahRoute } from "./routes/locations/allawah";
+import { route as roofingAmbarvaleRoute } from "./routes/locations/ambarvale";
+import { route as roofingAnnandaleRoute } from "./routes/locations/annandale";
+import { route as roofingAnnangroveRoute } from "./routes/locations/annangrove";
+import { route as roofingArcadiaRoute } from "./routes/locations/arcadia";
+import { route as roofingArncliffeRoute } from "./routes/locations/arncliffe";
+import { route as roofingArndellParkRoute } from "./routes/locations/arndell-park";
+import { route as roofingArtarmonRoute } from "./routes/locations/artarmon";
+import { route as roofingAshburyRoute } from "./routes/locations/ashbury";
+import { route as roofingAshcroftRoute } from "./routes/locations/ashcroft";
+import { route as roofingAshfieldRoute } from "./routes/locations/ashfield";
+import { route as roofingAsquithRoute } from "./routes/locations/asquith";
+import { route as roofingAuburnRoute } from "./routes/locations/auburn";
+import { route as roofingAustralRoute } from "./routes/locations/austral";
+import { route as roofingAvalonBeachRoute } from "./routes/locations/avalon-beach";
+import { route as roofingBadgerysCreekRoute } from "./routes/locations/badgerys-creek";
+import { route as roofingBalgowlahRoute } from "./routes/locations/balgowlah";
+import { route as roofingBalgowlahHeightsRoute } from "./routes/locations/balgowlah-heights";
+import { route as roofingBalmainRoute } from "./routes/locations/balmain";
+import { route as roofingBalmainEastRoute } from "./routes/locations/balmain-east";
+import { route as roofingBangorRoute } from "./routes/locations/bangor";
+import { route as roofingBanksiaRoute } from "./routes/locations/banksia";
+import { route as roofingBanksmeadowRoute } from "./routes/locations/banksmeadow";
+import { route as roofingBankstownRoute } from "./routes/locations/bankstown";
+import { route as roofingBankstownAerodromeRoute } from "./routes/locations/bankstown-aerodrome";
+import { route as roofingBarangarooRoute } from "./routes/locations/barangaroo";
+import { route as roofingBardenRidgeRoute } from "./routes/locations/barden-ridge";
+import { route as roofingBardiaRoute } from "./routes/locations/bardia";
+import { route as roofingBardwellParkRoute } from "./routes/locations/bardwell-park";
+import { route as roofingBardwellValleyRoute } from "./routes/locations/bardwell-valley";
+import { route as roofingBassHillRoute } from "./routes/locations/bass-hill";
+import { route as roofingBaulkhamHillsRoute } from "./routes/locations/baulkham-hills";
+import { route as roofingBayviewRoute } from "./routes/locations/bayview";
+import { route as roofingBeaumontHillsRoute } from "./routes/locations/beaumont-hills";
+import { route as roofingBlacktownRoute } from "./routes/locations/blacktown";
+import { route as roofingCastleHillRoute } from "./routes/locations/castle-hill";
+import { route as roofingChatswoodRoute } from "./routes/locations/chatswood";
+import { route as roofingCrowsNestRoute } from "./routes/locations/crows-nest";
 import { route as roofingEasternSuburbsRoute } from "./routes/locations/eastern-suburbs";
+import { route as roofingEastwoodRoute } from "./routes/locations/eastwood";
+import { route as roofingGlebeRoute } from "./routes/locations/glebe";
+import { route as roofingGlenhavenRoute } from "./routes/locations/glenhaven";
+import { route as roofingHillsDistrictRoute } from "./routes/locations/hills-district";
+import { route as roofingInnerWestSydneyRoute } from "./routes/locations/inner-west-sydney";
+import { route as roofingKellyvilleRoute } from "./routes/locations/kellyville";
+import { route as roofingMarayongRoute } from "./routes/locations/marayong";
+import { route as roofingMaroubraRoute } from "./routes/locations/maroubra";
+import { route as roofingMosmanRoute } from "./routes/locations/mosman";
 import { route as roofingNorthShoreRoute } from "./routes/locations/north-shore";
 import { route as roofingNorthernBeachesRoute } from "./routes/locations/northern-beaches";
+import { route as roofingPaddingtonRoute } from "./routes/locations/paddington";
+import { route as roofingParramattaRoute } from "./routes/locations/parramatta";
+import { route as roofingPenrithRoute } from "./routes/locations/penrith";
+import { route as roofingRedfernRoute } from "./routes/locations/redfern";
+import { route as roofingRouseHillRoute } from "./routes/locations/rouse-hill";
+import { route as roofingSouthWesternSydneyRoute } from "./routes/locations/south-western-sydney";
 import { route as roofingStGeorgeAreaRoute } from "./routes/locations/st-george-area";
 import { route as roofingSutherlandShireRoute } from "./routes/locations/sutherland-shire";
-import { route as roofingSouthWesternSydneyRoute } from "./routes/locations/south-western-sydney";
+import { route as roofingSydneyCbdRoute } from "./routes/locations/sydney-cbd";
+import { route as roofingWaterlooRoute } from "./routes/locations/waterloo";
 import { route as roofingWesternSydneyRoute } from "./routes/locations/western-sydney";
-import { route as roofingInnerWestSydneyRoute } from "./routes/locations/inner-west-sydney";
-import { route as roofingHillsDistrictRoute } from "./routes/locations/hills-district";
+
+// === GUIDE IMPORTS ===
 import { route as guideRoofLeakCostRoute } from "./routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
 import { route as guideRoofSarkingRoute } from "./routes/guides/what-is-roof-sarking";
 import { route as guideSkillionRoofRoute } from "./routes/guides/what-is-a-skillion-roof";
@@ -38,6 +99,7 @@ import { route as guideTileRoofRepairCostRoute } from "./routes/guides/how-much-
 import { route as guideStopLeakingRoofHeavyRainsRoute } from "./routes/guides/how-to-stop-a-leaking-roof-during-heavy-rains";
 import { route as guideCommonGutterProblemsRoute } from "./routes/guides/6-common-gutter-problems-and-how-to-fix-them";
 
+// === SERVICE IMPORTS ===
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
 import { route as roofReplacementRoute } from "./routes/roof-replacement";
 import { route as roofRestorationRoute } from "./routes/services/roof-restoration";
@@ -47,17 +109,26 @@ import { route as roofInspectionsRoute } from "./routes/roof-inspections";
 import { route as gutterRepairsRoute } from "./routes/gutter-repairs";
 import { route as leakDetectionRoute } from "./routes/leak-detection";
 import { route as roofPaintingRoute } from "./routes/roof-painting";
-// import { route as metalRoofingRoute } from "./routes/metal-roofing";
 import { route as roofInstallationRoute } from "./routes/roof-installation";
 import { route as roofInspectionRoute } from "./routes/roof-inspection";
 import { route as roofCleaningRoute } from "./routes/roof-cleaning";
 import { route as roofMaintenanceRoute } from "./routes/roof-maintenance";
-// import { route as residentialRoofingRoute } from "./routes/residential-roofing";
 import { route as metalRoofingRoute } from "./routes/services/metal-roofing";
 import { route as residentialRoofingRoute } from "./routes/services/residential-roofing";
 import { route as commercialRoofingRoute } from "./routes/commercial-roofing";
 import { route as skylightRepairRoute } from "./routes/skylight-repair";
 import { route as gutterRepairRoute } from "./routes/gutter-repair";
+import { route as roofingServiceRoute } from "./routes/services/roofing-service";
+import { route as commercialRoofingServiceRoute } from "./routes/services/commercial-roofing-service";
+import { route as residentialMetalRoofingRoute } from "./routes/services/residential-metal-roofing";
+import { route as downpipeInstallationRoute } from "./routes/services/downpipe-installation";
+import { route as colorbondInstallationRoute } from "./routes/services/colorbond-installation";
+import { route as roofCleaningServicesRoute } from "./routes/services/roof-cleaning-services";
+import { route as reRoofingSydneyRoute } from "./routes/services/re-roofing-sydney";
+import { route as roofPaintingSydneyRoute } from "./routes/services/roof-painting-sydney";
+import { route as roofLeakDetectionAndRepairSydneyRoute } from "./routes/services/roof-leak-detection-and-repair-sydney";
+
+// === BLOG IMPORTS ===
 import { route as blogRoute } from "./routes/blog";
 import { route as roofWindDamagePostRoute } from "./routes/blog/roof-wind-damage-newcastle";
 import standingSeamRoofingRoute from "./routes/blog/standing-seam-roofing";
@@ -107,6 +178,8 @@ import terracotaRidgeRoute from "./routes/blog/terracota-ridge";
 import copperStandingSeanRoofRoute from "./routes/blog/copper-standing-sean-roof";
 import leadApronAndCoverFlashingRoute from "./routes/blog/lead-apron-and-cover-flashing";
 import svkDiamondPatternSlatesRoute from "./routes/blog/svk-diamond-pattern-slates";
+
+// === OTHER IMPORTS ===
 import { route as galleryRoute } from "./routes/gallery";
 import { route as projectsRoute } from "./routes/projects";
 import { route as locationsRoute } from "./routes/locations";
@@ -141,25 +214,7 @@ import { route as roofersWaratahRoute } from "./routes/roofers-waratah";
 import { route as roofersWarnersBayRoute } from "./routes/roofers-warners-bay";
 import { route as roofersWickhamRoute } from "./routes/roofers-wickham";
 
-import { route as roofingServiceRoute } from "./routes/services/roofing-service";
-import { route as commercialRoofingServiceRoute } from "./routes/services/commercial-roofing-service";
-import { route as residentialMetalRoofingRoute } from "./routes/services/residential-metal-roofing";
-import { route as downpipeInstallationRoute } from "./routes/services/downpipe-installation";
-import { route as colorbondInstallationRoute } from "./routes/services/colorbond-installation";
-import { route as roofCleaningServicesRoute } from "./routes/services/roof-cleaning-services";
-import { route as reRoofingSydneyRoute } from "./routes/services/re-roofing-sydney";
-import { route as roofPaintingSydneyRoute } from "./routes/services/roof-painting-sydney";
-import { route as roofLeakDetectionAndRepairSydneyRoute } from "./routes/services/roof-leak-detection-and-repair-sydney";
-
-
 import NotFound from "./pages/NotFound";
-import Blog from "./pages/Blog";
-import Gallery from "./pages/Gallery";
-import Projects from "./pages/Projects";
-import ProjectDetail from "./pages/ProjectDetail";
-import Locations from "./pages/Locations";
-import About from "./pages/About";
-
 
 const queryClient = new QueryClient();
 
@@ -176,18 +231,79 @@ const router = createBrowserRouter([
       contactRoute,
       TermsAndConditionsRoute,
       privacyPolicyRoute,
-      roofingSydneyCbdRoute,
-      roofingMarayongRoute,
+
+      // === LOCATION ROUTES ===
+      roofingAbbotsburyRoute,
+      roofingAbbotsfordRoute,
+      roofingAcaciaGardensRoute,
+      roofingAgnesBanksRoute,
+      roofingAirdsRoute,
+      roofingAlexandriaRoute,
+      roofingAlfordsPointRoute,
+      roofingAllambieHeightsRoute,
+      roofingAllawahRoute,
+      roofingAmbarvaleRoute,
+      roofingAnnandaleRoute,
+      roofingAnnangroveRoute,
+      roofingArcadiaRoute,
+      roofingArncliffeRoute,
+      roofingArndellParkRoute,
+      roofingArtarmonRoute,
+      roofingAshburyRoute,
+      roofingAshcroftRoute,
+      roofingAshfieldRoute,
+      roofingAsquithRoute,
+      roofingAuburnRoute,
+      roofingAustralRoute,
+      roofingAvalonBeachRoute,
+      roofingBadgerysCreekRoute,
+      roofingBalgowlahRoute,
+      roofingBalgowlahHeightsRoute,
+      roofingBalmainRoute,
+      roofingBalmainEastRoute,
+      roofingBangorRoute,
+      roofingBanksiaRoute,
+      roofingBanksmeadowRoute,
+      roofingBankstownRoute,
+      roofingBankstownAerodromeRoute,
+      roofingBarangarooRoute,
+      roofingBardenRidgeRoute,
+      roofingBardiaRoute,
+      roofingBardwellParkRoute,
+      roofingBardwellValleyRoute,
+      roofingBassHillRoute,
+      roofingBaulkhamHillsRoute,
+      roofingBayviewRoute,
+      roofingBeaumontHillsRoute,
+      roofingBlacktownRoute,
+      roofingCastleHillRoute,
+      roofingChatswoodRoute,
+      roofingCrowsNestRoute,
       roofingEasternSuburbsRoute,
+      roofingEastwoodRoute,
+      roofingGlebeRoute,
+      roofingGlenhavenRoute,
+      roofingHillsDistrictRoute,
+      roofingInnerWestSydneyRoute,
+      roofingKellyvilleRoute,
+      roofingMarayongRoute,
+      roofingMaroubraRoute,
+      roofingMosmanRoute,
       roofingNorthShoreRoute,
-      roofingSydneyCbdRoute,
       roofingNorthernBeachesRoute,
+      roofingPaddingtonRoute,
+      roofingParramattaRoute,
+      roofingPenrithRoute,
+      roofingRedfernRoute,
+      roofingRouseHillRoute,
+      roofingSouthWesternSydneyRoute,
       roofingStGeorgeAreaRoute,
       roofingSutherlandShireRoute,
-      roofingSouthWesternSydneyRoute,
+      roofingSydneyCbdRoute,
+      roofingWaterlooRoute,
       roofingWesternSydneyRoute,
-      roofingInnerWestSydneyRoute,
-      roofingHillsDistrictRoute,
+
+      // === GUIDE ROUTES ===
       guideRoofLeakCostRoute,
       guideRoofSarkingRoute,
       guideSkillionRoofRoute,
@@ -200,6 +316,8 @@ const router = createBrowserRouter([
       guideTileRoofRepairCostRoute,
       guideStopLeakingRoofHeavyRainsRoute,
       guideCommonGutterProblemsRoute,
+
+      // === SERVICE ROUTES ===
       roofRepairsRoute,
       roofReplacementRoute,
       roofRestorationRoute,
@@ -218,6 +336,17 @@ const router = createBrowserRouter([
       commercialRoofingRoute,
       skylightRepairRoute,
       gutterRepairRoute,
+      roofingServiceRoute,
+      commercialRoofingServiceRoute,
+      residentialMetalRoofingRoute,
+      downpipeInstallationRoute,
+      colorbondInstallationRoute,
+      roofCleaningServicesRoute,
+      reRoofingSydneyRoute,
+      roofPaintingSydneyRoute,
+      roofLeakDetectionAndRepairSydneyRoute,
+
+      // === BLOG ROUTES ===
       blogRoute,
       roofWindDamagePostRoute,
       standingSeamRoofingRoute,
@@ -267,6 +396,8 @@ const router = createBrowserRouter([
       copperStandingSeanRoofRoute,
       leadApronAndCoverFlashingRoute,
       svkDiamondPatternSlatesRoute,
+
+      // === OTHER ROUTES ===
       galleryRoute,
       projectsRoute,
       locationsRoute,
@@ -300,18 +431,7 @@ const router = createBrowserRouter([
       roofersWaratahRoute,
       roofersWarnersBayRoute,
       roofersWickhamRoute,
-      // Services (template ServiceTemplate)
-      roofingServiceRoute,
-      residentialRoofingRoute,               // ahora viene de ./routes/services/residential-roofing
-      commercialRoofingServiceRoute,
-      metalRoofingRoute,                     // ahora viene de ./routes/services/metal-roofing
-      residentialMetalRoofingRoute,
-      downpipeInstallationRoute,
-      colorbondInstallationRoute,
-      roofCleaningServicesRoute,
-      reRoofingSydneyRoute,
-      roofPaintingSydneyRoute,
-      roofLeakDetectionAndRepairSydneyRoute,
+
       { path: "*", element: <NotFound /> },
     ],
   },
