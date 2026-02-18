@@ -99,6 +99,7 @@ import { route as guideTileRoofRepairCostRoute } from "./routes/guides/how-much-
 import { route as guideStopLeakingRoofHeavyRainsRoute } from "./routes/guides/how-to-stop-a-leaking-roof-during-heavy-rains";
 import { route as guideCommonGutterProblemsRoute } from "./routes/guides/6-common-gutter-problems-and-how-to-fix-them";
 import { route as guideInstallingMetalColorbondRoofRoute } from "./routes/guides/a-guide-to-installing-a-metal-colorbond-roof";
+import { route as guideChooseBestRoofColourRoute } from "./routes/guides/how-to-choose-the-best-roof-colour-for-your-home";
 
 // === SERVICE IMPORTS ===
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
@@ -317,6 +318,7 @@ const router = createBrowserRouter([
       guideTileRoofRepairCostRoute,
       guideStopLeakingRoofHeavyRainsRoute,
       guideInstallingMetalColorbondRoofRoute,
+      guideChooseBestRoofColourRoute,
       guideCommonGutterProblemsRoute,
 
       // === SERVICE ROUTES ===
