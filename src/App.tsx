@@ -100,6 +100,56 @@ import { route as guideStopLeakingRoofHeavyRainsRoute } from "./routes/guides/ho
 import { route as guideCommonGutterProblemsRoute } from "./routes/guides/6-common-gutter-problems-and-how-to-fix-them";
 import { route as guideInstallingMetalColorbondRoofRoute } from "./routes/guides/a-guide-to-installing-a-metal-colorbond-roof";
 import { route as guideChooseBestRoofColourRoute } from "./routes/guides/how-to-choose-the-best-roof-colour-for-your-home";
+import { route as guideAustralianRoofingVsAmericanRoofingRoute } from "./routes/guides/australian-roofing-vs-american-roofing";
+import { route as guideCanIClaimRoofRepairsOnMyInsuranceRoute } from "./routes/guides/can-i-claim-roof-repairs-on-my-insurance";
+import { route as guideCommonMetalRoofRepairsSydneyRoute } from "./routes/guides/common-metal-roof-repairs-sydney";
+import { route as guideDoWhirlybirdsWorkRoute } from "./routes/guides/do-whirlybirds-work";
+import { route as guideDoesHomeWarrantyCoverRoofLeaksRoute } from "./routes/guides/does-home-warranty-cover-roof-leaks";
+import { route as guideDoesInsuranceCoverALeakingRoofRoute } from "./routes/guides/does-insurance-cover-a-leaking-roof";
+import { route as guideGutterCleaningCostGuideHowMuchYouShouldExpectToPayRoute } from "./routes/guides/gutter-cleaning-cost-guide-how-much-you-should-expect-to-pay";
+import { route as guideGutterReplacementCostRoute } from "./routes/guides/gutter-replacement-cost";
+import { route as guideHipRoofVsGableRoofProsAndConsOfEachRoofTypeRoute } from "./routes/guides/hip-roof-vs-gable-roof-pros-and-cons-of-each-roof-type";
+import { route as guideHowMuchDoesItCostToCleanARoofRoute } from "./routes/guides/how-much-does-it-cost-to-clean-a-roof";
+import { route as guideHowMuchDoesItCostToReplaceACommercialRoofRoute } from "./routes/guides/how-much-does-it-cost-to-replace-a-commercial-roof";
+import { route as guideHowMuchDoesItCostToReplaceRoofFlashingRoute } from "./routes/guides/how-much-does-it-cost-to-replace-roof-flashing";
+import { route as guideHowMuchDoesProfessionalRoofPaintingCostRoute } from "./routes/guides/how-much-does-professional-roof-painting-cost";
+import { route as guideHowMuchDoesSkylightInstallationCostRoute } from "./routes/guides/how-much-does-skylight-installation-cost";
+import { route as guideHowOftenShouldGuttersBeCleanedGutterCleaningExplainedRoute } from "./routes/guides/how-often-should-gutters-be-cleaned-gutter-cleaning-explained";
+import { route as guidePaintingColorbondRoofCanItBeDoneRoute } from "./routes/guides/painting-colorbond-roof-can-it-be-done";
+import { route as guideRoofLeakShouldICallMyInsuranceCompanyRoute } from "./routes/guides/roof-leak-should-i-call-my-insurance-company";
+import { route as guideRoofRepairCostSydneyWhatYouCanExpectToPayRoute } from "./routes/guides/roof-repair-cost-sydney-what-you-can-expect-to-pay";
+import { route as guideRoofRestorationCostSydneyWhatYouShouldExpectToPayRoute } from "./routes/guides/roof-restoration-cost-sydney-what-you-should-expect-to-pay";
+import { route as guideWhatCausesRoofLeaksRoute } from "./routes/guides/what-causes-roof-leaks";
+import { route as guideWhatIsFasciaOnAHouseThePurposeOfFasciaInRoofingRoute } from "./routes/guides/what-is-fascia-on-a-house-the-purpose-of-fascia-in-roofing";
+import { route as guideWhoDoYouCallWhenYourRoofIsLeakingYourRainyDayPlanRoute } from "./routes/guides/who-do-you-call-when-your-roof-is-leaking-your-rainy-day-plan";
+import { route as guideWhoRepairsSkylightsRoute } from "./routes/guides/who-repairs-skylights";
+import { route as guideWhyToHaveAParapetRoofRoute } from "./routes/guides/why-to-have-a-parapet-roof";
+import { route as guideYourUltimateGuideToDecramasticRoofsRoute } from "./routes/guides/your-ultimate-guide-to-decramastic-roofs";
+import { route as guideAustralianRoofingVsAmericanRoofingRoute } from "./routes/guides/australian-roofing-vs-american-roofing";
+import { route as guideCanIClaimRoofRepairsOnMyInsuranceRoute } from "./routes/guides/can-i-claim-roof-repairs-on-my-insurance";
+import { route as guideCommonMetalRoofRepairsSydneyRoute } from "./routes/guides/common-metal-roof-repairs-sydney";
+import { route as guideDoWhirlybirdsWorkRoute } from "./routes/guides/do-whirlybirds-work";
+import { route as guideDoesHomeWarrantyCoverRoofLeaksRoute } from "./routes/guides/does-home-warranty-cover-roof-leaks";
+import { route as guideDoesInsuranceCoverALeakingRoofRoute } from "./routes/guides/does-insurance-cover-a-leaking-roof";
+import { route as guideGutterCleaningCostGuideHowMuchYouShouldExpectToPayRoute } from "./routes/guides/gutter-cleaning-cost-guide-how-much-you-should-expect-to-pay";
+import { route as guideGutterReplacementCostRoute } from "./routes/guides/gutter-replacement-cost";
+import { route as guideHipRoofVsGableRoofProsAndConsOfEachRoofTypeRoute } from "./routes/guides/hip-roof-vs-gable-roof-pros-and-cons-of-each-roof-type";
+import { route as guideHowMuchDoesItCostToCleanARoofRoute } from "./routes/guides/how-much-does-it-cost-to-clean-a-roof";
+import { route as guideHowMuchDoesItCostToReplaceACommercialRoofRoute } from "./routes/guides/how-much-does-it-cost-to-replace-a-commercial-roof";
+import { route as guideHowMuchDoesItCostToReplaceRoofFlashingRoute } from "./routes/guides/how-much-does-it-cost-to-replace-roof-flashing";
+import { route as guideHowMuchDoesProfessionalRoofPaintingCostRoute } from "./routes/guides/how-much-does-professional-roof-painting-cost";
+import { route as guideHowMuchDoesSkylightInstallationCostRoute } from "./routes/guides/how-much-does-skylight-installation-cost";
+import { route as guideHowOftenShouldGuttersBeCleanedGutterCleaningExplainedRoute } from "./routes/guides/how-often-should-gutters-be-cleaned-gutter-cleaning-explained";
+import { route as guidePaintingColorbondRoofCanItBeDoneRoute } from "./routes/guides/painting-colorbond-roof-can-it-be-done";
+import { route as guideRoofLeakShouldICallMyInsuranceCompanyRoute } from "./routes/guides/roof-leak-should-i-call-my-insurance-company";
+import { route as guideRoofRepairCostSydneyWhatYouCanExpectToPayRoute } from "./routes/guides/roof-repair-cost-sydney-what-you-can-expect-to-pay";
+import { route as guideRoofRestorationCostSydneyWhatYouShouldExpectToPayRoute } from "./routes/guides/roof-restoration-cost-sydney-what-you-should-expect-to-pay";
+import { route as guideWhatCausesRoofLeaksRoute } from "./routes/guides/what-causes-roof-leaks";
+import { route as guideWhatIsFasciaOnAHouseThePurposeOfFasciaInRoofingRoute } from "./routes/guides/what-is-fascia-on-a-house-the-purpose-of-fascia-in-roofing";
+import { route as guideWhoDoYouCallWhenYourRoofIsLeakingYourRainyDayPlanRoute } from "./routes/guides/who-do-you-call-when-your-roof-is-leaking-your-rainy-day-plan";
+import { route as guideWhoRepairsSkylightsRoute } from "./routes/guides/who-repairs-skylights";
+import { route as guideWhyToHaveAParapetRoofRoute } from "./routes/guides/why-to-have-a-parapet-roof";
+import { route as guideYourUltimateGuideToDecramasticRoofsRoute } from "./routes/guides/your-ultimate-guide-to-decramastic-roofs";
 
 // === SERVICE IMPORTS ===
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
@@ -320,6 +370,56 @@ const router = createBrowserRouter([
       guideInstallingMetalColorbondRoofRoute,
       guideChooseBestRoofColourRoute,
       guideCommonGutterProblemsRoute,
+guideAustralianRoofingVsAmericanRoofingRoute,
+      guideCanIClaimRoofRepairsOnMyInsuranceRoute,
+      guideCommonMetalRoofRepairsSydneyRoute,
+      guideDoWhirlybirdsWorkRoute,
+      guideDoesHomeWarrantyCoverRoofLeaksRoute,
+      guideDoesInsuranceCoverALeakingRoofRoute,
+      guideGutterCleaningCostGuideHowMuchYouShouldExpectToPayRoute,
+      guideGutterReplacementCostRoute,
+      guideHipRoofVsGableRoofProsAndConsOfEachRoofTypeRoute,
+      guideHowMuchDoesItCostToCleanARoofRoute,
+      guideHowMuchDoesItCostToReplaceACommercialRoofRoute,
+      guideHowMuchDoesItCostToReplaceRoofFlashingRoute,
+      guideHowMuchDoesProfessionalRoofPaintingCostRoute,
+      guideHowMuchDoesSkylightInstallationCostRoute,
+      guideHowOftenShouldGuttersBeCleanedGutterCleaningExplainedRoute,
+      guidePaintingColorbondRoofCanItBeDoneRoute,
+      guideRoofLeakShouldICallMyInsuranceCompanyRoute,
+      guideRoofRepairCostSydneyWhatYouCanExpectToPayRoute,
+      guideRoofRestorationCostSydneyWhatYouShouldExpectToPayRoute,
+      guideWhatCausesRoofLeaksRoute,
+      guideWhatIsFasciaOnAHouseThePurposeOfFasciaInRoofingRoute,
+      guideWhoDoYouCallWhenYourRoofIsLeakingYourRainyDayPlanRoute,
+      guideWhoRepairsSkylightsRoute,
+      guideWhyToHaveAParapetRoofRoute,
+      guideYourUltimateGuideToDecramasticRoofsRoute,
+guideAustralianRoofingVsAmericanRoofingRoute,
+      guideCanIClaimRoofRepairsOnMyInsuranceRoute,
+      guideCommonMetalRoofRepairsSydneyRoute,
+      guideDoWhirlybirdsWorkRoute,
+      guideDoesHomeWarrantyCoverRoofLeaksRoute,
+      guideDoesInsuranceCoverALeakingRoofRoute,
+      guideGutterCleaningCostGuideHowMuchYouShouldExpectToPayRoute,
+      guideGutterReplacementCostRoute,
+      guideHipRoofVsGableRoofProsAndConsOfEachRoofTypeRoute,
+      guideHowMuchDoesItCostToCleanARoofRoute,
+      guideHowMuchDoesItCostToReplaceACommercialRoofRoute,
+      guideHowMuchDoesItCostToReplaceRoofFlashingRoute,
+      guideHowMuchDoesProfessionalRoofPaintingCostRoute,
+      guideHowMuchDoesSkylightInstallationCostRoute,
+      guideHowOftenShouldGuttersBeCleanedGutterCleaningExplainedRoute,
+      guidePaintingColorbondRoofCanItBeDoneRoute,
+      guideRoofLeakShouldICallMyInsuranceCompanyRoute,
+      guideRoofRepairCostSydneyWhatYouCanExpectToPayRoute,
+      guideRoofRestorationCostSydneyWhatYouShouldExpectToPayRoute,
+      guideWhatCausesRoofLeaksRoute,
+      guideWhatIsFasciaOnAHouseThePurposeOfFasciaInRoofingRoute,
+      guideWhoDoYouCallWhenYourRoofIsLeakingYourRainyDayPlanRoute,
+      guideWhoRepairsSkylightsRoute,
+      guideWhyToHaveAParapetRoofRoute,
+      guideYourUltimateGuideToDecramasticRoofsRoute,
 
       // === SERVICE ROUTES ===
       roofRepairsRoute,
