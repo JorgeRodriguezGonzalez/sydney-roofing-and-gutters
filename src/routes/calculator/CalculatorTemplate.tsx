@@ -130,7 +130,7 @@ export function CalculatorPageLayout({ config, heading, subheading, children, re
             <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Other Calculators</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {relatedCalculators.map((c) => (
-                
+                <a
                   key={c.href}
                   href={c.href}
                   className="bg-white rounded-lg border shadow-sm p-6 hover:shadow-md transition-shadow group"
