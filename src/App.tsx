@@ -330,6 +330,7 @@ import { route as serviceGutterCleaningRoute } from "./routes/services/gutter-cl
 import { route as serviceCorrugatedRoofingSydneyRoute } from "./routes/services/corrugated-roofing-sydney";
 import { route as serviceGutterProtectionRoute } from "./routes/services/gutter-protection";
 import { route as serviceAluminiumGutterInstallationRoute } from "./routes/services/aluminium-gutter-installation";
+import { route as serviceGutteringServicesRoute } from "./routes/services/guttering-services";
 
 // === BLOG IMPORTS ===
 import { route as blogRoute } from "./routes/blog";
@@ -792,6 +793,7 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       serviceCorrugatedRoofingSydneyRoute,
       serviceGutterProtectionRoute,
       serviceAluminiumGutterInstallationRoute,
+      serviceGutteringServicesRoute,
       roofReplacementCostRoute,
       slateRoofRestorationRoute,
       copperHalfRoundGuttersRoute,

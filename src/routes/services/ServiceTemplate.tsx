@@ -75,6 +75,12 @@ export type ServiceContent = {
     buttonText?: string; // default: "GET QUOTE"
     buttonHref?: string; // default: "/contact/"
   };
+
+  relatedServices?: Array<{
+    title: string;
+    href: string;
+    description: string;
+  }>;
 };
 
 const DEFAULTS = {
@@ -462,6 +468,27 @@ export function ServicePageTemplate({
           ))}
         </div>
       </Section>
+
+      {/* Related Services */}
+      {content.relatedServices && content.relatedServices.length > 0 && (
+        <Section className="py-14 bg-[#F6F6F6]">
+          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Our Guttering Services</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {content.relatedServices.map((s) => (
+              
+                key={s.href}
+                href={s.href}
+                className="bg-white rounded-lg border shadow-sm p-6 hover:shadow-md transition-shadow group"
+              >
+                <div className="font-bold mb-2 group-hover:text-[#179DC2] transition-colors">{s.title}</div>
+                <div className="text-sm leading-relaxed" style={{ color: "#666666" }}>
+                  {s.description}
+                </div>
+              </a>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* Testimonial */}
       <Section className="py-12 bg-[#F6F6F6]">
