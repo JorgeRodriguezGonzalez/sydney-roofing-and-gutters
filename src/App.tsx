@@ -320,6 +320,16 @@ import { route as roofCleaningServicesRoute } from "./routes/services/roof-clean
 import { route as reRoofingSydneyRoute } from "./routes/services/re-roofing-sydney";
 import { route as roofPaintingSydneyRoute } from "./routes/services/roof-painting-sydney";
 import { route as roofLeakDetectionAndRepairSydneyRoute } from "./routes/services/roof-leak-detection-and-repair-sydney";
+import { route as serviceCommercialMetalRoofingRoute } from "./routes/services/commercial-metal-roofing";
+import { route as serviceRoofFlashingRoute } from "./routes/services/roof-flashing";
+import { route as serviceSlateRoofingRoute } from "./routes/services/slate-roofing";
+import { route as serviceGutterInstallationRoute } from "./routes/services/gutter-installation";
+import { route as serviceGutterReplacementRoute } from "./routes/services/gutter-replacement";
+import { route as serviceGutterRepairsRoute } from "./routes/services/gutter-repairs";
+import { route as serviceGutterCleaningRoute } from "./routes/services/gutter-cleaning";
+import { route as serviceCorrugatedRoofingSydneyRoute } from "./routes/services/corrugated-roofing-sydney";
+import { route as serviceGutterProtectionRoute } from "./routes/services/gutter-protection";
+import { route as serviceAluminiumGutterInstallationRoute } from "./routes/services/aluminium-gutter-installation";
 
 // === BLOG IMPORTS ===
 import { route as blogRoute } from "./routes/blog";
@@ -772,6 +782,16 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       roofingWoronoraHeightsRoute,
       roofingZetlandRoute,
       roofRestorationServicesRoute,
+      serviceCommercialMetalRoofingRoute,
+      serviceRoofFlashingRoute,
+      serviceSlateRoofingRoute,
+      serviceGutterInstallationRoute,
+      serviceGutterReplacementRoute,
+      serviceGutterRepairsRoute,
+      serviceGutterCleaningRoute,
+      serviceCorrugatedRoofingSydneyRoute,
+      serviceGutterProtectionRoute,
+      serviceAluminiumGutterInstallationRoute,
       roofReplacementCostRoute,
       slateRoofRestorationRoute,
       copperHalfRoundGuttersRoute,
