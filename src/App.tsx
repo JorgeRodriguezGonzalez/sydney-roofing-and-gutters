@@ -389,6 +389,8 @@ import { route as projectsRoute } from "./routes/projects";
 import { route as locationsRoute } from "./routes/locations";
 
 import NotFound from "./pages/NotFound";
+import { route as calculatorIndexRoute } from "./routes/calculator/index";
+import { route as calculatorReroofCostRoute } from "./routes/calculator/reroof-cost-calculator";
 
 const queryClient = new QueryClient();
 
@@ -809,6 +811,8 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       roofersWaratahRoute,
       roofersWarnersBayRoute,
       roofersWickhamRoute,
+      calculatorIndexRoute,
+      calculatorReroofCostRoute,
 
       { path: "*", element: <NotFound /> },
     ],
