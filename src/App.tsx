@@ -84,6 +84,78 @@ import { route as roofingSutherlandShireRoute } from "./routes/locations/sutherl
 import { route as roofingSydneyCbdRoute } from "./routes/locations/sydney-cbd";
 import { route as roofingWaterlooRoute } from "./routes/locations/waterloo";
 import { route as roofingWesternSydneyRoute } from "./routes/locations/western-sydney";
+import { route as roofingMiddleDuralRoute } from "./routes/locations/middle-dural";
+import { route as roofingMiddletonGrangeRoute } from "./routes/locations/middleton-grange";
+import { route as roofingMinchinburyRoute } from "./routes/locations/minchinbury";
+import { route as roofingMirandaRoute } from "./routes/locations/miranda";
+import { route as roofingMoorebankRoute } from "./routes/locations/moorebank";
+import { route as roofingMortdaleRoute } from "./routes/locations/mortdale";
+import { route as roofingMortlakeRoute } from "./routes/locations/mortlake";
+import { route as roofingNarellanRoute } from "./routes/locations/narellan";
+import { route as roofingNelsonRoute } from "./routes/locations/nelson";
+import { route as roofingNeutralBayRoute } from "./routes/locations/neutral-bay";
+import { route as roofingNewtownRoute } from "./routes/locations/newtown";
+import { route as roofingNorthRocksRoute } from "./routes/locations/north-rocks";
+import { route as roofingNorthRydeRoute } from "./routes/locations/north-ryde";
+import { route as roofingNorthSydneyRoute } from "./routes/locations/north-sydney";
+import { route as roofingNorthmeadRoute } from "./routes/locations/northmead";
+import { route as roofingOatlandsRoute } from "./routes/locations/oatlands";
+import { route as roofingPadstowRoute } from "./routes/locations/padstow";
+import { route as roofingPennantHillsRoute } from "./routes/locations/pennant-hills";
+import { route as roofingPetershamRoute } from "./routes/locations/petersham";
+import { route as roofingPleasurePointRoute } from "./routes/locations/pleasure-point";
+import { route as roofingPrestonsRoute } from "./routes/locations/prestons";
+import { route as roofingProspectRoute } from "./routes/locations/prospect";
+import { route as roofingQuakersHillRoute } from "./routes/locations/quakers-hill";
+import { route as roofingRandwickRoute } from "./routes/locations/randwick";
+import { route as roofingRevesbyRoute } from "./routes/locations/revesby";
+import { route as roofingRiverstoneRoute } from "./routes/locations/riverstone";
+import { route as roofingRiverviewRoute } from "./routes/locations/riverview";
+import { route as roofingRockdaleRoute } from "./routes/locations/rockdale";
+import { route as roofingRoddPointRoute } from "./routes/locations/rodd-point";
+import { route as roofingRoselandsRoute } from "./routes/locations/roselands";
+import { route as roofingRossmoreRoute } from "./routes/locations/rossmore";
+import { route as roofingRozelleRoute } from "./routes/locations/rozelle";
+import { route as roofingRuseRoute } from "./routes/locations/ruse";
+import { route as roofingRushcuttersBayRoute } from "./routes/locations/rushcutters-bay";
+import { route as roofingRussellLeaRoute } from "./routes/locations/russell-lea";
+import { route as roofingRydeRoute } from "./routes/locations/ryde";
+import { route as roofingSadleirRoute } from "./routes/locations/sadleir";
+import { route as roofingSandringhamRoute } from "./routes/locations/sandringham";
+import { route as roofingSandyPointRoute } from "./routes/locations/sandy-point";
+import { route as roofingSevenHillsRoute } from "./routes/locations/seven-hills";
+import { route as roofingSilverwaterRoute } from "./routes/locations/silverwater";
+import { route as roofingSmithfieldRoute } from "./routes/locations/smithfield";
+import { route as roofingSouthWestSydneyRoute } from "./routes/locations/south-west-sydney";
+import { route as roofingSpringFarmRoute } from "./routes/locations/spring-farm";
+import { route as roofingStClairRoute } from "./routes/locations/st-clair";
+import { route as roofingStMarysRoute } from "./routes/locations/st-marys";
+import { route as roofingStanmoreRoute } from "./routes/locations/stanmore";
+import { route as roofingStrathfieldRoute } from "./routes/locations/strathfield";
+import { route as roofingSummerHillRoute } from "./routes/locations/summer-hill";
+import { route as roofingSurryHillsRoute } from "./routes/locations/surry-hills";
+import { route as roofingTarenPointRoute } from "./routes/locations/taren-point";
+import { route as roofingThornleighRoute } from "./routes/locations/thornleigh";
+import { route as roofingTurramurraRoute } from "./routes/locations/turramurra";
+import { route as roofingVaucluseRoute } from "./routes/locations/vaucluse";
+import { route as roofingVoyagerPointRoute } from "./routes/locations/voyager-point";
+import { route as roofingWahroongaRoute } from "./routes/locations/wahroonga";
+import { route as roofingWallaciaRoute } from "./routes/locations/wallacia";
+import { route as roofingWareembaRoute } from "./routes/locations/wareemba";
+import { route as roofingWarwickFarmRoute } from "./routes/locations/warwick-farm";
+import { route as roofingWattleGroveRoute } from "./routes/locations/wattle-grove";
+import { route as roofingWaverleyRoute } from "./routes/locations/waverley";
+import { route as roofingWavertonRoute } from "./routes/locations/waverton";
+import { route as roofingWentworthPointRoute } from "./routes/locations/wentworth-point";
+import { route as roofingWestHoxtonRoute } from "./routes/locations/west-hoxton";
+import { route as roofingWestPennantHillsRoute } from "./routes/locations/west-pennant-hills";
+import { route as roofingWestRydeRoute } from "./routes/locations/west-ryde";
+import { route as roofingWetherillParkRoute } from "./routes/locations/wetherill-park";
+import { route as roofingWolliCreekRoute } from "./routes/locations/wolli-creek";
+import { route as roofingWoodparkRoute } from "./routes/locations/woodpark";
+import { route as roofingWooloowareRoute } from "./routes/locations/woolooware";
+import { route as roofingWoronoraHeightsRoute } from "./routes/locations/woronora-heights";
+import { route as roofingZetlandRoute } from "./routes/locations/zetland";
 
 // === GUIDE IMPORTS ===
 import { route as guideRoofLeakCostRoute } from "./routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
@@ -627,6 +699,78 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       roofDormersRoute,
       roofSlopeRoute,
       roofingContractorsRoute,
+      roofingMiddleDuralRoute,
+      roofingMiddletonGrangeRoute,
+      roofingMinchinburyRoute,
+      roofingMirandaRoute,
+      roofingMoorebankRoute,
+      roofingMortdaleRoute,
+      roofingMortlakeRoute,
+      roofingNarellanRoute,
+      roofingNelsonRoute,
+      roofingNeutralBayRoute,
+      roofingNewtownRoute,
+      roofingNorthRocksRoute,
+      roofingNorthRydeRoute,
+      roofingNorthSydneyRoute,
+      roofingNorthmeadRoute,
+      roofingOatlandsRoute,
+      roofingPadstowRoute,
+      roofingPennantHillsRoute,
+      roofingPetershamRoute,
+      roofingPleasurePointRoute,
+      roofingPrestonsRoute,
+      roofingProspectRoute,
+      roofingQuakersHillRoute,
+      roofingRandwickRoute,
+      roofingRevesbyRoute,
+      roofingRiverstoneRoute,
+      roofingRiverviewRoute,
+      roofingRockdaleRoute,
+      roofingRoddPointRoute,
+      roofingRoselandsRoute,
+      roofingRossmoreRoute,
+      roofingRozelleRoute,
+      roofingRuseRoute,
+      roofingRushcuttersBayRoute,
+      roofingRussellLeaRoute,
+      roofingRydeRoute,
+      roofingSadleirRoute,
+      roofingSandringhamRoute,
+      roofingSandyPointRoute,
+      roofingSevenHillsRoute,
+      roofingSilverwaterRoute,
+      roofingSmithfieldRoute,
+      roofingSouthWestSydneyRoute,
+      roofingSpringFarmRoute,
+      roofingStClairRoute,
+      roofingStMarysRoute,
+      roofingStanmoreRoute,
+      roofingStrathfieldRoute,
+      roofingSummerHillRoute,
+      roofingSurryHillsRoute,
+      roofingTarenPointRoute,
+      roofingThornleighRoute,
+      roofingTurramurraRoute,
+      roofingVaucluseRoute,
+      roofingVoyagerPointRoute,
+      roofingWahroongaRoute,
+      roofingWallaciaRoute,
+      roofingWareembaRoute,
+      roofingWarwickFarmRoute,
+      roofingWattleGroveRoute,
+      roofingWaverleyRoute,
+      roofingWavertonRoute,
+      roofingWentworthPointRoute,
+      roofingWestHoxtonRoute,
+      roofingWestPennantHillsRoute,
+      roofingWestRydeRoute,
+      roofingWetherillParkRoute,
+      roofingWolliCreekRoute,
+      roofingWoodparkRoute,
+      roofingWooloowareRoute,
+      roofingWoronoraHeightsRoute,
+      roofingZetlandRoute,
       roofRestorationServicesRoute,
       roofReplacementCostRoute,
       slateRoofRestorationRoute,
