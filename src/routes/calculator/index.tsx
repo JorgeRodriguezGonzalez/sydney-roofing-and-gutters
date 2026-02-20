@@ -69,7 +69,7 @@ function CalculatorIndex() {
             {CALCULATORS.map((calc) => {
               const Icon = calc.icon;
               return (
-                
+                <a
                   key={calc.href}
                   href={calc.href}
                   className="bg-white rounded-xl border-2 border-gray-200 shadow-sm p-6 hover:shadow-md hover:border-[#179DC2] transition-all group"
