@@ -391,6 +391,9 @@ import { route as locationsRoute } from "./routes/locations";
 import NotFound from "./pages/NotFound";
 import { route as calculatorIndexRoute } from "./routes/calculator/index";
 import { route as calculatorReroofCostRoute } from "./routes/calculator/reroof-cost-calculator";
+import { route as calculatorInsulationRoute } from "./routes/calculator/roofing-insulation-calculator";
+import { route as calculatorPitchRoute } from "./routes/calculator/roofing-pitch-calculator";
+import { route as calculatorColourRoute } from "./routes/calculator/colour-visualiser";
 
 const queryClient = new QueryClient();
 
@@ -813,6 +816,9 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       roofersWickhamRoute,
       calculatorIndexRoute,
       calculatorReroofCostRoute,
+      calculatorInsulationRoute,
+      calculatorPitchRoute,
+      calculatorColourRoute,
 
       { path: "*", element: <NotFound /> },
     ],
