@@ -165,6 +165,21 @@ import { route as guideHowLongDoesARoofLastRoute } from "./routes/guides/how-lon
 import { route as guideWhatToDoIfYourGuttersOrDownpipesAreBlockedRoute } from "./routes/guides/what-to-do-if-your-gutters-or-downpipes-are-blocked";
 import { route as guideChoosingBetweenColorbondRoofingColoursRoute } from "./routes/guides/choosing-between-colorbond-roofing-colours";
 import { route as guideColorbondVsTileRoofWhichIsBestForYourHomeRoute } from "./routes/guides/colorbond-vs-tile-roof-which-is-best-for-your-home";
+import { route as guideIsALeakingSkylightCoveredByInsuranceRoute } from "./routes/guides/is-a-leaking-skylight-covered-by-insurance";
+import { route as guideCleaningYourColorbondRoofEverythingYouShouldKnowRoute } from "./routes/guides/cleaning-your-colorbond-roof-everything-you-should-know";
+import { route as guideAGuideToAustralianRoofTypesRoute } from "./routes/guides/a-guide-to-australian-roof-types";
+import { route as guideFactsAboutRoofingInsulationForColorbondRoofsRoute } from "./routes/guides/facts-about-roofing-insulation-for-colorbond-roofs";
+import { route as guideChoosingAColorbondRoofRoute } from "./routes/guides/choosing-a-colorbond-roof";
+import { route as guideLookingToCleanYourRoofHeresWhatYouShouldRememberRoute } from "./routes/guides/looking-to-clean-your-roof-heres-what-you-should-remember";
+import { route as guideLetsTalkColorbondRoofRestorationsRoute } from "./routes/guides/lets-talk-colorbond-roof-restorations";
+import { route as guideWhyIsMyWhirlybird5MisconceptionsAboutWhirlybirdsRoute } from "./routes/guides/why-is-my-whirlybird-noisy-5-misconceptions-about-whirlybirds";
+import { route as guideHowToTackleRustOnYourRoofRoute } from "./routes/guides/how-to-tackle-rust-on-your-roof";
+import { route as guideColorbondRoofsVsConcreteTilesRoute } from "./routes/guides/colorbond-roofs-vs-concrete-tiles";
+import { route as guideCommercialRoofingVsResidentialRoofingTheDifferencesRoute } from "./routes/guides/commercial-roofing-vs-residential-roofing-the-differences";
+import { route as guideHowLongDoesARoofLastRoute } from "./routes/guides/how-long-does-a-roof-last";
+import { route as guideWhatToDoIfYourGuttersOrDownpipesAreBlockedRoute } from "./routes/guides/what-to-do-if-your-gutters-or-downpipes-are-blocked";
+import { route as guideChoosingBetweenColorbondRoofingColoursRoute } from "./routes/guides/choosing-between-colorbond-roofing-colours";
+import { route as guideColorbondVsTileRoofWhichIsBestForYourHomeRoute } from "./routes/guides/colorbond-vs-tile-roof-which-is-best-for-your-home";
 
 // === SERVICE IMPORTS ===
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
@@ -435,6 +450,21 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       guideWhoRepairsSkylightsRoute,
       guideWhyToHaveAParapetRoofRoute,
       guideYourUltimateGuideToDecramasticRoofsRoute,
+      guideIsALeakingSkylightCoveredByInsuranceRoute,
+      guideCleaningYourColorbondRoofEverythingYouShouldKnowRoute,
+      guideAGuideToAustralianRoofTypesRoute,
+      guideFactsAboutRoofingInsulationForColorbondRoofsRoute,
+      guideChoosingAColorbondRoofRoute,
+      guideLookingToCleanYourRoofHeresWhatYouShouldRememberRoute,
+      guideLetsTalkColorbondRoofRestorationsRoute,
+      guideWhyIsMyWhirlybird5MisconceptionsAboutWhirlybirdsRoute,
+      guideHowToTackleRustOnYourRoofRoute,
+      guideColorbondRoofsVsConcreteTilesRoute,
+      guideCommercialRoofingVsResidentialRoofingTheDifferencesRoute,
+      guideHowLongDoesARoofLastRoute,
+      guideWhatToDoIfYourGuttersOrDownpipesAreBlockedRoute,
+      guideChoosingBetweenColorbondRoofingColoursRoute,
+      guideColorbondVsTileRoofWhichIsBestForYourHomeRoute,
       guideIsALeakingSkylightCoveredByInsuranceRoute,
       guideCleaningYourColorbondRoofEverythingYouShouldKnowRoute,
       guideAGuideToAustralianRoofTypesRoute,
