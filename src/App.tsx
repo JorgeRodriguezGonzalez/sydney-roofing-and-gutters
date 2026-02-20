@@ -387,36 +387,6 @@ import svkDiamondPatternSlatesRoute from "./routes/blog/svk-diamond-pattern-slat
 import { route as galleryRoute } from "./routes/gallery";
 import { route as projectsRoute } from "./routes/projects";
 import { route as locationsRoute } from "./routes/locations";
-import { route as roofersAdamstownHeightsRoute } from "./routes/roofers-adamstown-heights";
-import { route as roofersBarBeachRoute } from "./routes/roofers-bar-beach";
-import { route as roofersCarringtonRoute } from "./routes/roofers-carrington";
-import { route as roofersCatherineHillBayRoute } from "./routes/roofers-catherine-hill-bay";
-import { route as roofersCoalPointRoute } from "./routes/roofers-coal-point";
-import { route as roofersCooksHillRoute } from "./routes/roofers-cooks-hill";
-import { route as roofersFingalBayRoute } from "./routes/roofers-fingal-bay";
-import { route as roofersGeorgetownRoute } from "./routes/roofers-georgetown";
-import { route as roofersHamiltonRoute } from "./routes/roofers-hamilton";
-import { route as roofersHamiltonEastRoute } from "./routes/roofers-hamilton-east";
-import { route as roofersHamiltonSouthRoute } from "./routes/roofers-hamilton-south";
-import { route as roofersIslingtonRoute } from "./routes/roofers-islington";
-import { route as roofersJesmondRoute } from "./routes/roofers-jesmond";
-import { route as roofersKotaraRoute } from "./routes/roofers-kotara";
-import { route as roofersLambtonRoute } from "./routes/roofers-lambton";
-import { route as roofersMayfieldRoute } from "./routes/roofers-mayfield";
-import { route as roofersMerewetherRoute } from "./routes/roofers-merewether";
-import { route as roofersMerewetherHeightsRoute } from "./routes/roofers-merewether-heights";
-import { route as roofersNewLambtonRoute } from "./routes/roofers-new-lambton";
-import { route as roofersNewcastleEastRoute } from "./routes/roofers-newcastle-east";
-import { route as roofersRedheadRoute } from "./routes/roofers-redhead";
-import { route as roofersSoldiersPointRoute } from "./routes/roofers-soldiers-point";
-import { route as roofersStocktonRoute } from "./routes/roofers-stockton";
-import { route as roofersTheHillNewcastleRoute } from "./routes/roofers-the-hill-newcastle";
-import { route as roofersTheJunctionNewcastleRoute } from "./routes/roofers-the-junction-newcastle";
-import { route as roofersTighesHillRoute } from "./routes/roofers-tighes-hill";
-import { route as roofersValentineRoute } from "./routes/roofers-valentine";
-import { route as roofersWaratahRoute } from "./routes/roofers-waratah";
-import { route as roofersWarnersBayRoute } from "./routes/roofers-warners-bay";
-import { route as roofersWickhamRoute } from "./routes/roofers-wickham";
 
 import NotFound from "./pages/NotFound";
 
