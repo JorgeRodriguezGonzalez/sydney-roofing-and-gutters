@@ -200,6 +200,25 @@ import { route as guideHowMuchDoesItCostToCleanARoof2Route } from "./routes/guid
 import { route as guideHowMuchRainCanICollectFromMyRoofRainwaterHarvestingRoute } from "./routes/guides/how-much-rain-can-i-collect-from-my-roof-rainwater-harvesting";
 import { route as guideHowLongDoesARoofRestorationTake2Route } from "./routes/guides/how-long-does-a-roof-restoration-take-2";
 import { route as guideAreThereBenefitsOfMetalRoofingThatOutweighItsCostRoute } from "./routes/guides/are-there-benefits-of-metal-roofing-that-outweigh-its-cost";
+import { route as guide3WaysToCleanATileRoofRoute } from "./routes/guides/3-ways-to-clean-a-tile-roof";
+import { route as guide8RoofDesignIdeasForExtensionsRoute } from "./routes/guides/8-roof-design-ideas-for-extensions";
+import { route as guideCorrugatedMetalRoofingPricesRoute } from "./routes/guides/corrugated-metal-roofing-prices";
+import { route as guideHowMuchDoPatioCoversCosteRoute } from "./routes/guides/how-much-do-patio-covers-cost-in-2022";
+import { route as guideHowMuchDoesANewRoofCostHowToSaveRoute } from "./routes/guides/how-much-does-a-new-roof-cost-how-to-save-in-2023";
+import { route as guideHowMuchDoesAPergolaCosteRoute } from "./routes/guides/how-much-does-a-pergola-cost";
+import { route as guideHowMuchDoesItCostToRepairRoofLeaksInAustraliaRoute } from "./routes/guides/how-much-does-it-cost-to-repair-roof-leaks-in-australia";
+import { route as guideHowMuchItCostsToPaintYourRoofRoute } from "./routes/guides/how-much-it-costs-to-paint-your-roof";
+import { route as guideHowToBuildAPergolaAndRoofItFromStartToFinishRoute } from "./routes/guides/how-to-build-a-pergola-and-roof-it-from-start-to-finish";
+import { route as guideHowToBuildAPergolaAttachedToAHouseRoute } from "./routes/guides/how-to-build-a-pergola-attached-to-a-house";
+import { route as guideHowToBuildAPergolaFrameDiyRoute } from "./routes/guides/how-to-build-a-pergola-frame-diy";
+import { route as guideHowToInstallPostsAndBeamsForACarportRoute } from "./routes/guides/how-to-install-posts-and-beams-for-a-carport";
+import { route as guideHowToInstallPullDownAtticStairsRoute } from "./routes/guides/how-to-install-pull-down-attic-stairs";
+import { route as guideHowToReplaceAFasciaBoardStepsByStepsRoute } from "./routes/guides/how-to-replace-a-fascia-board-steps-by-steps";
+import { route as guideHowToSetUpPostSupportsForACarportRoute } from "./routes/guides/how-to-set-up-post-supports-for-a-carport";
+import { route as guideRoofPaintingCostsHowMuchDoesRoofCoatingCostRoute } from "./routes/guides/roof-painting-costs-how-much-does-roof-coating-cost";
+import { route as guideSafeAndEfficientInstallationOfManholeUnitRoute } from "./routes/guides/safe-and-efficient-installation-of-manhole-unit";
+import { route as guideSolarRoofVentilationForHomesAndShedsRoute } from "./routes/guides/solar-roof-ventilation-for-homes-and-sheds";
+import { route as guideWhatIsPolycarbonateRoofingRoute } from "./routes/guides/what-is-polycarbonate-roofing";
 
 // === SERVICE IMPORTS ===
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
@@ -520,6 +539,25 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       guideHowMuchRainCanICollectFromMyRoofRainwaterHarvestingRoute,
       guideHowLongDoesARoofRestorationTake2Route,
       guideAreThereBenefitsOfMetalRoofingThatOutweighItsCostRoute,
+      guide3WaysToCleanATileRoofRoute,
+      guide8RoofDesignIdeasForExtensionsRoute,
+      guideCorrugatedMetalRoofingPricesRoute,
+      guideHowMuchDoPatioCoversCosteRoute,
+      guideHowMuchDoesANewRoofCostHowToSaveRoute,
+      guideHowMuchDoesAPergolaCosteRoute,
+      guideHowMuchDoesItCostToRepairRoofLeaksInAustraliaRoute,
+      guideHowMuchItCostsToPaintYourRoofRoute,
+      guideHowToBuildAPergolaAndRoofItFromStartToFinishRoute,
+      guideHowToBuildAPergolaAttachedToAHouseRoute,
+      guideHowToBuildAPergolaFrameDiyRoute,
+      guideHowToInstallPostsAndBeamsForACarportRoute,
+      guideHowToInstallPullDownAtticStairsRoute,
+      guideHowToReplaceAFasciaBoardStepsByStepsRoute,
+      guideHowToSetUpPostSupportsForACarportRoute,
+      guideRoofPaintingCostsHowMuchDoesRoofCoatingCostRoute,
+      guideSafeAndEfficientInstallationOfManholeUnitRoute,
+      guideSolarRoofVentilationForHomesAndShedsRoute,
+      guideWhatIsPolycarbonateRoofingRoute,
 
       // === SERVICE ROUTES ===
       roofRepairsRoute,
