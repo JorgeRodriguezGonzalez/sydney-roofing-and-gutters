@@ -475,7 +475,7 @@ export function ServicePageTemplate({
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Our Guttering Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {content.relatedServices.map((s) => (
-              
+              <a
                 key={s.href}
                 href={s.href}
                 className="bg-white rounded-lg border shadow-sm p-6 hover:shadow-md transition-shadow group"
