@@ -180,6 +180,26 @@ import { route as guideHowLongDoesARoofLastRoute } from "./routes/guides/how-lon
 import { route as guideWhatToDoIfYourGuttersOrDownpipesAreBlockedRoute } from "./routes/guides/what-to-do-if-your-gutters-or-downpipes-are-blocked";
 import { route as guideChoosingBetweenColorbondRoofingColoursRoute } from "./routes/guides/choosing-between-colorbond-roofing-colours";
 import { route as guideColorbondVsTileRoofWhichIsBestForYourHomeRoute } from "./routes/guides/colorbond-vs-tile-roof-which-is-best-for-your-home";
+import { route as guideFasciasSoffitsAndRoofCarpentryRoute } from "./routes/guides/fascias-soffits-and-roof-carpentry";
+import { route as guideAustraliaStateByStateYourBestInsulationOptionsRoute } from "./routes/guides/australia-state-by-state-your-best-insulation-options";
+import { route as guideHowToMakeAmazingChristmasRooftopDisplaysRoute } from "./routes/guides/how-to-make-amazing-christmas-rooftop-displays";
+import { route as guideTheBestRoofingOptionsForSuburbanHomesWhichOneIsRightForYouRoute } from "./routes/guides/the-best-roofing-options-for-suburban-homes-which-one-is-right-for-you";
+import { route as guideHowToSafelyInspectYourRoofAfterAStormRoute } from "./routes/guides/how-to-safely-inspect-your-roof-after-a-storm";
+import { route as guideSignsItsTimeToReplaceYourRoofRoute } from "./routes/guides/signs-its-time-to-replace-your-roof";
+import { route as guideTheUltimateGuideToRoofBeddingAndPointingRoute } from "./routes/guides/the-ultimate-guide-to-roof-bedding-and-pointing";
+import { route as guideWhatAreTheSignsOfALeakingRoofRoute } from "./routes/guides/what-are-the-signs-of-a-leaking-roof";
+import { route as guideTopSignsOfStormDamageOnYourRoofRoute } from "./routes/guides/top-signs-of-storm-damage-on-your-roof";
+import { route as guideTheDesignEyeqVisualizerRoute } from "./routes/guides/the-design-eyeq-visualizer";
+import { route as guideReasonsWhyProperAtticVentilationIsImportantRoute } from "./routes/guides/reasons-why-proper-attic-ventilation-is-important-to-your-roof-and-home";
+import { route as guideShouldIRepairRoofOrReplaceItRoute } from "./routes/guides/should-i-repair-roof-or-replace-it";
+import { route as guideHowMuchDoesGutterCleaningCost2023PricingGuideRoute } from "./routes/guides/how-much-does-gutter-cleaning-cost-2023-pricing-guide";
+import { route as guideHowToEfficientlyCleanYourRoofGuttersRoute } from "./routes/guides/how-to-efficiently-clean-your-roof-gutters";
+import { route as guideRoofFlashingLeaksAndHowToPreventThemRoute } from "./routes/guides/roof-flashing-leaks-and-how-to-prevent-them";
+import { route as guideProblemsThatResultFromNotCleaningGuttersRoute } from "./routes/guides/problems-that-result-from-not-cleaning-gutters";
+import { route as guideHowMuchDoesItCostToCleanARoof2Route } from "./routes/guides/how-much-does-it-cost-to-clean-a-roof-2";
+import { route as guideHowMuchRainCanICollectFromMyRoofRainwaterHarvestingRoute } from "./routes/guides/how-much-rain-can-i-collect-from-my-roof-rainwater-harvesting";
+import { route as guideHowLongDoesARoofRestorationTake2Route } from "./routes/guides/how-long-does-a-roof-restoration-take-2";
+import { route as guideAreThereBenefitsOfMetalRoofingThatOutweighItsCostRoute } from "./routes/guides/are-there-benefits-of-metal-roofing-that-outweigh-its-cost";
 
 // === SERVICE IMPORTS ===
 import { route as roofRepairsRoute } from "./routes/roof-repairs";
@@ -480,6 +500,26 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       guideWhatToDoIfYourGuttersOrDownpipesAreBlockedRoute,
       guideChoosingBetweenColorbondRoofingColoursRoute,
       guideColorbondVsTileRoofWhichIsBestForYourHomeRoute,
+      guideFasciasSoffitsAndRoofCarpentryRoute,
+      guideAustraliaStateByStateYourBestInsulationOptionsRoute,
+      guideHowToMakeAmazingChristmasRooftopDisplaysRoute,
+      guideTheBestRoofingOptionsForSuburbanHomesWhichOneIsRightForYouRoute,
+      guideHowToSafelyInspectYourRoofAfterAStormRoute,
+      guideSignsItsTimeToReplaceYourRoofRoute,
+      guideTheUltimateGuideToRoofBeddingAndPointingRoute,
+      guideWhatAreTheSignsOfALeakingRoofRoute,
+      guideTopSignsOfStormDamageOnYourRoofRoute,
+      guideTheDesignEyeqVisualizerRoute,
+      guideReasonsWhyProperAtticVentilationIsImportantRoute,
+      guideShouldIRepairRoofOrReplaceItRoute,
+      guideHowMuchDoesGutterCleaningCost2023PricingGuideRoute,
+      guideHowToEfficientlyCleanYourRoofGuttersRoute,
+      guideRoofFlashingLeaksAndHowToPreventThemRoute,
+      guideProblemsThatResultFromNotCleaningGuttersRoute,
+      guideHowMuchDoesItCostToCleanARoof2Route,
+      guideHowMuchRainCanICollectFromMyRoofRainwaterHarvestingRoute,
+      guideHowLongDoesARoofRestorationTake2Route,
+      guideAreThereBenefitsOfMetalRoofingThatOutweighItsCostRoute,
 
       // === SERVICE ROUTES ===
       roofRepairsRoute,
