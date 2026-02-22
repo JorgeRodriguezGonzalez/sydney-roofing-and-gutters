@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
-import Testimonials from "@/components/testimonials";
+import Testimonials from "@/components/Testimonials";
 
 const DEFAULTS = {
   businessName: "Sydney Roofing & Gutters",
