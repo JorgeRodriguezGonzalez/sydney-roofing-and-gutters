@@ -48,7 +48,7 @@ function GuidesIndex() {
         <div className="container mx-auto px-7 lg:px-14 xl:px-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {visible.map((guide) => (
-              
+              <a
                 key={guide.slug}
                 href={`/guides/${guide.slug}/`}
                 className="bg-white rounded-lg border shadow-sm p-6 hover:shadow-md transition-shadow group flex flex-col"
