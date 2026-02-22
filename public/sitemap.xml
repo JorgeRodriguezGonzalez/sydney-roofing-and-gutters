@@ -5,619 +5,721 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://newcastlelocalroofers.com.au/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/about-us/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/about/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/blog/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/blog/roof-wind-damage-newcastle/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://newcastlelocalroofers.com.au/colorbond-installation/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/commercial-roofing-service/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://newcastlelocalroofers.com.au/commercial-roofing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/contact-us/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/contact/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/copper-half-round-gutters-and-downpipes/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/copper-standing-sean-roof/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/downpipe-installation/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/emergency-roof-repairs/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/flat-roof-systems/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/gallery/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/guides/a-guide-to-installing-a-metal-colorbond-roof/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/guides/how-much-does-it-cost-to-fix-a-roof-leak/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/gutter-repair/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/gutter-repairs/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/lead-apron-and-cover-flashing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/leak-detection/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/locations/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/metal-roofing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/new-roof-installation/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/privacy-policy/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/projects/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/re-roofing-sydney/</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/residential-metal-roofing/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/residential-roofing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/roof-cleaning-services/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-cleaning/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-coatings/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-dormers/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-drainage/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-fascia-board/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-flashing-installation/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-gutter-guards/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-inspection/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-inspections/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-installation/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-insulation-materials/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/roof-leak-detection-and-repair-sydney/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-maintenance-tips/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-maintenance/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/roof-painting-sydney/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-painting/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-repair-tools/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-repairs/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-replacement-cost/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-replacement/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-restoration-services/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-restoration/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-safety-equipment/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-sealing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-sheathing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-shingles/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-skylights/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-slope/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-soffits/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-storm-damage/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-tile-maintenance/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-trusses/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-underlayment/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-valley-repairs/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-vent-installation/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-ventilation-systems/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-warranty/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-waterproof-membrane/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-waterproofing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roof-with-lead-parapet-walls/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-adamstown-heights/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-bar-beach/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-carrington/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-catherine-hill-bay/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-coal-point/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-cooks-hill/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-fingal-bay/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-georgetown/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-hamilton-east/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-hamilton-south/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-hamilton/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-islington/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-jesmond/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-kotara/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-lambton/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-mayfield/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-merewether-heights/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-merewether/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-new-lambton/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-newcastle-east/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-redhead/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-soldiers-point/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-stockton/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-the-hill-newcastle/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-the-junction-newcastle/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-tighes-hill/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-valentine/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-waratah/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-warners-bay/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofers-wickham/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-contractors/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-inspection-checklist/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-leak-detection/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/roofing-marayong/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-material-costs/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-repair-kits/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-safety-harness/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/roofing-service/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/roofing-tiles-installation/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/services/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/shingle-roof-installation/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/skylight-repair/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/slate-roof-restoration-2/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/solar-roof-panels/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/standing-seam-roofing/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/svk-diamond-pattern-slates/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/svk-slate-roof/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://newcastlelocalroofers.com.au/terms-and-conditions/</loc>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://newcastlelocalroofers.com.au/terracote-ridge-2/</loc>
-    <lastmod>2025-10-29</lastmod>
+    <lastmod>2026-02-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

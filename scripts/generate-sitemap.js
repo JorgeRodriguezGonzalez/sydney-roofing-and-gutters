@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuración
-const DOMAIN = 'https://newcastlelocalroofers.com.au';
+const DOMAIN = 'https://sydneyroofingandgutters.com.au';
 const OUTPUT_PATH = path.join(__dirname, '../public/sitemap.xml');
 
 // Prioridades por tipo de página
