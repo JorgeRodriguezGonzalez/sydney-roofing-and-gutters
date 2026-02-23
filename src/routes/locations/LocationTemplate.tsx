@@ -14,6 +14,7 @@ import ContentBlock3 from "@/components/ContentBlock3";
 import ColorSwitchWidget from "@/components/ColorSwitchWidget";
 import BrandsSlider from "@/components/BrandsSlider";
 import locationsIndex from "@/data/locations-index.json";
+import areaSuburbs from "@/data/area-suburbs.json";
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ChevronDown, Phone, Calculator, Send } from "lucide-react";
@@ -665,7 +666,7 @@ export function LocationPageTemplate({
 
       <InlineCtaPill />
 
-      <NearbySuburbs currentSlug={config.slug} />
+      {AREA_SLUGS.has(config.slug) ? <AreaSuburbsList areaSlug={config.slug} /> : <NearbySuburbs currentSlug={config.slug} />}
 
       {/* Reutiliza tu bloque de 3 pasos */}
       <ContentBlock3 />
@@ -679,6 +680,35 @@ export function LocationPageTemplate({
   );
 }
 
+
+
+const AREA_SLUGS = new Set(Object.keys(areaSuburbs as Record<string, { name: string; suburbs: { suburb: string; slug: string }[] }>));
+
+function AreaSuburbsList({ areaSlug }: { areaSlug: string }) {
+  const data = (areaSuburbs as Record<string, { name: string; suburbs: { suburb: string; slug: string }[] }>)[areaSlug];
+  if (!data || data.suburbs.length === 0) return null;
+
+  return (
+    <section className="py-14 bg-[#F6F6F6]">
+      <div className="container mx-auto px-7 lg:px-14 xl:px-20">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+          Suburbs in {data.name} We Service
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+          {data.suburbs.map((loc: { slug: string; suburb: string }) => (
+            <a
+              key={loc.slug}
+              href={`/roofing-${loc.slug}/`}
+              className="bg-white rounded-lg border shadow-sm px-3 py-3 text-center hover:shadow-md transition-shadow group"
+            >
+              <div className="font-semibold text-sm group-hover:text-[#179DC2] transition-colors">{loc.suburb}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
 function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number) {
   const R = 6371;

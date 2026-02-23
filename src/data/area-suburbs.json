@@ -1,0 +1,1500 @@
+{
+  "eastern-suburbs": {
+    "name": "Eastern Suburbs",
+    "suburbs": [
+      {
+        "suburb": "Banksmeadow",
+        "slug": "banksmeadow"
+      },
+      {
+        "suburb": "Bellevue Hill",
+        "slug": "bellevue-hill"
+      },
+      {
+        "suburb": "Bondi",
+        "slug": "bondi"
+      },
+      {
+        "suburb": "Bondi Beach",
+        "slug": "bondi-beach"
+      },
+      {
+        "suburb": "Bondi Junction",
+        "slug": "bondi-junction"
+      },
+      {
+        "suburb": "Bronte",
+        "slug": "bronte"
+      },
+      {
+        "suburb": "Chifley",
+        "slug": "chifley"
+      },
+      {
+        "suburb": "Clovelly",
+        "slug": "clovelly"
+      },
+      {
+        "suburb": "Clovelly West",
+        "slug": "clovelly-west"
+      },
+      {
+        "suburb": "Coogee",
+        "slug": "coogee"
+      },
+      {
+        "suburb": "Daceyville",
+        "slug": "daceyville"
+      },
+      {
+        "suburb": "Darling Point",
+        "slug": "darling-point"
+      },
+      {
+        "suburb": "Double Bay",
+        "slug": "double-bay"
+      },
+      {
+        "suburb": "Dover Heights",
+        "slug": "dover-heights"
+      },
+      {
+        "suburb": "Hillsdale",
+        "slug": "hillsdale"
+      },
+      {
+        "suburb": "Kensington",
+        "slug": "kensington"
+      },
+      {
+        "suburb": "Kingsford",
+        "slug": "kingsford"
+      },
+      {
+        "suburb": "Maroubra",
+        "slug": "maroubra"
+      },
+      {
+        "suburb": "Matraville",
+        "slug": "matraville"
+      },
+      {
+        "suburb": "Randwick",
+        "slug": "randwick"
+      },
+      {
+        "suburb": "Vaucluse",
+        "slug": "vaucluse"
+      },
+      {
+        "suburb": "Waverley",
+        "slug": "waverley"
+      },
+      {
+        "suburb": "Zetland",
+        "slug": "zetland"
+      }
+    ]
+  },
+  "north-shore": {
+    "name": "North Shore",
+    "suburbs": [
+      {
+        "suburb": "Artarmon",
+        "slug": "artarmon"
+      },
+      {
+        "suburb": "Berowra Heights",
+        "slug": "berowra-heights"
+      },
+      {
+        "suburb": "Chatswood",
+        "slug": "chatswood"
+      },
+      {
+        "suburb": "Clontarf",
+        "slug": "clontarf"
+      },
+      {
+        "suburb": "Crows Nest",
+        "slug": "crows-nest"
+      },
+      {
+        "suburb": "Denistone",
+        "slug": "denistone"
+      },
+      {
+        "suburb": "Denistone East",
+        "slug": "denistone-east"
+      },
+      {
+        "suburb": "East Killara",
+        "slug": "east-killara"
+      },
+      {
+        "suburb": "East Lindfield",
+        "slug": "east-lindfield"
+      },
+      {
+        "suburb": "East Ryde",
+        "slug": "east-ryde"
+      },
+      {
+        "suburb": "Forestville",
+        "slug": "forestville"
+      },
+      {
+        "suburb": "Gladesville",
+        "slug": "gladesville"
+      },
+      {
+        "suburb": "Gordon",
+        "slug": "gordon"
+      },
+      {
+        "suburb": "Henley",
+        "slug": "henley"
+      },
+      {
+        "suburb": "Hunters Hill",
+        "slug": "hunters-hill"
+      },
+      {
+        "suburb": "Huntleys Cove",
+        "slug": "huntleys-cove"
+      },
+      {
+        "suburb": "Huntleys Point",
+        "slug": "huntleys-point"
+      },
+      {
+        "suburb": "Lane Cove",
+        "slug": "lane-cove"
+      },
+      {
+        "suburb": "Macquarie Park",
+        "slug": "macquarie-park"
+      },
+      {
+        "suburb": "Marsfield",
+        "slug": "marsfield"
+      },
+      {
+        "suburb": "Mortlake",
+        "slug": "mortlake"
+      },
+      {
+        "suburb": "North Ryde",
+        "slug": "north-ryde"
+      },
+      {
+        "suburb": "Riverview",
+        "slug": "riverview"
+      },
+      {
+        "suburb": "Ryde",
+        "slug": "ryde"
+      },
+      {
+        "suburb": "Turramurra",
+        "slug": "turramurra"
+      },
+      {
+        "suburb": "Wahroonga",
+        "slug": "wahroonga"
+      }
+    ]
+  },
+  "sydney-cbd": {
+    "name": "Sydney CBD",
+    "suburbs": [
+      {
+        "suburb": "Balmain",
+        "slug": "balmain"
+      },
+      {
+        "suburb": "Balmain East",
+        "slug": "balmain-east"
+      },
+      {
+        "suburb": "Barangaroo",
+        "slug": "barangaroo"
+      },
+      {
+        "suburb": "Birchgrove",
+        "slug": "birchgrove"
+      },
+      {
+        "suburb": "Chippendale",
+        "slug": "chippendale"
+      },
+      {
+        "suburb": "Cremorne",
+        "slug": "cremorne"
+      },
+      {
+        "suburb": "Cremorne Point",
+        "slug": "cremorne-point"
+      },
+      {
+        "suburb": "Darlinghurst",
+        "slug": "darlinghurst"
+      },
+      {
+        "suburb": "Darlington",
+        "slug": "darlington"
+      },
+      {
+        "suburb": "Dawn Fraser Pool",
+        "slug": "dawn-fraser-pool"
+      },
+      {
+        "suburb": "Drummoyne",
+        "slug": "drummoyne"
+      },
+      {
+        "suburb": "Elizabeth Bay",
+        "slug": "elizabeth-bay"
+      },
+      {
+        "suburb": "Eveleigh",
+        "slug": "eveleigh"
+      },
+      {
+        "suburb": "Glebe",
+        "slug": "glebe"
+      },
+      {
+        "suburb": "Haymarket",
+        "slug": "haymarket"
+      },
+      {
+        "suburb": "Kirribilli",
+        "slug": "kirribilli"
+      },
+      {
+        "suburb": "Mosman",
+        "slug": "mosman"
+      },
+      {
+        "suburb": "Neutral Bay",
+        "slug": "neutral-bay"
+      },
+      {
+        "suburb": "North Sydney",
+        "slug": "north-sydney"
+      },
+      {
+        "suburb": "Paddington",
+        "slug": "paddington"
+      },
+      {
+        "suburb": "Redfern",
+        "slug": "redfern"
+      },
+      {
+        "suburb": "Rozelle",
+        "slug": "rozelle"
+      },
+      {
+        "suburb": "Rushcutters Bay",
+        "slug": "rushcutters-bay"
+      },
+      {
+        "suburb": "Surry Hills",
+        "slug": "surry-hills"
+      },
+      {
+        "suburb": "Waterloo",
+        "slug": "waterloo"
+      },
+      {
+        "suburb": "Waverton",
+        "slug": "waverton"
+      }
+    ]
+  },
+  "northern-beaches": {
+    "name": "Northern Beaches",
+    "suburbs": [
+      {
+        "suburb": "Allambie Heights",
+        "slug": "allambie-heights"
+      },
+      {
+        "suburb": "Avalon Beach",
+        "slug": "avalon-beach"
+      },
+      {
+        "suburb": "Balgowlah",
+        "slug": "balgowlah"
+      },
+      {
+        "suburb": "Balgowlah Heights",
+        "slug": "balgowlah-heights"
+      },
+      {
+        "suburb": "Bayview",
+        "slug": "bayview"
+      },
+      {
+        "suburb": "Beacon Hill",
+        "slug": "beacon-hill"
+      },
+      {
+        "suburb": "Belrose",
+        "slug": "belrose"
+      },
+      {
+        "suburb": "Berowra",
+        "slug": "berowra"
+      },
+      {
+        "suburb": "Berowra Creek",
+        "slug": "berowra-creek"
+      },
+      {
+        "suburb": "Bilgola Beach",
+        "slug": "bilgola-beach"
+      },
+      {
+        "suburb": "Bilgola Plateau",
+        "slug": "bilgola-plateau"
+      },
+      {
+        "suburb": "Brooklyn",
+        "slug": "brooklyn"
+      },
+      {
+        "suburb": "Church Point",
+        "slug": "church-point"
+      },
+      {
+        "suburb": "Clareville",
+        "slug": "clareville"
+      },
+      {
+        "suburb": "Collaroy",
+        "slug": "collaroy"
+      },
+      {
+        "suburb": "Collaroy Plateau",
+        "slug": "collaroy-plateau"
+      },
+      {
+        "suburb": "Cowan",
+        "slug": "cowan"
+      },
+      {
+        "suburb": "Cromer",
+        "slug": "cromer"
+      },
+      {
+        "suburb": "Curl Curl",
+        "slug": "curl-curl"
+      },
+      {
+        "suburb": "Currawong Beach",
+        "slug": "currawong-beach"
+      },
+      {
+        "suburb": "Dee Why",
+        "slug": "dee-why"
+      },
+      {
+        "suburb": "Fairlight",
+        "slug": "fairlight"
+      },
+      {
+        "suburb": "Frenchs Forest",
+        "slug": "frenchs-forest"
+      },
+      {
+        "suburb": "Freshwater",
+        "slug": "freshwater"
+      },
+      {
+        "suburb": "Harbord",
+        "slug": "harbord"
+      },
+      {
+        "suburb": "Ingleside",
+        "slug": "ingleside"
+      }
+    ]
+  },
+  "st-george-area": {
+    "name": "St George Area",
+    "suburbs": [
+      {
+        "suburb": "Allawah",
+        "slug": "allawah"
+      },
+      {
+        "suburb": "Arncliffe",
+        "slug": "arncliffe"
+      },
+      {
+        "suburb": "Banksia",
+        "slug": "banksia"
+      },
+      {
+        "suburb": "Bankstown",
+        "slug": "bankstown"
+      },
+      {
+        "suburb": "Bankstown Aerodrome",
+        "slug": "bankstown-aerodrome"
+      },
+      {
+        "suburb": "Bardwell Park",
+        "slug": "bardwell-park"
+      },
+      {
+        "suburb": "Beverley Park",
+        "slug": "beverley-park"
+      },
+      {
+        "suburb": "Beverly Hills",
+        "slug": "beverly-hills"
+      },
+      {
+        "suburb": "Bexley",
+        "slug": "bexley"
+      },
+      {
+        "suburb": "Bexley North",
+        "slug": "bexley-north"
+      },
+      {
+        "suburb": "Blakehurst",
+        "slug": "blakehurst"
+      },
+      {
+        "suburb": "Brighton-Le-Sands",
+        "slug": "brighton-le-sands"
+      },
+      {
+        "suburb": "Carlton",
+        "slug": "carlton"
+      },
+      {
+        "suburb": "Clemton Park",
+        "slug": "clemton-park"
+      },
+      {
+        "suburb": "Condell Park",
+        "slug": "condell-park"
+      },
+      {
+        "suburb": "Connells Point",
+        "slug": "connells-point"
+      },
+      {
+        "suburb": "Dolls Point",
+        "slug": "dolls-point"
+      },
+      {
+        "suburb": "Hobbys Bay",
+        "slug": "hobbys-bay"
+      },
+      {
+        "suburb": "Hurstville",
+        "slug": "hurstville"
+      },
+      {
+        "suburb": "Hurstville Grove",
+        "slug": "hurstville-grove"
+      },
+      {
+        "suburb": "Kangaroo Point",
+        "slug": "kangaroo-point"
+      },
+      {
+        "suburb": "Kingsgrove",
+        "slug": "kingsgrove"
+      },
+      {
+        "suburb": "Kogarah",
+        "slug": "kogarah"
+      },
+      {
+        "suburb": "Kyeemagh",
+        "slug": "kyeemagh"
+      },
+      {
+        "suburb": "Mortdale",
+        "slug": "mortdale"
+      },
+      {
+        "suburb": "Rockdale",
+        "slug": "rockdale"
+      },
+      {
+        "suburb": "Roselands",
+        "slug": "roselands"
+      },
+      {
+        "suburb": "Sandringham",
+        "slug": "sandringham"
+      },
+      {
+        "suburb": "Taren Point",
+        "slug": "taren-point"
+      }
+    ]
+  },
+  "sutherland-shire": {
+    "name": "Sutherland Shire",
+    "suburbs": [
+      {
+        "suburb": "Alfords Point",
+        "slug": "alfords-point"
+      },
+      {
+        "suburb": "Bangor",
+        "slug": "bangor"
+      },
+      {
+        "suburb": "Barden Ridge",
+        "slug": "barden-ridge"
+      },
+      {
+        "suburb": "Bonnet Bay",
+        "slug": "bonnet-bay"
+      },
+      {
+        "suburb": "Caringbah",
+        "slug": "caringbah"
+      },
+      {
+        "suburb": "Como",
+        "slug": "como"
+      },
+      {
+        "suburb": "Cronulla",
+        "slug": "cronulla"
+      },
+      {
+        "suburb": "Dolans Bay",
+        "slug": "dolans-bay"
+      },
+      {
+        "suburb": "East Hills",
+        "slug": "east-hills"
+      },
+      {
+        "suburb": "Engadine",
+        "slug": "engadine"
+      },
+      {
+        "suburb": "Grays Point",
+        "slug": "grays-point"
+      },
+      {
+        "suburb": "Gymea",
+        "slug": "gymea"
+      },
+      {
+        "suburb": "Gymea Bay",
+        "slug": "gymea-bay"
+      },
+      {
+        "suburb": "Heathcote",
+        "slug": "heathcote"
+      },
+      {
+        "suburb": "Holsworthy",
+        "slug": "holsworthy"
+      },
+      {
+        "suburb": "Janali",
+        "slug": "janali"
+      },
+      {
+        "suburb": "Kareela",
+        "slug": "kareela"
+      },
+      {
+        "suburb": "Miranda",
+        "slug": "miranda"
+      },
+      {
+        "suburb": "Padstow",
+        "slug": "padstow"
+      },
+      {
+        "suburb": "Pleasure Point",
+        "slug": "pleasure-point"
+      },
+      {
+        "suburb": "Revesby",
+        "slug": "revesby"
+      },
+      {
+        "suburb": "Sandy Point",
+        "slug": "sandy-point"
+      },
+      {
+        "suburb": "Voyager Point",
+        "slug": "voyager-point"
+      },
+      {
+        "suburb": "Woolooware",
+        "slug": "woolooware"
+      },
+      {
+        "suburb": "Woronora Heights",
+        "slug": "woronora-heights"
+      }
+    ]
+  },
+  "south-west-sydney": {
+    "name": "South West Sydney",
+    "suburbs": [
+      {
+        "suburb": "Abbotsbury",
+        "slug": "abbotsbury"
+      },
+      {
+        "suburb": "Airds",
+        "slug": "airds"
+      },
+      {
+        "suburb": "Ambarvale",
+        "slug": "ambarvale"
+      },
+      {
+        "suburb": "Ashcroft",
+        "slug": "ashcroft"
+      },
+      {
+        "suburb": "Austral",
+        "slug": "austral"
+      },
+      {
+        "suburb": "Badgerys Creek",
+        "slug": "badgerys-creek"
+      },
+      {
+        "suburb": "Bardia",
+        "slug": "bardia"
+      },
+      {
+        "suburb": "Blair Athol",
+        "slug": "blair-athol"
+      },
+      {
+        "suburb": "Blairmount",
+        "slug": "blairmount"
+      },
+      {
+        "suburb": "Bonnyrigg",
+        "slug": "bonnyrigg"
+      },
+      {
+        "suburb": "Bonnyrigg Heights",
+        "slug": "bonnyrigg-heights"
+      },
+      {
+        "suburb": "Bossley Park",
+        "slug": "bossley-park"
+      },
+      {
+        "suburb": "Bow Bowing",
+        "slug": "bow-bowing"
+      },
+      {
+        "suburb": "Bradbury",
+        "slug": "bradbury"
+      },
+      {
+        "suburb": "Bringelly",
+        "slug": "bringelly"
+      },
+      {
+        "suburb": "Camden",
+        "slug": "camden"
+      },
+      {
+        "suburb": "Campbelltown",
+        "slug": "campbelltown"
+      },
+      {
+        "suburb": "Carnes Hill",
+        "slug": "carnes-hill"
+      },
+      {
+        "suburb": "Casula",
+        "slug": "casula"
+      },
+      {
+        "suburb": "Cecil Hills",
+        "slug": "cecil-hills"
+      },
+      {
+        "suburb": "Cecil Park",
+        "slug": "cecil-park"
+      },
+      {
+        "suburb": "Chipping Norton",
+        "slug": "chipping-norton"
+      },
+      {
+        "suburb": "Claymore",
+        "slug": "claymore"
+      },
+      {
+        "suburb": "Currans Hill",
+        "slug": "currans-hill"
+      },
+      {
+        "suburb": "Denham Court",
+        "slug": "denham-court"
+      },
+      {
+        "suburb": "Eagle Vale",
+        "slug": "eagle-vale"
+      },
+      {
+        "suburb": "Edensor Park",
+        "slug": "edensor-park"
+      },
+      {
+        "suburb": "Edmondson Park",
+        "slug": "edmondson-park"
+      },
+      {
+        "suburb": "Elderslie",
+        "slug": "elderslie"
+      },
+      {
+        "suburb": "Elizabeth Hills",
+        "slug": "elizabeth-hills"
+      },
+      {
+        "suburb": "Emu Heights",
+        "slug": "emu-heights"
+      },
+      {
+        "suburb": "Emu Plains",
+        "slug": "emu-plains"
+      },
+      {
+        "suburb": "Erskine Park",
+        "slug": "erskine-park"
+      },
+      {
+        "suburb": "Glen Alpine",
+        "slug": "glen-alpine"
+      },
+      {
+        "suburb": "Glenfield",
+        "slug": "glenfield"
+      },
+      {
+        "suburb": "Glenmore Park",
+        "slug": "glenmore-park"
+      },
+      {
+        "suburb": "Green Valley",
+        "slug": "green-valley"
+      },
+      {
+        "suburb": "Greendale",
+        "slug": "greendale"
+      },
+      {
+        "suburb": "Greenfield Park",
+        "slug": "greenfield-park"
+      },
+      {
+        "suburb": "Gregory Hills",
+        "slug": "gregory-hills"
+      },
+      {
+        "suburb": "Hammondville",
+        "slug": "hammondville"
+      },
+      {
+        "suburb": "Harrington Park",
+        "slug": "harrington-park"
+      },
+      {
+        "suburb": "Heckenberg",
+        "slug": "heckenberg"
+      },
+      {
+        "suburb": "Hinchinbrook",
+        "slug": "hinchinbrook"
+      },
+      {
+        "suburb": "Horningsea Park",
+        "slug": "horningsea-park"
+      },
+      {
+        "suburb": "Horsley Park",
+        "slug": "horsley-park"
+      },
+      {
+        "suburb": "Hoxton Park",
+        "slug": "hoxton-park"
+      },
+      {
+        "suburb": "Ingleburn",
+        "slug": "ingleburn"
+      },
+      {
+        "suburb": "Jamisontown",
+        "slug": "jamisontown"
+      },
+      {
+        "suburb": "Kearns",
+        "slug": "kearns"
+      },
+      {
+        "suburb": "Kemps Creek",
+        "slug": "kemps-creek"
+      },
+      {
+        "suburb": "Kentlyn",
+        "slug": "kentlyn"
+      },
+      {
+        "suburb": "Leppington",
+        "slug": "leppington"
+      },
+      {
+        "suburb": "Liverpool",
+        "slug": "liverpool"
+      },
+      {
+        "suburb": "Lurnea",
+        "slug": "lurnea"
+      },
+      {
+        "suburb": "Middleton Grange",
+        "slug": "middleton-grange"
+      },
+      {
+        "suburb": "Moorebank",
+        "slug": "moorebank"
+      },
+      {
+        "suburb": "Narellan",
+        "slug": "narellan"
+      },
+      {
+        "suburb": "Nelson",
+        "slug": "nelson"
+      },
+      {
+        "suburb": "Penrith",
+        "slug": "penrith"
+      },
+      {
+        "suburb": "Prestons",
+        "slug": "prestons"
+      },
+      {
+        "suburb": "Rossmore",
+        "slug": "rossmore"
+      },
+      {
+        "suburb": "Ruse",
+        "slug": "ruse"
+      },
+      {
+        "suburb": "Sadleir",
+        "slug": "sadleir"
+      },
+      {
+        "suburb": "South Western Sydney",
+        "slug": "south-western-sydney"
+      },
+      {
+        "suburb": "Spring Farm",
+        "slug": "spring-farm"
+      },
+      {
+        "suburb": "St Clair",
+        "slug": "st-clair"
+      },
+      {
+        "suburb": "Wallacia",
+        "slug": "wallacia"
+      },
+      {
+        "suburb": "Warwick Farm",
+        "slug": "warwick-farm"
+      },
+      {
+        "suburb": "Wattle Grove",
+        "slug": "wattle-grove"
+      },
+      {
+        "suburb": "West Hoxton",
+        "slug": "west-hoxton"
+      }
+    ]
+  },
+  "western-sydney": {
+    "name": "Western Sydney",
+    "suburbs": [
+      {
+        "suburb": "Auburn",
+        "slug": "auburn"
+      },
+      {
+        "suburb": "Bass Hill",
+        "slug": "bass-hill"
+      },
+      {
+        "suburb": "Berala",
+        "slug": "berala"
+      },
+      {
+        "suburb": "Birrong",
+        "slug": "birrong"
+      },
+      {
+        "suburb": "Carlingford",
+        "slug": "carlingford"
+      },
+      {
+        "suburb": "Chester Hill",
+        "slug": "chester-hill"
+      },
+      {
+        "suburb": "Denistone West",
+        "slug": "denistone-west"
+      },
+      {
+        "suburb": "Dundas",
+        "slug": "dundas"
+      },
+      {
+        "suburb": "Dundas Valley",
+        "slug": "dundas-valley"
+      },
+      {
+        "suburb": "Eastwood",
+        "slug": "eastwood"
+      },
+      {
+        "suburb": "Ermington",
+        "slug": "ermington"
+      },
+      {
+        "suburb": "Fairfield",
+        "slug": "fairfield"
+      },
+      {
+        "suburb": "Fairfield East",
+        "slug": "fairfield-east"
+      },
+      {
+        "suburb": "Fairfield Heights",
+        "slug": "fairfield-heights"
+      },
+      {
+        "suburb": "Fairfield West",
+        "slug": "fairfield-west"
+      },
+      {
+        "suburb": "Georges Hall",
+        "slug": "georges-hall"
+      },
+      {
+        "suburb": "Girraween",
+        "slug": "girraween"
+      },
+      {
+        "suburb": "Granville",
+        "slug": "granville"
+      },
+      {
+        "suburb": "Greystanes",
+        "slug": "greystanes"
+      },
+      {
+        "suburb": "Guildford",
+        "slug": "guildford"
+      },
+      {
+        "suburb": "Guildford West",
+        "slug": "guildford-west"
+      },
+      {
+        "suburb": "Harris Park",
+        "slug": "harris-park"
+      },
+      {
+        "suburb": "Holroyd",
+        "slug": "holroyd"
+      },
+      {
+        "suburb": "Homebush West",
+        "slug": "homebush-west"
+      },
+      {
+        "suburb": "Liberty Grove",
+        "slug": "liberty-grove"
+      },
+      {
+        "suburb": "Lidcombe",
+        "slug": "lidcombe"
+      },
+      {
+        "suburb": "Merrylands",
+        "slug": "merrylands"
+      },
+      {
+        "suburb": "Oatlands",
+        "slug": "oatlands"
+      },
+      {
+        "suburb": "Parramatta",
+        "slug": "parramatta"
+      },
+      {
+        "suburb": "Prospect",
+        "slug": "prospect"
+      },
+      {
+        "suburb": "Silverwater",
+        "slug": "silverwater"
+      },
+      {
+        "suburb": "Smithfield",
+        "slug": "smithfield"
+      },
+      {
+        "suburb": "Wentworth Point",
+        "slug": "wentworth-point"
+      },
+      {
+        "suburb": "West Ryde",
+        "slug": "west-ryde"
+      },
+      {
+        "suburb": "Wetherill Park",
+        "slug": "wetherill-park"
+      },
+      {
+        "suburb": "Woodpark",
+        "slug": "woodpark"
+      }
+    ]
+  },
+  "inner-west-sydney": {
+    "name": "Inner West Sydney",
+    "suburbs": [
+      {
+        "suburb": "Abbotsford",
+        "slug": "abbotsford"
+      },
+      {
+        "suburb": "Alexandria",
+        "slug": "alexandria"
+      },
+      {
+        "suburb": "Annandale",
+        "slug": "annandale"
+      },
+      {
+        "suburb": "Ashbury",
+        "slug": "ashbury"
+      },
+      {
+        "suburb": "Ashfield",
+        "slug": "ashfield"
+      },
+      {
+        "suburb": "Bardwell Valley",
+        "slug": "bardwell-valley"
+      },
+      {
+        "suburb": "Beaconsfield",
+        "slug": "beaconsfield"
+      },
+      {
+        "suburb": "Belfield",
+        "slug": "belfield"
+      },
+      {
+        "suburb": "Belmore",
+        "slug": "belmore"
+      },
+      {
+        "suburb": "Botany",
+        "slug": "botany"
+      },
+      {
+        "suburb": "Breakfast Point",
+        "slug": "breakfast-point"
+      },
+      {
+        "suburb": "Burwood",
+        "slug": "burwood"
+      },
+      {
+        "suburb": "Burwood Heights",
+        "slug": "burwood-heights"
+      },
+      {
+        "suburb": "Cabarita",
+        "slug": "cabarita"
+      },
+      {
+        "suburb": "Canada Bay",
+        "slug": "canada-bay"
+      },
+      {
+        "suburb": "Chiswick",
+        "slug": "chiswick"
+      },
+      {
+        "suburb": "Concord",
+        "slug": "concord"
+      },
+      {
+        "suburb": "Concord West",
+        "slug": "concord-west"
+      },
+      {
+        "suburb": "Croydon",
+        "slug": "croydon"
+      },
+      {
+        "suburb": "Croydon Park",
+        "slug": "croydon-park"
+      },
+      {
+        "suburb": "Dulwich Hill",
+        "slug": "dulwich-hill"
+      },
+      {
+        "suburb": "Earlwood",
+        "slug": "earlwood"
+      },
+      {
+        "suburb": "Enfield",
+        "slug": "enfield"
+      },
+      {
+        "suburb": "Enmore",
+        "slug": "enmore"
+      },
+      {
+        "suburb": "Erskineville",
+        "slug": "erskineville"
+      },
+      {
+        "suburb": "Five Dock",
+        "slug": "five-dock"
+      },
+      {
+        "suburb": "Flemington",
+        "slug": "flemington"
+      },
+      {
+        "suburb": "Greenacre",
+        "slug": "greenacre"
+      },
+      {
+        "suburb": "Haberfield",
+        "slug": "haberfield"
+      },
+      {
+        "suburb": "Homebush",
+        "slug": "homebush"
+      },
+      {
+        "suburb": "Hurlstone Park",
+        "slug": "hurlstone-park"
+      },
+      {
+        "suburb": "Leichhardt",
+        "slug": "leichhardt"
+      },
+      {
+        "suburb": "Lewisham",
+        "slug": "lewisham"
+      },
+      {
+        "suburb": "Lilyfield",
+        "slug": "lilyfield"
+      },
+      {
+        "suburb": "Marrickville",
+        "slug": "marrickville"
+      },
+      {
+        "suburb": "Mascot",
+        "slug": "mascot"
+      },
+      {
+        "suburb": "Newtown",
+        "slug": "newtown"
+      },
+      {
+        "suburb": "Petersham",
+        "slug": "petersham"
+      },
+      {
+        "suburb": "Rodd Point",
+        "slug": "rodd-point"
+      },
+      {
+        "suburb": "Russell Lea",
+        "slug": "russell-lea"
+      },
+      {
+        "suburb": "Stanmore",
+        "slug": "stanmore"
+      },
+      {
+        "suburb": "Strathfield",
+        "slug": "strathfield"
+      },
+      {
+        "suburb": "Summer Hill",
+        "slug": "summer-hill"
+      },
+      {
+        "suburb": "Wareemba",
+        "slug": "wareemba"
+      },
+      {
+        "suburb": "Wolli Creek",
+        "slug": "wolli-creek"
+      }
+    ]
+  },
+  "hills-district": {
+    "name": "Hills District",
+    "suburbs": [
+      {
+        "suburb": "Acacia Gardens",
+        "slug": "acacia-gardens"
+      },
+      {
+        "suburb": "Agnes Banks",
+        "slug": "agnes-banks"
+      },
+      {
+        "suburb": "Annangrove",
+        "slug": "annangrove"
+      },
+      {
+        "suburb": "Arcadia",
+        "slug": "arcadia"
+      },
+      {
+        "suburb": "Arndell Park",
+        "slug": "arndell-park"
+      },
+      {
+        "suburb": "Asquith",
+        "slug": "asquith"
+      },
+      {
+        "suburb": "Baulkham Hills",
+        "slug": "baulkham-hills"
+      },
+      {
+        "suburb": "Beaumont Hills",
+        "slug": "beaumont-hills"
+      },
+      {
+        "suburb": "Beecroft",
+        "slug": "beecroft"
+      },
+      {
+        "suburb": "Bella Vista",
+        "slug": "bella-vista"
+      },
+      {
+        "suburb": "Berkshire Park",
+        "slug": "berkshire-park"
+      },
+      {
+        "suburb": "Berowra Waters",
+        "slug": "berowra-waters"
+      },
+      {
+        "suburb": "Berrilee",
+        "slug": "berrilee"
+      },
+      {
+        "suburb": "Bidwill",
+        "slug": "bidwill"
+      },
+      {
+        "suburb": "Blackett",
+        "slug": "blackett"
+      },
+      {
+        "suburb": "Blacktown",
+        "slug": "blacktown"
+      },
+      {
+        "suburb": "Bligh Park",
+        "slug": "bligh-park"
+      },
+      {
+        "suburb": "Box Hill",
+        "slug": "box-hill"
+      },
+      {
+        "suburb": "Castle Hill",
+        "slug": "castle-hill"
+      },
+      {
+        "suburb": "Cheltenham",
+        "slug": "cheltenham"
+      },
+      {
+        "suburb": "Cherrybrook",
+        "slug": "cherrybrook"
+      },
+      {
+        "suburb": "Clarendon",
+        "slug": "clarendon"
+      },
+      {
+        "suburb": "Colyton",
+        "slug": "colyton"
+      },
+      {
+        "suburb": "Cornwallis",
+        "slug": "cornwallis"
+      },
+      {
+        "suburb": "Dean Park",
+        "slug": "dean-park"
+      },
+      {
+        "suburb": "Dharruk",
+        "slug": "dharruk"
+      },
+      {
+        "suburb": "Dural",
+        "slug": "dural"
+      },
+      {
+        "suburb": "Emerton",
+        "slug": "emerton"
+      },
+      {
+        "suburb": "Epping",
+        "slug": "epping"
+      },
+      {
+        "suburb": "Fiddletown",
+        "slug": "fiddletown"
+      },
+      {
+        "suburb": "Galston",
+        "slug": "galston"
+      },
+      {
+        "suburb": "Glendenning",
+        "slug": "glendenning"
+      },
+      {
+        "suburb": "Glenhaven",
+        "slug": "glenhaven"
+      },
+      {
+        "suburb": "Glenwood",
+        "slug": "glenwood"
+      },
+      {
+        "suburb": "Hebersham",
+        "slug": "hebersham"
+      },
+      {
+        "suburb": "Hornsby",
+        "slug": "hornsby"
+      },
+      {
+        "suburb": "Hornsby Heights",
+        "slug": "hornsby-heights"
+      },
+      {
+        "suburb": "Huntingwood",
+        "slug": "huntingwood"
+      },
+      {
+        "suburb": "Jordan Springs",
+        "slug": "jordan-springs"
+      },
+      {
+        "suburb": "Kellyville",
+        "slug": "kellyville"
+      },
+      {
+        "suburb": "Kenthurst",
+        "slug": "kenthurst"
+      },
+      {
+        "suburb": "Kings Park",
+        "slug": "kings-park"
+      },
+      {
+        "suburb": "Maraylya",
+        "slug": "maraylya"
+      },
+      {
+        "suburb": "Middle Dural",
+        "slug": "middle-dural"
+      },
+      {
+        "suburb": "Minchinbury",
+        "slug": "minchinbury"
+      },
+      {
+        "suburb": "North Rocks",
+        "slug": "north-rocks"
+      },
+      {
+        "suburb": "Northmead",
+        "slug": "northmead"
+      },
+      {
+        "suburb": "Pennant Hills",
+        "slug": "pennant-hills"
+      },
+      {
+        "suburb": "Quakers Hill",
+        "slug": "quakers-hill"
+      },
+      {
+        "suburb": "Riverstone",
+        "slug": "riverstone"
+      },
+      {
+        "suburb": "Rouse Hill",
+        "slug": "rouse-hill"
+      },
+      {
+        "suburb": "Seven Hills",
+        "slug": "seven-hills"
+      },
+      {
+        "suburb": "St Marys",
+        "slug": "st-marys"
+      },
+      {
+        "suburb": "Thornleigh",
+        "slug": "thornleigh"
+      },
+      {
+        "suburb": "West Pennant Hills",
+        "slug": "west-pennant-hills"
+      }
+    ]
+  }
+}
