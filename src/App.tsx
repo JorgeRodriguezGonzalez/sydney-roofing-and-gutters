@@ -156,6 +156,237 @@ import { route as roofingWoodparkRoute } from "./routes/locations/woodpark";
 import { route as roofingWooloowareRoute } from "./routes/locations/woolooware";
 import { route as roofingWoronoraHeightsRoute } from "./routes/locations/woronora-heights";
 import { route as roofingZetlandRoute } from "./routes/locations/zetland";
+import { route as locBeaconHillRoute } from "./routes/locations/beacon-hill";
+import { route as locBeaconsfieldRoute } from "./routes/locations/beaconsfield";
+import { route as locBeecroftRoute } from "./routes/locations/beecroft";
+import { route as locBelfieldRoute } from "./routes/locations/belfield";
+import { route as locBellaVistaRoute } from "./routes/locations/bella-vista";
+import { route as locBellevueHillRoute } from "./routes/locations/bellevue-hill";
+import { route as locBelmoreRoute } from "./routes/locations/belmore";
+import { route as locBelroseRoute } from "./routes/locations/belrose";
+import { route as locBeralaRoute } from "./routes/locations/berala";
+import { route as locBerkshireParkRoute } from "./routes/locations/berkshire-park";
+import { route as locBerowraCreekRoute } from "./routes/locations/berowra-creek";
+import { route as locBerowraHeightsRoute } from "./routes/locations/berowra-heights";
+import { route as locBerowraWatersRoute } from "./routes/locations/berowra-waters";
+import { route as locBerowraRoute } from "./routes/locations/berowra";
+import { route as locBerrileeRoute } from "./routes/locations/berrilee";
+import { route as locBeverleyParkRoute } from "./routes/locations/beverley-park";
+import { route as locBeverlyHillsRoute } from "./routes/locations/beverly-hills";
+import { route as locBexleyNorthRoute } from "./routes/locations/bexley-north";
+import { route as locBexleyRoute } from "./routes/locations/bexley";
+import { route as locBidwillRoute } from "./routes/locations/bidwill";
+import { route as locBilgolaBeachRoute } from "./routes/locations/bilgola-beach";
+import { route as locBilgolaPlateauRoute } from "./routes/locations/bilgola-plateau";
+import { route as locBirchgroveRoute } from "./routes/locations/birchgrove";
+import { route as locBirrongRoute } from "./routes/locations/birrong";
+import { route as locBlackettRoute } from "./routes/locations/blackett";
+import { route as locBlairAtholRoute } from "./routes/locations/blair-athol";
+import { route as locBlairmountRoute } from "./routes/locations/blairmount";
+import { route as locBlakehurstRoute } from "./routes/locations/blakehurst";
+import { route as locBlighParkRoute } from "./routes/locations/bligh-park";
+import { route as locBondiBeachRoute } from "./routes/locations/bondi-beach";
+import { route as locBondiJunctionRoute } from "./routes/locations/bondi-junction";
+import { route as locBondiRoute } from "./routes/locations/bondi";
+import { route as locBonnetBayRoute } from "./routes/locations/bonnet-bay";
+import { route as locBonnyriggHeightsRoute } from "./routes/locations/bonnyrigg-heights";
+import { route as locBonnyriggRoute } from "./routes/locations/bonnyrigg";
+import { route as locBossleyParkRoute } from "./routes/locations/bossley-park";
+import { route as locBotanyRoute } from "./routes/locations/botany";
+import { route as locBowBowingRoute } from "./routes/locations/bow-bowing";
+import { route as locBoxHillRoute } from "./routes/locations/box-hill";
+import { route as locBradburyRoute } from "./routes/locations/bradbury";
+import { route as locBreakfastPointRoute } from "./routes/locations/breakfast-point";
+import { route as locBrightonLeSandsRoute } from "./routes/locations/brighton-le-sands";
+import { route as locBringellyRoute } from "./routes/locations/bringelly";
+import { route as locBronteRoute } from "./routes/locations/bronte";
+import { route as locBrooklynRoute } from "./routes/locations/brooklyn";
+import { route as locBurwoodHeightsRoute } from "./routes/locations/burwood-heights";
+import { route as locBurwoodRoute } from "./routes/locations/burwood";
+import { route as locCabaritaRoute } from "./routes/locations/cabarita";
+import { route as locCamdenRoute } from "./routes/locations/camden";
+import { route as locCampbelltownRoute } from "./routes/locations/campbelltown";
+import { route as locCanadaBayRoute } from "./routes/locations/canada-bay";
+import { route as locCaringbahRoute } from "./routes/locations/caringbah";
+import { route as locCarlingfordRoute } from "./routes/locations/carlingford";
+import { route as locCarltonRoute } from "./routes/locations/carlton";
+import { route as locCarnesHillRoute } from "./routes/locations/carnes-hill";
+import { route as locCasulaRoute } from "./routes/locations/casula";
+import { route as locCecilHillsRoute } from "./routes/locations/cecil-hills";
+import { route as locCecilParkRoute } from "./routes/locations/cecil-park";
+import { route as locCheltenhamRoute } from "./routes/locations/cheltenham";
+import { route as locCherrybrookRoute } from "./routes/locations/cherrybrook";
+import { route as locChesterHillRoute } from "./routes/locations/chester-hill";
+import { route as locChifleyRoute } from "./routes/locations/chifley";
+import { route as locChippendaleRoute } from "./routes/locations/chippendale";
+import { route as locChippingNortonRoute } from "./routes/locations/chipping-norton";
+import { route as locChiswickRoute } from "./routes/locations/chiswick";
+import { route as locChurchPointRoute } from "./routes/locations/church-point";
+import { route as locClarendonRoute } from "./routes/locations/clarendon";
+import { route as locClarevilleRoute } from "./routes/locations/clareville";
+import { route as locClaymoreRoute } from "./routes/locations/claymore";
+import { route as locClemtonParkRoute } from "./routes/locations/clemton-park";
+import { route as locClontarfRoute } from "./routes/locations/clontarf";
+import { route as locClovellyWestRoute } from "./routes/locations/clovelly-west";
+import { route as locClovellyRoute } from "./routes/locations/clovelly";
+import { route as locCollaroyPlateauRoute } from "./routes/locations/collaroy-plateau";
+import { route as locCollaroyRoute } from "./routes/locations/collaroy";
+import { route as locColytonRoute } from "./routes/locations/colyton";
+import { route as locComoRoute } from "./routes/locations/como";
+import { route as locConcordWestRoute } from "./routes/locations/concord-west";
+import { route as locConcordRoute } from "./routes/locations/concord";
+import { route as locCondellParkRoute } from "./routes/locations/condell-park";
+import { route as locConnellsPointRoute } from "./routes/locations/connells-point";
+import { route as locCoogeeRoute } from "./routes/locations/coogee";
+import { route as locCornwallisRoute } from "./routes/locations/cornwallis";
+import { route as locCowanRoute } from "./routes/locations/cowan";
+import { route as locCremornePointRoute } from "./routes/locations/cremorne-point";
+import { route as locCremorneRoute } from "./routes/locations/cremorne";
+import { route as locCromerRoute } from "./routes/locations/cromer";
+import { route as locCronullaRoute } from "./routes/locations/cronulla";
+import { route as locCroydonParkRoute } from "./routes/locations/croydon-park";
+import { route as locCroydonRoute } from "./routes/locations/croydon";
+import { route as locCurlCurlRoute } from "./routes/locations/curl-curl";
+import { route as locCurransHillRoute } from "./routes/locations/currans-hill";
+import { route as locCurrawongBeachRoute } from "./routes/locations/currawong-beach";
+import { route as locDaceyvilleRoute } from "./routes/locations/daceyville";
+import { route as locDarlingPointRoute } from "./routes/locations/darling-point";
+import { route as locDarlinghurstRoute } from "./routes/locations/darlinghurst";
+import { route as locDarlingtonRoute } from "./routes/locations/darlington";
+import { route as locDawnFraserPoolRoute } from "./routes/locations/dawn-fraser-pool";
+import { route as locDeanParkRoute } from "./routes/locations/dean-park";
+import { route as locDeeWhyRoute } from "./routes/locations/dee-why";
+import { route as locDenhamCourtRoute } from "./routes/locations/denham-court";
+import { route as locDenistoneEastRoute } from "./routes/locations/denistone-east";
+import { route as locDenistoneWestRoute } from "./routes/locations/denistone-west";
+import { route as locDenistoneRoute } from "./routes/locations/denistone";
+import { route as locDharrukRoute } from "./routes/locations/dharruk";
+import { route as locDolansBayRoute } from "./routes/locations/dolans-bay";
+import { route as locDollsPointRoute } from "./routes/locations/dolls-point";
+import { route as locDoubleBayRoute } from "./routes/locations/double-bay";
+import { route as locDoverHeightsRoute } from "./routes/locations/dover-heights";
+import { route as locDrummoyneRoute } from "./routes/locations/drummoyne";
+import { route as locDulwichHillRoute } from "./routes/locations/dulwich-hill";
+import { route as locDundasValleyRoute } from "./routes/locations/dundas-valley";
+import { route as locDundasRoute } from "./routes/locations/dundas";
+import { route as locEagleValeRoute } from "./routes/locations/eagle-vale";
+import { route as locEarlwoodRoute } from "./routes/locations/earlwood";
+import { route as locEastHillsRoute } from "./routes/locations/east-hills";
+import { route as locEastKillaraRoute } from "./routes/locations/east-killara";
+import { route as locEastLindfieldRoute } from "./routes/locations/east-lindfield";
+import { route as locEastRydeRoute } from "./routes/locations/east-ryde";
+import { route as locEdensorParkRoute } from "./routes/locations/edensor-park";
+import { route as locEdmondsonParkRoute } from "./routes/locations/edmondson-park";
+import { route as locElderslieRoute } from "./routes/locations/elderslie";
+import { route as locElizabethBayRoute } from "./routes/locations/elizabeth-bay";
+import { route as locElizabethHillsRoute } from "./routes/locations/elizabeth-hills";
+import { route as locEmertonRoute } from "./routes/locations/emerton";
+import { route as locEmuHeightsRoute } from "./routes/locations/emu-heights";
+import { route as locEmuPlainsRoute } from "./routes/locations/emu-plains";
+import { route as locEnfieldRoute } from "./routes/locations/enfield";
+import { route as locEngadineRoute } from "./routes/locations/engadine";
+import { route as locEnmoreRoute } from "./routes/locations/enmore";
+import { route as locEppingRoute } from "./routes/locations/epping";
+import { route as locErmingtonRoute } from "./routes/locations/ermington";
+import { route as locErskineParkRoute } from "./routes/locations/erskine-park";
+import { route as locErskinevilleRoute } from "./routes/locations/erskineville";
+import { route as locEveleighRoute } from "./routes/locations/eveleigh";
+import { route as locFairfieldEastRoute } from "./routes/locations/fairfield-east";
+import { route as locFairfieldHeightsRoute } from "./routes/locations/fairfield-heights";
+import { route as locFairfieldWestRoute } from "./routes/locations/fairfield-west";
+import { route as locFairfieldRoute } from "./routes/locations/fairfield";
+import { route as locFairlightRoute } from "./routes/locations/fairlight";
+import { route as locFiddletownRoute } from "./routes/locations/fiddletown";
+import { route as locFiveDockRoute } from "./routes/locations/five-dock";
+import { route as locFlemingtonRoute } from "./routes/locations/flemington";
+import { route as locForestvilleRoute } from "./routes/locations/forestville";
+import { route as locFrenchsForestRoute } from "./routes/locations/frenchs-forest";
+import { route as locFreshwaterRoute } from "./routes/locations/freshwater";
+import { route as locGalstonRoute } from "./routes/locations/galston";
+import { route as locGeorgesHallRoute } from "./routes/locations/georges-hall";
+import { route as locGirraweenRoute } from "./routes/locations/girraween";
+import { route as locGladesvilleRoute } from "./routes/locations/gladesville";
+import { route as locGlenAlpineRoute } from "./routes/locations/glen-alpine";
+import { route as locGlendenningRoute } from "./routes/locations/glendenning";
+import { route as locGlenfieldRoute } from "./routes/locations/glenfield";
+import { route as locGlenmoreParkRoute } from "./routes/locations/glenmore-park";
+import { route as locGlenwoodRoute } from "./routes/locations/glenwood";
+import { route as locGordonRoute } from "./routes/locations/gordon";
+import { route as locGranvilleRoute } from "./routes/locations/granville";
+import { route as locGraysPointRoute } from "./routes/locations/grays-point";
+import { route as locGreenValleyRoute } from "./routes/locations/green-valley";
+import { route as locGreenacreRoute } from "./routes/locations/greenacre";
+import { route as locGreendaleRoute } from "./routes/locations/greendale";
+import { route as locGreenfieldParkRoute } from "./routes/locations/greenfield-park";
+import { route as locGregoryHillsRoute } from "./routes/locations/gregory-hills";
+import { route as locGreystanesRoute } from "./routes/locations/greystanes";
+import { route as locGuildfordWestRoute } from "./routes/locations/guildford-west";
+import { route as locGuildfordRoute } from "./routes/locations/guildford";
+import { route as locGymeaBayRoute } from "./routes/locations/gymea-bay";
+import { route as locGymeaRoute } from "./routes/locations/gymea";
+import { route as locHaberfieldRoute } from "./routes/locations/haberfield";
+import { route as locHammondvilleRoute } from "./routes/locations/hammondville";
+import { route as locHarbordRoute } from "./routes/locations/harbord";
+import { route as locHarringtonParkRoute } from "./routes/locations/harrington-park";
+import { route as locHarrisParkRoute } from "./routes/locations/harris-park";
+import { route as locHaymarketRoute } from "./routes/locations/haymarket";
+import { route as locHeathcoteRoute } from "./routes/locations/heathcote";
+import { route as locHebershamRoute } from "./routes/locations/hebersham";
+import { route as locHeckenbergRoute } from "./routes/locations/heckenberg";
+import { route as locHenleyRoute } from "./routes/locations/henley";
+import { route as locHillsdaleRoute } from "./routes/locations/hillsdale";
+import { route as locHinchinbrookRoute } from "./routes/locations/hinchinbrook";
+import { route as locHobbysBayRoute } from "./routes/locations/hobbys-bay";
+import { route as locHolroydRoute } from "./routes/locations/holroyd";
+import { route as locHolsworthyRoute } from "./routes/locations/holsworthy";
+import { route as locHomebushWestRoute } from "./routes/locations/homebush-west";
+import { route as locHomebushRoute } from "./routes/locations/homebush";
+import { route as locHorningseaParkRoute } from "./routes/locations/horningsea-park";
+import { route as locHornsbyHeightsRoute } from "./routes/locations/hornsby-heights";
+import { route as locHornsbyRoute } from "./routes/locations/hornsby";
+import { route as locHorsleyParkRoute } from "./routes/locations/horsley-park";
+import { route as locHoxtonParkRoute } from "./routes/locations/hoxton-park";
+import { route as locHuntersHillRoute } from "./routes/locations/hunters-hill";
+import { route as locHuntingwoodRoute } from "./routes/locations/huntingwood";
+import { route as locHuntleysCoveRoute } from "./routes/locations/huntleys-cove";
+import { route as locHuntleysPointRoute } from "./routes/locations/huntleys-point";
+import { route as locHurlstoneParkRoute } from "./routes/locations/hurlstone-park";
+import { route as locHurstvilleGroveRoute } from "./routes/locations/hurstville-grove";
+import { route as locHurstvilleRoute } from "./routes/locations/hurstville";
+import { route as locIngleburnRoute } from "./routes/locations/ingleburn";
+import { route as locInglesideRoute } from "./routes/locations/ingleside";
+import { route as locJamisontownRoute } from "./routes/locations/jamisontown";
+import { route as locJanaliRoute } from "./routes/locations/janali";
+import { route as locJordanSpringsRoute } from "./routes/locations/jordan-springs";
+import { route as locKangarooPointRoute } from "./routes/locations/kangaroo-point";
+import { route as locKareelaRoute } from "./routes/locations/kareela";
+import { route as locKearnsRoute } from "./routes/locations/kearns";
+import { route as locKempsCreekRoute } from "./routes/locations/kemps-creek";
+import { route as locKensingtonRoute } from "./routes/locations/kensington";
+import { route as locKenthurstRoute } from "./routes/locations/kenthurst";
+import { route as locKentlynRoute } from "./routes/locations/kentlyn";
+import { route as locKingsParkRoute } from "./routes/locations/kings-park";
+import { route as locKingsfordRoute } from "./routes/locations/kingsford";
+import { route as locKingsgroveRoute } from "./routes/locations/kingsgrove";
+import { route as locKirribilliRoute } from "./routes/locations/kirribilli";
+import { route as locKogarahRoute } from "./routes/locations/kogarah";
+import { route as locKyeemaghRoute } from "./routes/locations/kyeemagh";
+import { route as locLaneCoveRoute } from "./routes/locations/lane-cove";
+import { route as locLeichhardtRoute } from "./routes/locations/leichhardt";
+import { route as locLeppingtonRoute } from "./routes/locations/leppington";
+import { route as locLewishamRoute } from "./routes/locations/lewisham";
+import { route as locLibertyGroveRoute } from "./routes/locations/liberty-grove";
+import { route as locLidcombeRoute } from "./routes/locations/lidcombe";
+import { route as locLilyfieldRoute } from "./routes/locations/lilyfield";
+import { route as locLiverpoolRoute } from "./routes/locations/liverpool";
+import { route as locLurneaRoute } from "./routes/locations/lurnea";
+import { route as locMacquarieParkRoute } from "./routes/locations/macquarie-park";
+import { route as locMaraylyaRoute } from "./routes/locations/maraylya";
+import { route as locMarrickvilleRoute } from "./routes/locations/marrickville";
+import { route as locMarsfieldRoute } from "./routes/locations/marsfield";
+import { route as locMascotRoute } from "./routes/locations/mascot";
+import { route as locMatravilleRoute } from "./routes/locations/matraville";
+import { route as locMerrylandsRoute } from "./routes/locations/merrylands";
 
 // === GUIDE IMPORTS ===
 import { route as guideRoofLeakCostRoute } from "./routes/guides/how-much-does-it-cost-to-fix-a-roof-leak";
@@ -710,6 +941,237 @@ guideAustralianRoofingVsAmericanRoofingRoute,
       galleryRoute,
       projectsRoute,
       locationsRoute,
+      locBeaconHillRoute,
+      locBeaconsfieldRoute,
+      locBeecroftRoute,
+      locBelfieldRoute,
+      locBellaVistaRoute,
+      locBellevueHillRoute,
+      locBelmoreRoute,
+      locBelroseRoute,
+      locBeralaRoute,
+      locBerkshireParkRoute,
+      locBerowraCreekRoute,
+      locBerowraHeightsRoute,
+      locBerowraWatersRoute,
+      locBerowraRoute,
+      locBerrileeRoute,
+      locBeverleyParkRoute,
+      locBeverlyHillsRoute,
+      locBexleyNorthRoute,
+      locBexleyRoute,
+      locBidwillRoute,
+      locBilgolaBeachRoute,
+      locBilgolaPlateauRoute,
+      locBirchgroveRoute,
+      locBirrongRoute,
+      locBlackettRoute,
+      locBlairAtholRoute,
+      locBlairmountRoute,
+      locBlakehurstRoute,
+      locBlighParkRoute,
+      locBondiBeachRoute,
+      locBondiJunctionRoute,
+      locBondiRoute,
+      locBonnetBayRoute,
+      locBonnyriggHeightsRoute,
+      locBonnyriggRoute,
+      locBossleyParkRoute,
+      locBotanyRoute,
+      locBowBowingRoute,
+      locBoxHillRoute,
+      locBradburyRoute,
+      locBreakfastPointRoute,
+      locBrightonLeSandsRoute,
+      locBringellyRoute,
+      locBronteRoute,
+      locBrooklynRoute,
+      locBurwoodHeightsRoute,
+      locBurwoodRoute,
+      locCabaritaRoute,
+      locCamdenRoute,
+      locCampbelltownRoute,
+      locCanadaBayRoute,
+      locCaringbahRoute,
+      locCarlingfordRoute,
+      locCarltonRoute,
+      locCarnesHillRoute,
+      locCasulaRoute,
+      locCecilHillsRoute,
+      locCecilParkRoute,
+      locCheltenhamRoute,
+      locCherrybrookRoute,
+      locChesterHillRoute,
+      locChifleyRoute,
+      locChippendaleRoute,
+      locChippingNortonRoute,
+      locChiswickRoute,
+      locChurchPointRoute,
+      locClarendonRoute,
+      locClarevilleRoute,
+      locClaymoreRoute,
+      locClemtonParkRoute,
+      locClontarfRoute,
+      locClovellyWestRoute,
+      locClovellyRoute,
+      locCollaroyPlateauRoute,
+      locCollaroyRoute,
+      locColytonRoute,
+      locComoRoute,
+      locConcordWestRoute,
+      locConcordRoute,
+      locCondellParkRoute,
+      locConnellsPointRoute,
+      locCoogeeRoute,
+      locCornwallisRoute,
+      locCowanRoute,
+      locCremornePointRoute,
+      locCremorneRoute,
+      locCromerRoute,
+      locCronullaRoute,
+      locCroydonParkRoute,
+      locCroydonRoute,
+      locCurlCurlRoute,
+      locCurransHillRoute,
+      locCurrawongBeachRoute,
+      locDaceyvilleRoute,
+      locDarlingPointRoute,
+      locDarlinghurstRoute,
+      locDarlingtonRoute,
+      locDawnFraserPoolRoute,
+      locDeanParkRoute,
+      locDeeWhyRoute,
+      locDenhamCourtRoute,
+      locDenistoneEastRoute,
+      locDenistoneWestRoute,
+      locDenistoneRoute,
+      locDharrukRoute,
+      locDolansBayRoute,
+      locDollsPointRoute,
+      locDoubleBayRoute,
+      locDoverHeightsRoute,
+      locDrummoyneRoute,
+      locDulwichHillRoute,
+      locDundasValleyRoute,
+      locDundasRoute,
+      locEagleValeRoute,
+      locEarlwoodRoute,
+      locEastHillsRoute,
+      locEastKillaraRoute,
+      locEastLindfieldRoute,
+      locEastRydeRoute,
+      locEdensorParkRoute,
+      locEdmondsonParkRoute,
+      locElderslieRoute,
+      locElizabethBayRoute,
+      locElizabethHillsRoute,
+      locEmertonRoute,
+      locEmuHeightsRoute,
+      locEmuPlainsRoute,
+      locEnfieldRoute,
+      locEngadineRoute,
+      locEnmoreRoute,
+      locEppingRoute,
+      locErmingtonRoute,
+      locErskineParkRoute,
+      locErskinevilleRoute,
+      locEveleighRoute,
+      locFairfieldEastRoute,
+      locFairfieldHeightsRoute,
+      locFairfieldWestRoute,
+      locFairfieldRoute,
+      locFairlightRoute,
+      locFiddletownRoute,
+      locFiveDockRoute,
+      locFlemingtonRoute,
+      locForestvilleRoute,
+      locFrenchsForestRoute,
+      locFreshwaterRoute,
+      locGalstonRoute,
+      locGeorgesHallRoute,
+      locGirraweenRoute,
+      locGladesvilleRoute,
+      locGlenAlpineRoute,
+      locGlendenningRoute,
+      locGlenfieldRoute,
+      locGlenmoreParkRoute,
+      locGlenwoodRoute,
+      locGordonRoute,
+      locGranvilleRoute,
+      locGraysPointRoute,
+      locGreenValleyRoute,
+      locGreenacreRoute,
+      locGreendaleRoute,
+      locGreenfieldParkRoute,
+      locGregoryHillsRoute,
+      locGreystanesRoute,
+      locGuildfordWestRoute,
+      locGuildfordRoute,
+      locGymeaBayRoute,
+      locGymeaRoute,
+      locHaberfieldRoute,
+      locHammondvilleRoute,
+      locHarbordRoute,
+      locHarringtonParkRoute,
+      locHarrisParkRoute,
+      locHaymarketRoute,
+      locHeathcoteRoute,
+      locHebershamRoute,
+      locHeckenbergRoute,
+      locHenleyRoute,
+      locHillsdaleRoute,
+      locHinchinbrookRoute,
+      locHobbysBayRoute,
+      locHolroydRoute,
+      locHolsworthyRoute,
+      locHomebushWestRoute,
+      locHomebushRoute,
+      locHorningseaParkRoute,
+      locHornsbyHeightsRoute,
+      locHornsbyRoute,
+      locHorsleyParkRoute,
+      locHoxtonParkRoute,
+      locHuntersHillRoute,
+      locHuntingwoodRoute,
+      locHuntleysCoveRoute,
+      locHuntleysPointRoute,
+      locHurlstoneParkRoute,
+      locHurstvilleGroveRoute,
+      locHurstvilleRoute,
+      locIngleburnRoute,
+      locInglesideRoute,
+      locJamisontownRoute,
+      locJanaliRoute,
+      locJordanSpringsRoute,
+      locKangarooPointRoute,
+      locKareelaRoute,
+      locKearnsRoute,
+      locKempsCreekRoute,
+      locKensingtonRoute,
+      locKenthurstRoute,
+      locKentlynRoute,
+      locKingsParkRoute,
+      locKingsfordRoute,
+      locKingsgroveRoute,
+      locKirribilliRoute,
+      locKogarahRoute,
+      locKyeemaghRoute,
+      locLaneCoveRoute,
+      locLeichhardtRoute,
+      locLeppingtonRoute,
+      locLewishamRoute,
+      locLibertyGroveRoute,
+      locLidcombeRoute,
+      locLilyfieldRoute,
+      locLiverpoolRoute,
+      locLurneaRoute,
+      locMacquarieParkRoute,
+      locMaraylyaRoute,
+      locMarrickvilleRoute,
+      locMarsfieldRoute,
+      locMascotRoute,
+      locMatravilleRoute,
+      locMerrylandsRoute,
       calculatorIndexRoute,
       calculatorReroofCostRoute,
       calculatorInsulationRoute,
