@@ -4,6 +4,7 @@ import { useMemo } from "react";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { RelatedContentForGuide } from "@/components/RelatedContent";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
 
@@ -326,6 +327,8 @@ export function GuidePageTemplate({
       <ContentBlock3 />
       <MapWithForm />
       <FaqSection />
+
+      <RelatedContentForGuide guideSlug={config.slug} />
 
       <Footer />
       <FloatingBanner />

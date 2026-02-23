@@ -5,6 +5,7 @@ import { submitNetlifyForm } from "@/lib/netlifyForm";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { RelatedContentForLocation } from "@/components/RelatedContent";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
 
@@ -673,6 +674,8 @@ export function LocationPageTemplate({
 
       <MapWithForm />
       <FaqSection />
+
+      <RelatedContentForLocation locationSlug={config.slug} />
 
       <Footer />
       <FloatingBanner />
