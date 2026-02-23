@@ -34,7 +34,7 @@ const quickLinks: LinkItem[] = [
   { label: "Back to top", href: "#" },
   { label: "Roofing Sydney", href: "/" },
   { label: "Contact Us", href: "/contact/" },
-  { label: "Sitemap", href: "/sitemap/" },
+  { label: "Glossary", href: "/roofing-guttering-definitions-glossary/" },
   { label: "Guides & Resources", href: "/guides/" },
 ];
 
@@ -45,7 +45,7 @@ const regions: LinkItem[] = [
   { label: "ROOFING & GUTTERS NORTHERN BEACHES", href: "/roofing-northern-beaches/" },
   { label: "ROOFING & GUTTERS ST GEORGE", href: "/roofing-st-george-area/" },
   { label: "ROOFING & GUTTERS SUTHERLAND", href: "/roofing-sutherland-shire/" },
-  { label: "ROOFING & GUTTERS SOUTH WEST SYDNEY", href: "/roofing-south-western-sydney/" },
+  { label: "ROOFING & GUTTERS SOUTH WEST SYDNEY", href: "/roofing-south-west-sydney/" },
   { label: "ROOFING & GUTTERS WESTERN SYDNEY", href: "/roofing-western-sydney/" },
   { label: "ROOFING & GUTTERS INNER WESTER", href: "/roofing-inner-west-sydney/" },
   { label: "ROOFING & GUTTERS HILLS DISTRICT", href: "/roofing-hills-district/" },
@@ -93,10 +93,10 @@ const guides: LinkItem[] = [
 ];
 
 const calculators: LinkItem[] = [
-  { label: "Roofing Cost Calculator", href: "/apps/" },
-  { label: "Roof Insulation Calculator", href: "/apps/" },
-  { label: "Roof Pitch Calculator", href: "/apps/" },
-  { label: "Roof Visualiser", href: "/apps/" },
+  { label: "Roofing Cost Calculator", href: "/calculator/reroof-cost-calculator/" },
+  { label: "Roof Insulation Calculator", href: "/calculator/roofing-insulation-calculator/" },
+  { label: "Roof Pitch Calculator", href: "/calculator/roofing-pitch-calculator/" },
+  { label: "Colour Visualiser", href: "/calculator/colour-visualiser/" },
 ];
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
