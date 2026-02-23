@@ -136,7 +136,7 @@ const FloatingBanner = () => {
               </a>
               <button
                 onClick={() => setShowForm(true)}
-                className="inline-flex items-center gap-1.5 bg-[#ff1616] text-white font-bold text-sm px-4 py-2 rounded-md hover:bg-[#e01010] transition-colors"
+                className="inline-flex items-center gap-1.5 bg-[#0d2a3f] text-white font-bold text-sm px-4 py-2 rounded-md hover:bg-[#1a3d57] transition-colors"
               >
                 <Mail className="h-4 w-4" />
                 <span className="hidden sm:inline">Get Free Quote</span>

@@ -21,7 +21,7 @@ import Services from "@/components/Services";
 // import ServiceAreas from "@/components/ServiceAreas";
 // import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
-// import FloatingBanner from "@/components/FloatingBanner";
+import FloatingBanner from "@/components/FloatingBanner";
 // SEOHead ahora se aplica automáticamente desde route.handle.seo vía RouteMeta en Layout
 
 const HomePage = () => {
@@ -48,7 +48,7 @@ const HomePage = () => {
       <ServiceAreas />
       <ContactCTA /> */}
       <Footer />
-      {/* <FloatingBanner /> */}
+      <FloatingBanner />
     </div>
   );
 };
