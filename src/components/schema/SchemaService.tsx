@@ -30,7 +30,7 @@ export default function SchemaService({
   providerName = "Sydney Roofing & Gutters",
   providerType = "RoofingContractor",
   telephone = "+61-2-4089-4613",
-  url = "https://newcastlelocalroofers.com.au",
+  url = "https://sydneyroofingandgutters.com.au",
   address = {
     street: "1 Tudor Street",
     city: "Newcastle West",

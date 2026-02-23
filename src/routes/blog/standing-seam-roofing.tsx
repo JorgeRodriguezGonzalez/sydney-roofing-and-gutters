@@ -460,15 +460,15 @@ const StandingSeamRoofingPost = () => {
         description={postData.excerpt}
         datePublished={postData.publishDate}
         dateModified={postData.publishDate}
-        url={`https://newcastlelocalroofers.com.au/blog/${postData.slug}`}
-        image={`https://newcastlelocalroofers.com.au${postData.featuredImage}`}
+        url={`https://sydneyroofingandgutters.com.au/blog/${postData.slug}`}
+        image={`https://sydneyroofingandgutters.com.au${postData.featuredImage}`}
       />
       
       <SchemaBreadcrumb 
         items={[
-          { name: "Home", url: "https://newcastlelocalroofers.com.au/" },
-          { name: "Blog", url: "https://newcastlelocalroofers.com.au/blog" },
-          { name: "Standing Seam Roofing Newcastle: Complete Guide & Benefits", url: "https://newcastlelocalroofers.com.au/standing-seam-roofing" }
+          { name: "Home", url: "https://sydneyroofingandgutters.com.au/" },
+          { name: "Blog", url: "https://sydneyroofingandgutters.com.au/blog" },
+          { name: "Standing Seam Roofing Newcastle: Complete Guide & Benefits", url: "https://sydneyroofingandgutters.com.au/standing-seam-roofing" }
         ]}
       />
       

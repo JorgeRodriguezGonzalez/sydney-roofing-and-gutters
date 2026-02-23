@@ -16,7 +16,7 @@ export default function SchemaArticle({
   datePublished,
   dateModified,
   authorName = "Sydney Roofing & Gutters",
-  image = "https://newcastlelocalroofers.com.au/images/newcastle-local-roofers-logo.png",
+  image = "https://sydneyroofingandgutters.com.au/images/newcastle-local-roofers-logo.png",
   url
 }: SchemaArticleProps) {
   const schema = {
@@ -30,14 +30,14 @@ export default function SchemaArticle({
     "author": {
       "@type": "Organization",
       "name": authorName,
-      "url": "https://newcastlelocalroofers.com.au"
+      "url": "https://sydneyroofingandgutters.com.au"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Sydney Roofing & Gutters",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://newcastlelocalroofers.com.au/images/newcastle-local-roofers-logo.png"
+        "url": "https://sydneyroofingandgutters.com.au/images/newcastle-local-roofers-logo.png"
       }
     },
     "mainEntityOfPage": {

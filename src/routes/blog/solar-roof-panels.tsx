@@ -230,15 +230,15 @@ const SolarRoofPanelsPost = () => {
         description={postData.excerpt}
         datePublished={postData.publishDate}
         dateModified={postData.publishDate}
-        url={`https://newcastlelocalroofers.com.au/blog/${postData.slug}`}
-        image={`https://newcastlelocalroofers.com.au${postData.featuredImage}`}
+        url={`https://sydneyroofingandgutters.com.au/blog/${postData.slug}`}
+        image={`https://sydneyroofingandgutters.com.au${postData.featuredImage}`}
       />
       
       <SchemaBreadcrumb 
         items={[
-          { name: "Home", url: "https://newcastlelocalroofers.com.au/" },
-          { name: "Blog", url: "https://newcastlelocalroofers.com.au/blog" },
-          { name: "Solar Roof Panels Newcastle: Installation Guide & Energy Savings", url: "https://newcastlelocalroofers.com.au/solar-roof-panels" }
+          { name: "Home", url: "https://sydneyroofingandgutters.com.au/" },
+          { name: "Blog", url: "https://sydneyroofingandgutters.com.au/blog" },
+          { name: "Solar Roof Panels Newcastle: Installation Guide & Energy Savings", url: "https://sydneyroofingandgutters.com.au/solar-roof-panels" }
         ]}
       />
       

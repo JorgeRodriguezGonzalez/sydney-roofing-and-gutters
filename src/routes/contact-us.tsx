@@ -57,7 +57,7 @@ const ContactUsPage = () => {
         keywords="contact newcastle roofers, emergency roof repairs, free roofing quote, 24/7 roofer newcastle, roof inspection newcastle, hunter region roofing"
         ogTitle="Contact Sydney Roofing & Gutters - 24/7 Emergency Service"
         ogDescription="Need urgent roof repairs? We're available 24/7. Call (02) 4089 4613 for immediate assistance across Newcastle and Hunter Region."
-        ogImage="https://newcastlelocalroofers.com.au/images/emergency-roof-repairs-newcastle.jpg"
+        ogImage="https://sydneyroofingandgutters.com.au/images/emergency-roof-repairs-newcastle.jpg"
         schemaType="RoofingContractor"
         location="newcastle"
         customName="Sydney Roofing & Gutters"

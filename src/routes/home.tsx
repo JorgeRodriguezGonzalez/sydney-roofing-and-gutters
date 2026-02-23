@@ -70,7 +70,7 @@ export const route = {
       keywords: "roofing newcastle, roof repairs newcastle, roof replacement, emergency roof repairs, newcastle roofers, hunter region roofing, roof restoration, licensed roofers nsw",
       ogTitle: "Sydney Roofing & Gutters - Professional Roofing Services 24/7",
       ogDescription: "Expert roofing services across Newcastle and the Hunter Region. Emergency repairs, roof replacement, restoration, and inspections. Licensed & insured.",
-      ogImage: "https://newcastlelocalroofers.com.au/images/roofing-services-newcastle.jpg",
+      ogImage: "https://sydneyroofingandgutters.com.au/images/roofing-services-newcastle.jpg",
       canonicalUrl: "/",
       schemaType: "RoofingContractor" as const,
       location: "newcastle" as const,

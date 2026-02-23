@@ -22,9 +22,9 @@ interface SchemaLocationProps {
 export default function SchemaLocation({
   locationName,
   description = "Professional roofing services in Newcastle and Hunter Region. Emergency repairs, roof replacement, restoration, and maintenance by licensed contractors available 24/7.",
-  image = "https://newcastlelocalroofers.com.au/images/newcastle-local-roofers-logo.png",
+  image = "https://sydneyroofingandgutters.com.au/images/newcastle-local-roofers-logo.png",
   telephone = "+61-2-4089-4613",
-  url = "https://newcastlelocalroofers.com.au",
+  url = "https://sydneyroofingandgutters.com.au",
   address = {
     street: "1 Tudor Street",
     city: "Newcastle West", 

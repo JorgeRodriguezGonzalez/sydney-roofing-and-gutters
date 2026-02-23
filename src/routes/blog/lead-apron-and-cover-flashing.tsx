@@ -115,15 +115,15 @@ const LeadApronPost = () => {
         description={postData.excerpt}
         datePublished={postData.publishDate}
         dateModified={postData.publishDate}
-        url={`https://newcastlelocalroofers.com.au/${postData.slug}`}
-        image={`https://newcastlelocalroofers.com.au${postData.featuredImage}`}
+        url={`https://sydneyroofingandgutters.com.au/${postData.slug}`}
+        image={`https://sydneyroofingandgutters.com.au${postData.featuredImage}`}
       />
       
       <SchemaBreadcrumb 
         items={[
-          { name: "Home", url: "https://newcastlelocalroofers.com.au/" },
-          { name: "Blog", url: "https://newcastlelocalroofers.com.au/blog" },
-          { name: "Lead Apron & Cover Flashing Newcastle: Heritage Installation Guide", url: "https://newcastlelocalroofers.com.au/lead-apron-and-cover-flashing" }
+          { name: "Home", url: "https://sydneyroofingandgutters.com.au/" },
+          { name: "Blog", url: "https://sydneyroofingandgutters.com.au/blog" },
+          { name: "Lead Apron & Cover Flashing Newcastle: Heritage Installation Guide", url: "https://sydneyroofingandgutters.com.au/lead-apron-and-cover-flashing" }
         ]}
       />
       

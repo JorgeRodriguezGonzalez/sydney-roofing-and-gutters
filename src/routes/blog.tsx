@@ -85,7 +85,7 @@ const BlogPage = () => {
         keywords="roofing tips newcastle, roof maintenance guide, roofing materials, roof repair advice, newcastle roofing blog, emergency roof repairs, roofing costs"
         ogTitle="Roofing Tips & Guides | Sydney Roofing & Gutters Blog"
         ogDescription="Expert roofing advice and maintenance tips from Newcastle's professional roofing specialists. 24/7 emergency service available."
-        ogImage="https://newcastlelocalroofers.com.au/images/roof-repairs-newcastle.jpg"
+        ogImage="https://sydneyroofingandgutters.com.au/images/roof-repairs-newcastle.jpg"
         schemaType="RoofingContractor"
         location="newcastle"
         customName="Sydney Roofing & Gutters"

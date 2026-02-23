@@ -123,15 +123,15 @@ const RoofWaterproofingPost = () => {
         description={postData.excerpt}
         datePublished={postData.publishDate}
         dateModified={postData.publishDate}
-        url={`https://newcastlelocalroofers.com.au/${postData.slug}`}
-        image={`https://newcastlelocalroofers.com.au${postData.featuredImage}`}
+        url={`https://sydneyroofingandgutters.com.au/${postData.slug}`}
+        image={`https://sydneyroofingandgutters.com.au${postData.featuredImage}`}
       />
       
       <SchemaBreadcrumb 
         items={[
-          { name: "Home", url: "https://newcastlelocalroofers.com.au/" },
-          { name: "Blog", url: "https://newcastlelocalroofers.com.au/blog" },
-          { name: "Roof Vent Installation Newcastle: Professional Guide", url: "https://newcastlelocalroofers.com.au/roof-vent-installation" }
+          { name: "Home", url: "https://sydneyroofingandgutters.com.au/" },
+          { name: "Blog", url: "https://sydneyroofingandgutters.com.au/blog" },
+          { name: "Roof Vent Installation Newcastle: Professional Guide", url: "https://sydneyroofingandgutters.com.au/roof-vent-installation" }
         ]}
       />
       
