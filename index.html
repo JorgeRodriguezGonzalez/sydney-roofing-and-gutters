@@ -50,20 +50,84 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
         <!-- Netlify Forms - Hidden forms for detection -->
-    <form name="home-roof-quote" netlify netlify-honeypot="bot-field" hidden>
+
+    <!-- Hero form (home page) -->
+    <form name="Hero" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="fullName" />
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
       <input type="tel" name="phone" />
       <input type="email" name="email" />
-      <input type="text" name="address" />
-      <textarea name="details"></textarea>
+      <input type="text" name="suburb" />
+      <textarea name="issue"></textarea>
     </form>
 
+    <!-- Floating banner popup form -->
+    <form name="Floating banner form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <textarea name="issue"></textarea>
+    </form>
+
+    <!-- Bottom map form (most pages) -->
+    <form name="Bottom form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="suburb" />
+      <textarea name="issue"></textarea>
+    </form>
+
+    <!-- Contact page form -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="suburb" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <!-- Contact CTA form -->
     <form name="contact-cta-form" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="tel" name="phone" />
       <input type="email" name="email" />
       <input type="text" name="address" />
       <textarea name="message"></textarea>
+    </form>
+
+    <!-- Location page form -->
+    <form name="Location form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="suburb" />
+      <textarea name="issue"></textarea>
+      <input type="text" name="location" />
+      <input type="text" name="locationSlug" />
+    </form>
+
+    <!-- Service page form -->
+    <form name="Service form" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="fullName" />
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="suburb" />
+      <textarea name="issue"></textarea>
+      <input type="text" name="serviceName" />
+      <input type="text" name="serviceSlug" />
+      <input type="text" name="areaName" />
+      <input type="text" name="areaSlug" />
     </form>
   </body>
 </html>
