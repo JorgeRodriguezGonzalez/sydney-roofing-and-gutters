@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { RelatedContentForGuide } from "@/components/RelatedContent";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import guideFaqs from "@/data/guide-faqs.json";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
@@ -196,6 +197,7 @@ export function GuidePageTemplate({
       <GuideSEO config={config} />
       <FaqSchema slug={config.slug} />
       <Header />
+      <Breadcrumbs crumbs={[{ label: "Home", href: "/" }, { label: "Guides", href: "/guides/" }, { label: config.title }]} />
 
       {/* Hero */}
       <section className="relative">

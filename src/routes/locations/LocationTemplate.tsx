@@ -6,6 +6,7 @@ import { submitNetlifyForm } from "@/lib/netlifyForm";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { RelatedContentForLocation } from "@/components/RelatedContent";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
 
@@ -646,6 +647,7 @@ export function LocationPageTemplate({
     <div className="min-h-screen flex flex-col">
       <LocationSEO config={config} />
       <Header />
+      <Breadcrumbs crumbs={[{ label: "Home", href: "/" }, { label: "Locations" }, { label: config.suburb }]} />
 
       <HeroWithQuoteForm config={config} content={content} />
       <BrandsSlider />

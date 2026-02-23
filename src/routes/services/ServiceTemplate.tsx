@@ -5,6 +5,7 @@ import { useMemo, useState, type FormEvent, type ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { RelatedContentForService } from "@/components/RelatedContent";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
 
