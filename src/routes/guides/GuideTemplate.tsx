@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { RelatedContentForGuide } from "@/components/RelatedContent";
+import guideFaqs from "@/data/guide-faqs.json";
 import FloatingBanner from "@/components/FloatingBanner";
 import SEOHead from "@/components/SEOHead";
 
@@ -193,6 +194,7 @@ export function GuidePageTemplate({
   return (
     <div className="min-h-screen flex flex-col">
       <GuideSEO config={config} />
+      <FaqSchema slug={config.slug} />
       <Header />
 
       {/* Hero */}
@@ -328,6 +330,7 @@ export function GuidePageTemplate({
       <MapWithForm />
       <FaqSection />
 
+      <FaqSection slug={config.slug} />
       <RelatedContentForGuide guideSlug={config.slug} />
 
       <Footer />
@@ -342,6 +345,60 @@ export function GuidePageTemplate({
  * export const route = route;
  * export default Page;
  */
+
+type FaqItem = { q: string; a: string };
+const faqData = guideFaqs as Record<string, FaqItem[]>;
+
+function FaqSchema({ slug }: { slug: string }) {
+  const faqs = faqData[slug];
+  if (!faqs || faqs.length === 0) return null;
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq: FaqItem) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.a,
+      },
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+function FaqSection({ slug }: { slug: string }) {
+  const faqs = faqData[slug];
+  if (!faqs || faqs.length === 0) return null;
+
+  return (
+    <section className="py-12 bg-white">
+      <div className="container mx-auto px-7 lg:px-14 xl:px-20 max-w-4xl">
+        <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+        <div className="space-y-4">
+          {faqs.map((faq: FaqItem, i: number) => (
+            <details key={i} className="bg-[#F6F6F6] rounded-lg border">
+              <summary className="px-5 py-4 font-semibold text-sm cursor-pointer hover:text-[#179DC2] transition-colors">
+                {faq.q}
+              </summary>
+              <div className="px-5 pb-4 text-sm leading-relaxed" style={{ color: "#666666" }}>
+                {faq.a}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function createGuideRoute(config: GuideSEOConfig, content: GuideContent) {
   const path = buildPath(config);
 
