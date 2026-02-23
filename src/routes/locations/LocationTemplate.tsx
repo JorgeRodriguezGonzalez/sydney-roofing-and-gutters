@@ -665,7 +665,7 @@ export function LocationPageTemplate({
 
       <InlineCtaPill />
 
-      <NearbySuburbs currentSlug={config.slug} lat={parseFloat(config.latitude)} lon={parseFloat(config.longitude)} />
+      <NearbySuburbs currentSlug={config.slug} />
 
       {/* Reutiliza tu bloque de 3 pasos */}
       <ContentBlock3 />
@@ -693,17 +693,19 @@ function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-function NearbySuburbs({ currentSlug, lat, lon }: { currentSlug: string; lat: number; lon: number }) {
+function NearbySuburbs({ currentSlug }: { currentSlug: string }) {
   const nearby = useMemo(() => {
+    const current = locationsIndex.find((loc: { slug: string }) => loc.slug === currentSlug);
+    if (!current) return [];
     return locationsIndex
       .filter((loc: { slug: string }) => loc.slug !== currentSlug)
       .map((loc: { slug: string; suburb: string; lat: number; lon: number }) => ({
         ...loc,
-        dist: haversineKm(lat, lon, loc.lat, loc.lon),
+        dist: haversineKm(current.lat, current.lon, loc.lat, loc.lon),
       }))
       .sort((a: { dist: number }, b: { dist: number }) => a.dist - b.dist)
       .slice(0, 6);
-  }, [currentSlug, lat, lon]);
+  }, [currentSlug]);
 
   if (nearby.length === 0) return null;
 
