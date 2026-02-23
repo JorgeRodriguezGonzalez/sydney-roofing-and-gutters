@@ -15,6 +15,7 @@ const PRIORITIES = {
   main: '0.9',
   service: '0.8',
   location: '0.7',
+  guide: '0.7',
   blog: '0.6',
 };
 
@@ -24,6 +25,7 @@ const CHANGEFREQ = {
   main: 'weekly',
   service: 'monthly',
   location: 'monthly',
+  guide: 'monthly',
   blog: 'weekly',
 };
 
@@ -31,8 +33,11 @@ const CHANGEFREQ = {
 function getPageType(route) {
   if (route === '/') return 'home';
   if (route.startsWith('/blog/')) return 'blog';
-  if (route.startsWith('/roofers-')) return 'location';
-  if (['/about-us', '/contact-us', '/gallery', '/projects', '/blog', '/locations'].includes(route)) return 'main';
+  if (route.startsWith('/guides/') && route !== '/guides/') return 'guide';
+  if (route === '/guides/') return 'main';
+  if (route.startsWith('/roofing-')) return 'location';
+  if (route.startsWith('/calculator/')) return 'service';
+  if (['/about-us/', '/contact-us/', '/contact/', '/gallery/', '/projects/', '/blog/', '/testimonials/', '/roofing-guttering-definitions-glossary/'].includes(route)) return 'main';
   return 'service';
 }
 
@@ -50,17 +55,48 @@ function extractPathFromRouteFile(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf-8');
     
-    // Buscar: path: "/algo" o path: '/algo'
+    // 1. Explicit path: "/algo"
     const pathRegex = /path:\s*["']([^"']+)["']/;
     const match = content.match(pathRegex);
-    
     if (match && match[1]) {
       return match[1];
+    }
+    
+    // 2. Location pages: slug -> /roofing-{slug}/
+    if (filePath.includes('/routes/locations/')) {
+      const slugMatch = content.match(/slug:\s*["']([^"']+)["']/);
+      if (slugMatch) return `/roofing-${slugMatch[1]}/`;
+    }
+    
+    // 3. Guide pages: slug -> /guides/{slug}/
+    if (filePath.includes('/routes/guides/')) {
+      const slugMatch = content.match(/slug:\s*["']([^"']+)["']/);
+      if (slugMatch) return `/guides/${slugMatch[1]}/`;
+    }
+    
+    // 4. Service pages: serviceSlug + areaSlug -> /{serviceSlug}-{areaSlug}/
+    if (filePath.includes('/routes/services/')) {
+      const svcMatch = content.match(/serviceSlug:\s*["']([^"']+)["']/);
+      const areaMatch = content.match(/areaSlug:\s*["']([^"']+)["']/);
+      if (svcMatch && areaMatch) return `/${svcMatch[1]}-${areaMatch[1]}/`;
     }
     
     return null;
   } catch (error) {
     console.error(`Error reading file ${filePath}:`, error.message);
+    return null;
+  }
+}
+
+function extractDateFromRouteFile(filePath) {
+  try {
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const modMatch = content.match(/modifiedISO:\s*["']([^"']+)["']/);
+    if (modMatch) return modMatch[1];
+    const pubMatch = content.match(/publishedISO:\s*["']([^"']+)["']/);
+    if (pubMatch) return pubMatch[1];
+    return null;
+  } catch {
     return null;
   }
 }
@@ -75,7 +111,7 @@ function extractRoutesFromAppTsx() {
   }
   
   const appTsxContent = fs.readFileSync(appTsxPath, 'utf-8');
-  const routes = new Set();
+  const routes = new Map();
   
   // Patrón 1: import { route as xxxRoute } from "./routes/xxx"
   const importRegex1 = /import\s*{\s*route\s+as\s+\w+\s*}\s*from\s*["']\.\/routes\/([\w\-\/]+)["']/g;
@@ -88,7 +124,8 @@ function extractRoutesFromAppTsx() {
     if (fs.existsSync(routeFilePath)) {
       const routePath = extractPathFromRouteFile(routeFilePath);
       if (routePath && !EXCLUDED_ROUTES.includes(routePath) && !EXCLUDED_ROUTES.some(excluded => routePath.startsWith(excluded))) {
-        routes.add(routePath);
+        const dateFromFile = extractDateFromRouteFile(routeFilePath);
+        routes.set(routePath, dateFromFile);
       }
     }
   }
@@ -103,7 +140,8 @@ function extractRoutesFromAppTsx() {
     if (fs.existsSync(routeFilePath)) {
       const routePath = extractPathFromRouteFile(routeFilePath);
       if (routePath && !EXCLUDED_ROUTES.includes(routePath) && !EXCLUDED_ROUTES.some(excluded => routePath.startsWith(excluded))) {
-        routes.add(routePath);
+        const dateFromFile = extractDateFromRouteFile(routeFilePath);
+        routes.set(routePath, dateFromFile);
       }
     }
   }
@@ -114,19 +152,19 @@ function extractRoutesFromAppTsx() {
   while ((match = inlineRouteRegex.exec(appTsxContent)) !== null) {
     const routePath = match[1];
     if (!EXCLUDED_ROUTES.includes(routePath) && !EXCLUDED_ROUTES.some(excluded => routePath.startsWith(excluded))) {
-      routes.add(routePath);
+      routes.set(routePath, null);
     }
   }
   
   // Convertir Set a Array y ordenar
-  return Array.from(routes).sort();
+  return Array.from(routes.entries()).sort((a, b) => a[0].localeCompare(b[0]));
 }
 
 // Generar XML del sitemap
 function generateSitemapXML(routes) {
   const now = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
   
-  const urlEntries = routes.map(route => {
+  const urlEntries = routes.map(([route, fileDate]) => {
     const pageType = getPageType(route);
     const priority = PRIORITIES[pageType] || '0.5';
     const changefreq = CHANGEFREQ[pageType] || 'monthly';
@@ -137,7 +175,7 @@ function generateSitemapXML(routes) {
     
     return `  <url>
     <loc>${DOMAIN}${normalizedRoute}</loc>
-    <lastmod>${now}</lastmod>
+    <lastmod>${fileDate || now}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`;
@@ -181,7 +219,7 @@ function generateSitemap() {
   
   // Mostrar primeras 10 rutas como preview
   console.log('\n📋 Preview (first 10 routes):');
-  routes.slice(0, 10).forEach(route => {
+  routes.slice(0, 10).forEach(([route]) => {
     const type = getPageType(route);
     console.log(`   - ${DOMAIN}${route} [${type}]`);
   });
