@@ -172,6 +172,7 @@ import { route as guideStopLeakingRoofHeavyRainsRoute } from "./routes/guides/ho
 import { route as guideCommonGutterProblemsRoute } from "./routes/guides/6-common-gutter-problems-and-how-to-fix-them";
 import { route as guidesIndexRoute } from "./routes/guides-index";
 import { route as testimonialsRoute } from "./routes/testimonials";
+import { route as glossaryRoute } from "./routes/glossary";
 import { route as guideInstallingMetalColorbondRoofRoute } from "./routes/guides/a-guide-to-installing-a-metal-colorbond-roof";
 import { route as guideChooseBestRoofColourRoute } from "./routes/guides/how-to-choose-the-best-roof-colour-for-your-home";
 import { route as guideAustralianRoofingVsAmericanRoofingRoute } from "./routes/guides/australian-roofing-vs-american-roofing";
@@ -461,6 +462,7 @@ const router = createBrowserRouter([
       guideCommonGutterProblemsRoute,
       guidesIndexRoute,
       testimonialsRoute,
+      glossaryRoute,
 guideAustralianRoofingVsAmericanRoofingRoute,
       guideCanIClaimRoofRepairsOnMyInsuranceRoute,
       guideCommonMetalRoofRepairsSydneyRoute,
