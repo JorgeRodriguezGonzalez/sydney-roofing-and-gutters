@@ -126,7 +126,7 @@ const FloatingBanner = () => {
               Need roofing or guttering help? Call now for a free quote!
             </p>
             <div className="flex items-center gap-2 flex-shrink-0">
-              
+              <a
                 href={`tel:${PHONE}`}
                 className="inline-flex items-center gap-1.5 bg-white text-[#179DC2] font-bold text-sm px-4 py-2 rounded-md hover:bg-gray-100 transition-colors"
               >
