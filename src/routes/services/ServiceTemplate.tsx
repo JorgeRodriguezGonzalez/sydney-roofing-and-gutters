@@ -525,7 +525,7 @@ export function ServicePageTemplate({
       <MapWithForm />
       <FaqSection />
 
-      <RelatedContentForService serviceSlug={cfg.serviceSlug} />
+      <RelatedContentForService serviceSlug={config.serviceSlug} />
 
       <Footer />
       <FloatingBanner />
