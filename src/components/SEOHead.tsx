@@ -18,7 +18,7 @@ interface SEOHeadProps {
   customUrl?: string;
 }
 
-const BASE_URL = 'https://newcastlelocalroofers.com.au';
+const BASE_URL = 'https://sydneyroofingandgutters.com.au';
 
 const SEOHead = ({ 
   title, 
