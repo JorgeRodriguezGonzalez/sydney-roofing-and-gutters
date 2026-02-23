@@ -29,7 +29,7 @@ export default function CTASection() {
                   </a>
                 </Button>
                 <Button variant="professional" size="lg" className="px-8 py-4" asChild>
-                  <a href="tel:0240894613">
+                  <a href="tel:1300796024">
                     Call Us Now: (02) 4089 4613
                     <Phone className="h-5 w-5 ml-2" />
                   </a>

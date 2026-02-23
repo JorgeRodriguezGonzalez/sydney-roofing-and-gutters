@@ -56,7 +56,7 @@ const ContactUs = () => {
                   Emergency roof repairs? Call now for immediate assistance any time, day or night
                 </p>
                 <a 
-                  href="tel:0240894613" 
+                  href="tel:1300796024" 
                   className="text-[#666666] hover:text-[#666666]/80 font-semibold text-lg"
                 >
                   (02) 4089 4613
@@ -74,7 +74,7 @@ const ContactUs = () => {
                   24/7 emergency response for urgent roof repairs, storm damage, and leaks
                 </p>
                 <Button variant="outline" asChild>
-                  <a href="tel:0240894613">
+                  <a href="tel:1300796024">
                     Call Emergency Line
                   </a>
                 </Button>

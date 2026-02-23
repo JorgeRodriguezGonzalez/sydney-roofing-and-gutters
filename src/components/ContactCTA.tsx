@@ -108,7 +108,7 @@ const ContactCTA = () => {
               </p>
               <div className="space-y-3">
                 <a 
-                  href="tel:0240894613" 
+                  href="tel:1300796024" 
                   className="flex items-center justify-center gap-2 text-white hover:text-white/80 transition-colors font-semibold"
                 >
                   <Phone className="h-5 w-5" />
@@ -286,7 +286,7 @@ const ContactCTA = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="xl" asChild>
-                <a href="tel:0240894613">
+                <a href="tel:1300796024">
                   Emergency Service 24/7
                 </a>
               </Button>

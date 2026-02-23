@@ -91,7 +91,7 @@ const SkylightRepairPage = () => {
             <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed">We repair leaks and renew skylights with proven solutions for Newcastle and Hunter.</p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="xl" className="group bg-[#2C3E50] text-white hover:bg-white hover:text-[#2C3E50] border-2 border-[#2C3E50] transition-all duration-300" asChild>
-                <a href="tel:0240894613">Fix My Skylight <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" /></a>
+                <a href="tel:1300796024">Fix My Skylight <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" /></a>
               </Button>
               <Button size="xl" variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white hover:text-primary" asChild>
                 <a href="/roof-inspection">Book an Inspection</a>

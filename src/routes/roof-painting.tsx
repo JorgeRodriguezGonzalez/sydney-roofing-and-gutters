@@ -169,7 +169,7 @@ const RoofPaintingPage = () => {
                 className="group bg-[#2C3E50] text-white hover:bg-white hover:text-[#2C3E50] border-2 border-[#2C3E50] transition-all duration-300" 
                 asChild
               >
-                <a href="tel:0240894613">
+                <a href="tel:1300796024">
                   Get a Roof Painting Quote
                   <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </a>

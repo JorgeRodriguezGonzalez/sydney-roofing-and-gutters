@@ -233,7 +233,7 @@ const TestimonialsNew = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="important" size="lg" asChild>
-                <a href="tel:0240894613">
+                <a href="tel:1300796024">
                   Get Free Roof Inspection
                   <ArrowRight className="h-4 w-4 ml-2" />
                 </a>

@@ -126,7 +126,7 @@ const BlogPost = ({ post }: BlogPostProps) => {
                   className="w-full bg-white text-[#2C3E50] hover:bg-white/90" 
                   asChild
                 >
-                  <a href="tel:0240894613">
+                  <a href="tel:1300796024">
                     <Phone className="h-4 w-4 mr-2" />
                     Call (02) 4089 4613
                   </a>
