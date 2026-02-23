@@ -1,0 +1,2234 @@
+[
+  {
+    "suburb": "Abbotsbury",
+    "slug": "abbotsbury",
+    "lat": -33.873,
+    "lon": 150.863
+  },
+  {
+    "suburb": "Abbotsford",
+    "slug": "abbotsford",
+    "lat": -33.849,
+    "lon": 151.129
+  },
+  {
+    "suburb": "Acacia Gardens",
+    "slug": "acacia-gardens",
+    "lat": -33.737,
+    "lon": 150.928
+  },
+  {
+    "suburb": "Agnes Banks",
+    "slug": "agnes-banks",
+    "lat": -33.614,
+    "lon": 150.702
+  },
+  {
+    "suburb": "Airds",
+    "slug": "airds",
+    "lat": -34.082,
+    "lon": 150.832
+  },
+  {
+    "suburb": "Alexandria",
+    "slug": "alexandria",
+    "lat": -33.904,
+    "lon": 151.198
+  },
+  {
+    "suburb": "Alfords Point",
+    "slug": "alfords-point",
+    "lat": -33.981,
+    "lon": 151.024
+  },
+  {
+    "suburb": "Allambie Heights",
+    "slug": "allambie-heights",
+    "lat": -33.772,
+    "lon": 151.252
+  },
+  {
+    "suburb": "Allawah",
+    "slug": "allawah",
+    "lat": -33.971,
+    "lon": 151.113
+  },
+  {
+    "suburb": "Ambarvale",
+    "slug": "ambarvale",
+    "lat": -34.072,
+    "lon": 150.797
+  },
+  {
+    "suburb": "Annandale",
+    "slug": "annandale",
+    "lat": -33.882,
+    "lon": 151.17
+  },
+  {
+    "suburb": "Annangrove",
+    "slug": "annangrove",
+    "lat": -33.669,
+    "lon": 150.952
+  },
+  {
+    "suburb": "Arcadia",
+    "slug": "arcadia",
+    "lat": -33.623,
+    "lon": 151.06
+  },
+  {
+    "suburb": "Arncliffe",
+    "slug": "arncliffe",
+    "lat": -33.937,
+    "lon": 151.147
+  },
+  {
+    "suburb": "Arndell Park",
+    "slug": "arndell-park",
+    "lat": -33.778,
+    "lon": 150.88
+  },
+  {
+    "suburb": "Artarmon",
+    "slug": "artarmon",
+    "lat": -33.809,
+    "lon": 151.185
+  },
+  {
+    "suburb": "Ashbury",
+    "slug": "ashbury",
+    "lat": -33.9,
+    "lon": 151.123
+  },
+  {
+    "suburb": "Ashcroft",
+    "slug": "ashcroft",
+    "lat": -33.92,
+    "lon": 150.897
+  },
+  {
+    "suburb": "Ashfield",
+    "slug": "ashfield",
+    "lat": -33.889,
+    "lon": 151.127
+  },
+  {
+    "suburb": "Asquith",
+    "slug": "asquith",
+    "lat": -33.687,
+    "lon": 151.107
+  },
+  {
+    "suburb": "Auburn",
+    "slug": "auburn",
+    "lat": -33.852,
+    "lon": 151.033
+  },
+  {
+    "suburb": "Austral",
+    "slug": "austral",
+    "lat": -33.93,
+    "lon": 150.808
+  },
+  {
+    "suburb": "Avalon Beach",
+    "slug": "avalon-beach",
+    "lat": -33.628,
+    "lon": 151.328
+  },
+  {
+    "suburb": "Badgerys Creek",
+    "slug": "badgerys-creek",
+    "lat": -33.877,
+    "lon": 150.735
+  },
+  {
+    "suburb": "Balgowlah Heights",
+    "slug": "balgowlah-heights",
+    "lat": -33.8,
+    "lon": 151.268
+  },
+  {
+    "suburb": "Balgowlah",
+    "slug": "balgowlah",
+    "lat": -33.795,
+    "lon": 151.261
+  },
+  {
+    "suburb": "Balmain East",
+    "slug": "balmain-east",
+    "lat": -33.854,
+    "lon": 151.189
+  },
+  {
+    "suburb": "Balmain",
+    "slug": "balmain",
+    "lat": -33.857,
+    "lon": 151.179
+  },
+  {
+    "suburb": "Bangor",
+    "slug": "bangor",
+    "lat": -34.015,
+    "lon": 151.032
+  },
+  {
+    "suburb": "Banksia",
+    "slug": "banksia",
+    "lat": -33.945,
+    "lon": 151.141
+  },
+  {
+    "suburb": "Banksmeadow",
+    "slug": "banksmeadow",
+    "lat": -33.938,
+    "lon": 151.213
+  },
+  {
+    "suburb": "Bankstown Aerodrome",
+    "slug": "bankstown-aerodrome",
+    "lat": -33.924,
+    "lon": 151.027
+  },
+  {
+    "suburb": "Bankstown",
+    "slug": "bankstown",
+    "lat": -33.918,
+    "lon": 151.035
+  },
+  {
+    "suburb": "Barangaroo",
+    "slug": "barangaroo",
+    "lat": -33.861,
+    "lon": 151.202
+  },
+  {
+    "suburb": "Barden Ridge",
+    "slug": "barden-ridge",
+    "lat": -34.039,
+    "lon": 151.022
+  },
+  {
+    "suburb": "Bardia",
+    "slug": "bardia",
+    "lat": -34.053,
+    "lon": 150.832
+  },
+  {
+    "suburb": "Bardwell Park",
+    "slug": "bardwell-park",
+    "lat": -33.934,
+    "lon": 151.128
+  },
+  {
+    "suburb": "Bardwell Valley",
+    "slug": "bardwell-valley",
+    "lat": -33.93,
+    "lon": 151.132
+  },
+  {
+    "suburb": "Bass Hill",
+    "slug": "bass-hill",
+    "lat": -33.901,
+    "lon": 150.993
+  },
+  {
+    "suburb": "Baulkham Hills",
+    "slug": "baulkham-hills",
+    "lat": -33.758,
+    "lon": 150.992
+  },
+  {
+    "suburb": "Bayview",
+    "slug": "bayview",
+    "lat": -33.658,
+    "lon": 151.293
+  },
+  {
+    "suburb": "Beacon Hill",
+    "slug": "beacon-hill",
+    "lat": -33.75,
+    "lon": 151.261
+  },
+  {
+    "suburb": "Beaconsfield",
+    "slug": "beaconsfield",
+    "lat": -33.912,
+    "lon": 151.199
+  },
+  {
+    "suburb": "Beaumont Hills",
+    "slug": "beaumont-hills",
+    "lat": -33.702,
+    "lon": 150.946
+  },
+  {
+    "suburb": "Beecroft",
+    "slug": "beecroft",
+    "lat": -33.751,
+    "lon": 151.066
+  },
+  {
+    "suburb": "Belfield",
+    "slug": "belfield",
+    "lat": -33.904,
+    "lon": 151.083
+  },
+  {
+    "suburb": "Bella Vista",
+    "slug": "bella-vista",
+    "lat": -33.736,
+    "lon": 150.957
+  },
+  {
+    "suburb": "Bellevue Hill",
+    "slug": "bellevue-hill",
+    "lat": -33.879,
+    "lon": 151.257
+  },
+  {
+    "suburb": "Belmore",
+    "slug": "belmore",
+    "lat": -33.921,
+    "lon": 151.093
+  },
+  {
+    "suburb": "Belrose",
+    "slug": "belrose",
+    "lat": -33.731,
+    "lon": 151.214
+  },
+  {
+    "suburb": "Berala",
+    "slug": "berala",
+    "lat": -33.871,
+    "lon": 151.033
+  },
+  {
+    "suburb": "Berkshire Park",
+    "slug": "berkshire-park",
+    "lat": -33.67,
+    "lon": 150.781
+  },
+  {
+    "suburb": "Berowra Creek",
+    "slug": "berowra-creek",
+    "lat": -33.613,
+    "lon": 151.142
+  },
+  {
+    "suburb": "Berowra Heights",
+    "slug": "berowra-heights",
+    "lat": -33.632,
+    "lon": 151.143
+  },
+  {
+    "suburb": "Berowra Waters",
+    "slug": "berowra-waters",
+    "lat": -33.599,
+    "lon": 151.117
+  },
+  {
+    "suburb": "Berowra",
+    "slug": "berowra",
+    "lat": -33.622,
+    "lon": 151.153
+  },
+  {
+    "suburb": "Berrilee",
+    "slug": "berrilee",
+    "lat": -33.568,
+    "lon": 151.108
+  },
+  {
+    "suburb": "Beverley Park",
+    "slug": "beverley-park",
+    "lat": -33.967,
+    "lon": 151.12
+  },
+  {
+    "suburb": "Beverly Hills",
+    "slug": "beverly-hills",
+    "lat": -33.946,
+    "lon": 151.082
+  },
+  {
+    "suburb": "Bexley North",
+    "slug": "bexley-north",
+    "lat": -33.94,
+    "lon": 151.114
+  },
+  {
+    "suburb": "Bexley",
+    "slug": "bexley",
+    "lat": -33.95,
+    "lon": 151.12
+  },
+  {
+    "suburb": "Bidwill",
+    "slug": "bidwill",
+    "lat": -33.73,
+    "lon": 150.816
+  },
+  {
+    "suburb": "Bilgola Beach",
+    "slug": "bilgola-beach",
+    "lat": -33.645,
+    "lon": 151.325
+  },
+  {
+    "suburb": "Bilgola Plateau",
+    "slug": "bilgola-plateau",
+    "lat": -33.65,
+    "lon": 151.317
+  },
+  {
+    "suburb": "Birchgrove",
+    "slug": "birchgrove",
+    "lat": -33.851,
+    "lon": 151.177
+  },
+  {
+    "suburb": "Birrong",
+    "slug": "birrong",
+    "lat": -33.892,
+    "lon": 151.022
+  },
+  {
+    "suburb": "Blackett",
+    "slug": "blackett",
+    "lat": -33.738,
+    "lon": 150.806
+  },
+  {
+    "suburb": "Blacktown",
+    "slug": "blacktown",
+    "lat": -33.771,
+    "lon": 150.906
+  },
+  {
+    "suburb": "Blair Athol",
+    "slug": "blair-athol",
+    "lat": -34.068,
+    "lon": 150.804
+  },
+  {
+    "suburb": "Blairmount",
+    "slug": "blairmount",
+    "lat": -34.063,
+    "lon": 150.797
+  },
+  {
+    "suburb": "Blakehurst",
+    "slug": "blakehurst",
+    "lat": -33.99,
+    "lon": 151.11
+  },
+  {
+    "suburb": "Bligh Park",
+    "slug": "bligh-park",
+    "lat": -33.638,
+    "lon": 150.802
+  },
+  {
+    "suburb": "Bondi Beach",
+    "slug": "bondi-beach",
+    "lat": -33.891,
+    "lon": 151.274
+  },
+  {
+    "suburb": "Bondi Junction",
+    "slug": "bondi-junction",
+    "lat": -33.892,
+    "lon": 151.247
+  },
+  {
+    "suburb": "Bondi",
+    "slug": "bondi",
+    "lat": -33.893,
+    "lon": 151.267
+  },
+  {
+    "suburb": "Bonnet Bay",
+    "slug": "bonnet-bay",
+    "lat": -34.025,
+    "lon": 151.048
+  },
+  {
+    "suburb": "Bonnyrigg Heights",
+    "slug": "bonnyrigg-heights",
+    "lat": -33.878,
+    "lon": 150.878
+  },
+  {
+    "suburb": "Bonnyrigg",
+    "slug": "bonnyrigg",
+    "lat": -33.887,
+    "lon": 150.889
+  },
+  {
+    "suburb": "Bossley Park",
+    "slug": "bossley-park",
+    "lat": -33.863,
+    "lon": 150.881
+  },
+  {
+    "suburb": "Botany",
+    "slug": "botany",
+    "lat": -33.944,
+    "lon": 151.197
+  },
+  {
+    "suburb": "Bow Bowing",
+    "slug": "bow-bowing",
+    "lat": -34.053,
+    "lon": 150.817
+  },
+  {
+    "suburb": "Box Hill",
+    "slug": "box-hill",
+    "lat": -33.65,
+    "lon": 150.899
+  },
+  {
+    "suburb": "Bradbury",
+    "slug": "bradbury",
+    "lat": -34.078,
+    "lon": 150.814
+  },
+  {
+    "suburb": "Breakfast Point",
+    "slug": "breakfast-point",
+    "lat": -33.846,
+    "lon": 151.119
+  },
+  {
+    "suburb": "Brighton-Le-Sands",
+    "slug": "brighton-le-sands",
+    "lat": -33.96,
+    "lon": 151.155
+  },
+  {
+    "suburb": "Bringelly",
+    "slug": "bringelly",
+    "lat": -33.943,
+    "lon": 150.728
+  },
+  {
+    "suburb": "Bronte",
+    "slug": "bronte",
+    "lat": -33.902,
+    "lon": 151.264
+  },
+  {
+    "suburb": "Brooklyn",
+    "slug": "brooklyn",
+    "lat": -33.544,
+    "lon": 151.224
+  },
+  {
+    "suburb": "Burwood Heights",
+    "slug": "burwood-heights",
+    "lat": -33.883,
+    "lon": 151.098
+  },
+  {
+    "suburb": "Burwood",
+    "slug": "burwood",
+    "lat": -33.877,
+    "lon": 151.104
+  },
+  {
+    "suburb": "Cabarita",
+    "slug": "cabarita",
+    "lat": -33.847,
+    "lon": 151.137
+  },
+  {
+    "suburb": "Camden",
+    "slug": "camden",
+    "lat": -34.054,
+    "lon": 150.696
+  },
+  {
+    "suburb": "Campbelltown",
+    "slug": "campbelltown",
+    "lat": -34.065,
+    "lon": 150.814
+  },
+  {
+    "suburb": "Canada Bay",
+    "slug": "canada-bay",
+    "lat": -33.86,
+    "lon": 151.117
+  },
+  {
+    "suburb": "Caringbah",
+    "slug": "caringbah",
+    "lat": -34.042,
+    "lon": 151.119
+  },
+  {
+    "suburb": "Carlingford",
+    "slug": "carlingford",
+    "lat": -33.783,
+    "lon": 151.049
+  },
+  {
+    "suburb": "Carlton",
+    "slug": "carlton",
+    "lat": -33.973,
+    "lon": 151.119
+  },
+  {
+    "suburb": "Carnes Hill",
+    "slug": "carnes-hill",
+    "lat": -33.929,
+    "lon": 150.84
+  },
+  {
+    "suburb": "Castle Hill",
+    "slug": "castle-hill",
+    "lat": -33.731,
+    "lon": 151.003
+  },
+  {
+    "suburb": "Casula",
+    "slug": "casula",
+    "lat": -33.949,
+    "lon": 150.906
+  },
+  {
+    "suburb": "Cecil Hills",
+    "slug": "cecil-hills",
+    "lat": -33.878,
+    "lon": 150.842
+  },
+  {
+    "suburb": "Cecil Park",
+    "slug": "cecil-park",
+    "lat": -33.874,
+    "lon": 150.825
+  },
+  {
+    "suburb": "Chatswood",
+    "slug": "chatswood",
+    "lat": -33.796,
+    "lon": 151.183
+  },
+  {
+    "suburb": "Cheltenham",
+    "slug": "cheltenham",
+    "lat": -33.754,
+    "lon": 151.082
+  },
+  {
+    "suburb": "Cherrybrook",
+    "slug": "cherrybrook",
+    "lat": -33.722,
+    "lon": 151.043
+  },
+  {
+    "suburb": "Chester Hill",
+    "slug": "chester-hill",
+    "lat": -33.882,
+    "lon": 150.999
+  },
+  {
+    "suburb": "Chifley",
+    "slug": "chifley",
+    "lat": -33.97,
+    "lon": 151.237
+  },
+  {
+    "suburb": "Chippendale",
+    "slug": "chippendale",
+    "lat": -33.884,
+    "lon": 151.2
+  },
+  {
+    "suburb": "Chipping Norton",
+    "slug": "chipping-norton",
+    "lat": -33.924,
+    "lon": 150.958
+  },
+  {
+    "suburb": "Chiswick",
+    "slug": "chiswick",
+    "lat": -33.85,
+    "lon": 151.138
+  },
+  {
+    "suburb": "Church Point",
+    "slug": "church-point",
+    "lat": -33.64,
+    "lon": 151.278
+  },
+  {
+    "suburb": "Clarendon",
+    "slug": "clarendon",
+    "lat": -33.607,
+    "lon": 150.79
+  },
+  {
+    "suburb": "Clareville",
+    "slug": "clareville",
+    "lat": -33.636,
+    "lon": 151.29
+  },
+  {
+    "suburb": "Claymore",
+    "slug": "claymore",
+    "lat": -34.041,
+    "lon": 150.812
+  },
+  {
+    "suburb": "Clemton Park",
+    "slug": "clemton-park",
+    "lat": -33.926,
+    "lon": 151.101
+  },
+  {
+    "suburb": "Clontarf",
+    "slug": "clontarf",
+    "lat": -33.807,
+    "lon": 151.249
+  },
+  {
+    "suburb": "Clovelly West",
+    "slug": "clovelly-west",
+    "lat": -33.908,
+    "lon": 151.253
+  },
+  {
+    "suburb": "Clovelly",
+    "slug": "clovelly",
+    "lat": -33.911,
+    "lon": 151.26
+  },
+  {
+    "suburb": "Collaroy Plateau",
+    "slug": "collaroy-plateau",
+    "lat": -33.731,
+    "lon": 151.29
+  },
+  {
+    "suburb": "Collaroy",
+    "slug": "collaroy",
+    "lat": -33.735,
+    "lon": 151.3
+  },
+  {
+    "suburb": "Colyton",
+    "slug": "colyton",
+    "lat": -33.788,
+    "lon": 150.806
+  },
+  {
+    "suburb": "Como",
+    "slug": "como",
+    "lat": -34.005,
+    "lon": 151.069
+  },
+  {
+    "suburb": "Concord West",
+    "slug": "concord-west",
+    "lat": -33.85,
+    "lon": 151.095
+  },
+  {
+    "suburb": "Concord",
+    "slug": "concord",
+    "lat": -33.86,
+    "lon": 151.105
+  },
+  {
+    "suburb": "Condell Park",
+    "slug": "condell-park",
+    "lat": -33.927,
+    "lon": 151.017
+  },
+  {
+    "suburb": "Connells Point",
+    "slug": "connells-point",
+    "lat": -33.985,
+    "lon": 151.085
+  },
+  {
+    "suburb": "Coogee",
+    "slug": "coogee",
+    "lat": -33.921,
+    "lon": 151.255
+  },
+  {
+    "suburb": "Cornwallis",
+    "slug": "cornwallis",
+    "lat": -33.567,
+    "lon": 150.823
+  },
+  {
+    "suburb": "Cowan",
+    "slug": "cowan",
+    "lat": -33.593,
+    "lon": 151.17
+  },
+  {
+    "suburb": "Cremorne Point",
+    "slug": "cremorne-point",
+    "lat": -33.84,
+    "lon": 151.225
+  },
+  {
+    "suburb": "Cremorne",
+    "slug": "cremorne",
+    "lat": -33.831,
+    "lon": 151.228
+  },
+  {
+    "suburb": "Cromer",
+    "slug": "cromer",
+    "lat": -33.743,
+    "lon": 151.274
+  },
+  {
+    "suburb": "Cronulla",
+    "slug": "cronulla",
+    "lat": -34.054,
+    "lon": 151.152
+  },
+  {
+    "suburb": "Crows Nest",
+    "slug": "crows-nest",
+    "lat": -33.826,
+    "lon": 151.202
+  },
+  {
+    "suburb": "Croydon Park",
+    "slug": "croydon-park",
+    "lat": -33.897,
+    "lon": 151.107
+  },
+  {
+    "suburb": "Croydon",
+    "slug": "croydon",
+    "lat": -33.883,
+    "lon": 151.114
+  },
+  {
+    "suburb": "Curl Curl",
+    "slug": "curl-curl",
+    "lat": -33.768,
+    "lon": 151.291
+  },
+  {
+    "suburb": "Currans Hill",
+    "slug": "currans-hill",
+    "lat": -34.046,
+    "lon": 150.762
+  },
+  {
+    "suburb": "Currawong Beach",
+    "slug": "currawong-beach",
+    "lat": -33.613,
+    "lon": 151.28
+  },
+  {
+    "suburb": "Daceyville",
+    "slug": "daceyville",
+    "lat": -33.924,
+    "lon": 151.224
+  },
+  {
+    "suburb": "Darling Point",
+    "slug": "darling-point",
+    "lat": -33.871,
+    "lon": 151.24
+  },
+  {
+    "suburb": "Darlinghurst",
+    "slug": "darlinghurst",
+    "lat": -33.877,
+    "lon": 151.22
+  },
+  {
+    "suburb": "Darlington",
+    "slug": "darlington",
+    "lat": -33.89,
+    "lon": 151.198
+  },
+  {
+    "suburb": "Dawn Fraser Pool",
+    "slug": "dawn-fraser-pool",
+    "lat": -33.853,
+    "lon": 151.181
+  },
+  {
+    "suburb": "Dean Park",
+    "slug": "dean-park",
+    "lat": -33.746,
+    "lon": 150.854
+  },
+  {
+    "suburb": "Dee Why",
+    "slug": "dee-why",
+    "lat": -33.751,
+    "lon": 151.288
+  },
+  {
+    "suburb": "Denham Court",
+    "slug": "denham-court",
+    "lat": -33.986,
+    "lon": 150.838
+  },
+  {
+    "suburb": "Denistone East",
+    "slug": "denistone-east",
+    "lat": -33.799,
+    "lon": 151.1
+  },
+  {
+    "suburb": "Denistone West",
+    "slug": "denistone-west",
+    "lat": -33.796,
+    "lon": 151.081
+  },
+  {
+    "suburb": "Denistone",
+    "slug": "denistone",
+    "lat": -33.796,
+    "lon": 151.091
+  },
+  {
+    "suburb": "Dharruk",
+    "slug": "dharruk",
+    "lat": -33.737,
+    "lon": 150.826
+  },
+  {
+    "suburb": "Dolans Bay",
+    "slug": "dolans-bay",
+    "lat": -34.058,
+    "lon": 151.1
+  },
+  {
+    "suburb": "Dolls Point",
+    "slug": "dolls-point",
+    "lat": -33.993,
+    "lon": 151.144
+  },
+  {
+    "suburb": "Double Bay",
+    "slug": "double-bay",
+    "lat": -33.877,
+    "lon": 151.247
+  },
+  {
+    "suburb": "Dover Heights",
+    "slug": "dover-heights",
+    "lat": -33.871,
+    "lon": 151.278
+  },
+  {
+    "suburb": "Drummoyne",
+    "slug": "drummoyne",
+    "lat": -33.852,
+    "lon": 151.155
+  },
+  {
+    "suburb": "Dulwich Hill",
+    "slug": "dulwich-hill",
+    "lat": -33.905,
+    "lon": 151.139
+  },
+  {
+    "suburb": "Dundas Valley",
+    "slug": "dundas-valley",
+    "lat": -33.798,
+    "lon": 151.053
+  },
+  {
+    "suburb": "Dundas",
+    "slug": "dundas",
+    "lat": -33.803,
+    "lon": 151.063
+  },
+  {
+    "suburb": "Dural",
+    "slug": "dural",
+    "lat": -33.683,
+    "lon": 151.019
+  },
+  {
+    "suburb": "Eagle Vale",
+    "slug": "eagle-vale",
+    "lat": -34.037,
+    "lon": 150.821
+  },
+  {
+    "suburb": "Earlwood",
+    "slug": "earlwood",
+    "lat": -33.921,
+    "lon": 151.126
+  },
+  {
+    "suburb": "East Hills",
+    "slug": "east-hills",
+    "lat": -33.958,
+    "lon": 150.988
+  },
+  {
+    "suburb": "East Killara",
+    "slug": "east-killara",
+    "lat": -33.76,
+    "lon": 151.174
+  },
+  {
+    "suburb": "East Lindfield",
+    "slug": "east-lindfield",
+    "lat": -33.771,
+    "lon": 151.178
+  },
+  {
+    "suburb": "East Ryde",
+    "slug": "east-ryde",
+    "lat": -33.812,
+    "lon": 151.137
+  },
+  {
+    "suburb": "Eastern Suburbs",
+    "slug": "eastern-suburbs",
+    "lat": -33.8926,
+    "lon": 151.2501
+  },
+  {
+    "suburb": "Eastwood",
+    "slug": "eastwood",
+    "lat": -33.79,
+    "lon": 151.081
+  },
+  {
+    "suburb": "Edensor Park",
+    "slug": "edensor-park",
+    "lat": -33.876,
+    "lon": 150.874
+  },
+  {
+    "suburb": "Edmondson Park",
+    "slug": "edmondson-park",
+    "lat": -33.96,
+    "lon": 150.859
+  },
+  {
+    "suburb": "Elderslie",
+    "slug": "elderslie",
+    "lat": -34.056,
+    "lon": 150.71
+  },
+  {
+    "suburb": "Elizabeth Bay",
+    "slug": "elizabeth-bay",
+    "lat": -33.872,
+    "lon": 151.228
+  },
+  {
+    "suburb": "Elizabeth Hills",
+    "slug": "elizabeth-hills",
+    "lat": -33.889,
+    "lon": 150.837
+  },
+  {
+    "suburb": "Emerton",
+    "slug": "emerton",
+    "lat": -33.743,
+    "lon": 150.808
+  },
+  {
+    "suburb": "Emu Heights",
+    "slug": "emu-heights",
+    "lat": -33.735,
+    "lon": 150.648
+  },
+  {
+    "suburb": "Emu Plains",
+    "slug": "emu-plains",
+    "lat": -33.749,
+    "lon": 150.659
+  },
+  {
+    "suburb": "Enfield",
+    "slug": "enfield",
+    "lat": -33.895,
+    "lon": 151.101
+  },
+  {
+    "suburb": "Engadine",
+    "slug": "engadine",
+    "lat": -34.068,
+    "lon": 151.015
+  },
+  {
+    "suburb": "Enmore",
+    "slug": "enmore",
+    "lat": -33.898,
+    "lon": 151.173
+  },
+  {
+    "suburb": "Epping",
+    "slug": "epping",
+    "lat": -33.773,
+    "lon": 151.082
+  },
+  {
+    "suburb": "Ermington",
+    "slug": "ermington",
+    "lat": -33.816,
+    "lon": 151.058
+  },
+  {
+    "suburb": "Erskine Park",
+    "slug": "erskine-park",
+    "lat": -33.815,
+    "lon": 150.797
+  },
+  {
+    "suburb": "Erskineville",
+    "slug": "erskineville",
+    "lat": -33.901,
+    "lon": 151.186
+  },
+  {
+    "suburb": "Eveleigh",
+    "slug": "eveleigh",
+    "lat": -33.893,
+    "lon": 151.193
+  },
+  {
+    "suburb": "Fairfield East",
+    "slug": "fairfield-east",
+    "lat": -33.867,
+    "lon": 150.972
+  },
+  {
+    "suburb": "Fairfield Heights",
+    "slug": "fairfield-heights",
+    "lat": -33.862,
+    "lon": 150.941
+  },
+  {
+    "suburb": "Fairfield West",
+    "slug": "fairfield-west",
+    "lat": -33.871,
+    "lon": 150.934
+  },
+  {
+    "suburb": "Fairfield",
+    "slug": "fairfield",
+    "lat": -33.87,
+    "lon": 150.956
+  },
+  {
+    "suburb": "Fairlight",
+    "slug": "fairlight",
+    "lat": -33.797,
+    "lon": 151.276
+  },
+  {
+    "suburb": "Fiddletown",
+    "slug": "fiddletown",
+    "lat": -33.581,
+    "lon": 151.046
+  },
+  {
+    "suburb": "Five Dock",
+    "slug": "five-dock",
+    "lat": -33.866,
+    "lon": 151.13
+  },
+  {
+    "suburb": "Flemington",
+    "slug": "flemington",
+    "lat": -33.864,
+    "lon": 151.078
+  },
+  {
+    "suburb": "Forestville",
+    "slug": "forestville",
+    "lat": -33.758,
+    "lon": 151.211
+  },
+  {
+    "suburb": "Frenchs Forest",
+    "slug": "frenchs-forest",
+    "lat": -33.749,
+    "lon": 151.231
+  },
+  {
+    "suburb": "Freshwater",
+    "slug": "freshwater",
+    "lat": -33.778,
+    "lon": 151.289
+  },
+  {
+    "suburb": "Galston",
+    "slug": "galston",
+    "lat": -33.659,
+    "lon": 151.048
+  },
+  {
+    "suburb": "Georges Hall",
+    "slug": "georges-hall",
+    "lat": -33.905,
+    "lon": 150.987
+  },
+  {
+    "suburb": "Girraween",
+    "slug": "girraween",
+    "lat": -33.8,
+    "lon": 150.944
+  },
+  {
+    "suburb": "Gladesville",
+    "slug": "gladesville",
+    "lat": -33.831,
+    "lon": 151.131
+  },
+  {
+    "suburb": "Glebe",
+    "slug": "glebe",
+    "lat": -33.881,
+    "lon": 151.186
+  },
+  {
+    "suburb": "Glen Alpine",
+    "slug": "glen-alpine",
+    "lat": -34.084,
+    "lon": 150.793
+  },
+  {
+    "suburb": "Glendenning",
+    "slug": "glendenning",
+    "lat": -33.745,
+    "lon": 150.832
+  },
+  {
+    "suburb": "Glenfield",
+    "slug": "glenfield",
+    "lat": -33.968,
+    "lon": 150.89
+  },
+  {
+    "suburb": "Glenhaven",
+    "slug": "glenhaven",
+    "lat": -33.708,
+    "lon": 151.013
+  },
+  {
+    "suburb": "Glenmore Park",
+    "slug": "glenmore-park",
+    "lat": -33.782,
+    "lon": 150.669
+  },
+  {
+    "suburb": "Glenwood",
+    "slug": "glenwood",
+    "lat": -33.733,
+    "lon": 150.931
+  },
+  {
+    "suburb": "Gordon",
+    "slug": "gordon",
+    "lat": -33.756,
+    "lon": 151.154
+  },
+  {
+    "suburb": "Granville",
+    "slug": "granville",
+    "lat": -33.833,
+    "lon": 151.012
+  },
+  {
+    "suburb": "Grays Point",
+    "slug": "grays-point",
+    "lat": -34.058,
+    "lon": 151.085
+  },
+  {
+    "suburb": "Green Valley",
+    "slug": "green-valley",
+    "lat": -33.903,
+    "lon": 150.877
+  },
+  {
+    "suburb": "Greenacre",
+    "slug": "greenacre",
+    "lat": -33.903,
+    "lon": 151.056
+  },
+  {
+    "suburb": "Greendale",
+    "slug": "greendale",
+    "lat": -33.905,
+    "lon": 150.636
+  },
+  {
+    "suburb": "Greenfield Park",
+    "slug": "greenfield-park",
+    "lat": -33.873,
+    "lon": 150.897
+  },
+  {
+    "suburb": "Gregory Hills",
+    "slug": "gregory-hills",
+    "lat": -34.018,
+    "lon": 150.766
+  },
+  {
+    "suburb": "Greystanes",
+    "slug": "greystanes",
+    "lat": -33.822,
+    "lon": 150.948
+  },
+  {
+    "suburb": "Guildford West",
+    "slug": "guildford-west",
+    "lat": -33.853,
+    "lon": 150.969
+  },
+  {
+    "suburb": "Guildford",
+    "slug": "guildford",
+    "lat": -33.852,
+    "lon": 150.987
+  },
+  {
+    "suburb": "Gymea Bay",
+    "slug": "gymea-bay",
+    "lat": -34.048,
+    "lon": 151.09
+  },
+  {
+    "suburb": "Gymea",
+    "slug": "gymea",
+    "lat": -34.036,
+    "lon": 151.086
+  },
+  {
+    "suburb": "Haberfield",
+    "slug": "haberfield",
+    "lat": -33.88,
+    "lon": 151.138
+  },
+  {
+    "suburb": "Hammondville",
+    "slug": "hammondville",
+    "lat": -33.949,
+    "lon": 150.951
+  },
+  {
+    "suburb": "Harbord",
+    "slug": "harbord",
+    "lat": -33.778,
+    "lon": 151.284
+  },
+  {
+    "suburb": "Harrington Park",
+    "slug": "harrington-park",
+    "lat": -34.025,
+    "lon": 150.731
+  },
+  {
+    "suburb": "Harris Park",
+    "slug": "harris-park",
+    "lat": -33.822,
+    "lon": 151.014
+  },
+  {
+    "suburb": "Haymarket",
+    "slug": "haymarket",
+    "lat": -33.881,
+    "lon": 151.206
+  },
+  {
+    "suburb": "Heathcote",
+    "slug": "heathcote",
+    "lat": -34.089,
+    "lon": 151.006
+  },
+  {
+    "suburb": "Hebersham",
+    "slug": "hebersham",
+    "lat": -33.744,
+    "lon": 150.816
+  },
+  {
+    "suburb": "Heckenberg",
+    "slug": "heckenberg",
+    "lat": -33.919,
+    "lon": 150.879
+  },
+  {
+    "suburb": "Henley",
+    "slug": "henley",
+    "lat": -33.839,
+    "lon": 151.134
+  },
+  {
+    "suburb": "Hills District",
+    "slug": "hills-district",
+    "lat": -33.75944,
+    "lon": 150.99028
+  },
+  {
+    "suburb": "Hillsdale",
+    "slug": "hillsdale",
+    "lat": -33.949,
+    "lon": 151.229
+  },
+  {
+    "suburb": "Hinchinbrook",
+    "slug": "hinchinbrook",
+    "lat": -33.924,
+    "lon": 150.853
+  },
+  {
+    "suburb": "Hobbys Bay",
+    "slug": "hobbys-bay",
+    "lat": -33.98,
+    "lon": 151.141
+  },
+  {
+    "suburb": "Holroyd",
+    "slug": "holroyd",
+    "lat": -33.836,
+    "lon": 150.999
+  },
+  {
+    "suburb": "Holsworthy",
+    "slug": "holsworthy",
+    "lat": -33.976,
+    "lon": 150.953
+  },
+  {
+    "suburb": "Homebush West",
+    "slug": "homebush-west",
+    "lat": -33.862,
+    "lon": 151.076
+  },
+  {
+    "suburb": "Homebush",
+    "slug": "homebush",
+    "lat": -33.866,
+    "lon": 151.088
+  },
+  {
+    "suburb": "Horningsea Park",
+    "slug": "horningsea-park",
+    "lat": -33.943,
+    "lon": 150.843
+  },
+  {
+    "suburb": "Hornsby Heights",
+    "slug": "hornsby-heights",
+    "lat": -33.676,
+    "lon": 151.1
+  },
+  {
+    "suburb": "Hornsby",
+    "slug": "hornsby",
+    "lat": -33.704,
+    "lon": 151.099
+  },
+  {
+    "suburb": "Horsley Park",
+    "slug": "horsley-park",
+    "lat": -33.846,
+    "lon": 150.844
+  },
+  {
+    "suburb": "Hoxton Park",
+    "slug": "hoxton-park",
+    "lat": -33.932,
+    "lon": 150.855
+  },
+  {
+    "suburb": "Hunters Hill",
+    "slug": "hunters-hill",
+    "lat": -33.834,
+    "lon": 151.145
+  },
+  {
+    "suburb": "Huntingwood",
+    "slug": "huntingwood",
+    "lat": -33.795,
+    "lon": 150.891
+  },
+  {
+    "suburb": "Huntleys Cove",
+    "slug": "huntleys-cove",
+    "lat": -33.837,
+    "lon": 151.139
+  },
+  {
+    "suburb": "Huntleys Point",
+    "slug": "huntleys-point",
+    "lat": -33.842,
+    "lon": 151.145
+  },
+  {
+    "suburb": "Hurlstone Park",
+    "slug": "hurlstone-park",
+    "lat": -33.911,
+    "lon": 151.132
+  },
+  {
+    "suburb": "Hurstville Grove",
+    "slug": "hurstville-grove",
+    "lat": -33.98,
+    "lon": 151.099
+  },
+  {
+    "suburb": "Hurstville",
+    "slug": "hurstville",
+    "lat": -33.968,
+    "lon": 151.103
+  },
+  {
+    "suburb": "Ingleburn",
+    "slug": "ingleburn",
+    "lat": -34.001,
+    "lon": 150.864
+  },
+  {
+    "suburb": "Ingleside",
+    "slug": "ingleside",
+    "lat": -33.686,
+    "lon": 151.26
+  },
+  {
+    "suburb": "Inner West Sydney",
+    "slug": "inner-west-sydney",
+    "lat": -33.9051,
+    "lon": 151.1551
+  },
+  {
+    "suburb": "Jamisontown",
+    "slug": "jamisontown",
+    "lat": -33.769,
+    "lon": 150.682
+  },
+  {
+    "suburb": "Janali",
+    "slug": "janali",
+    "lat": -34.029,
+    "lon": 151.061
+  },
+  {
+    "suburb": "Jordan Springs",
+    "slug": "jordan-springs",
+    "lat": -33.73,
+    "lon": 150.715
+  },
+  {
+    "suburb": "Kangaroo Point",
+    "slug": "kangaroo-point",
+    "lat": -33.988,
+    "lon": 151.093
+  },
+  {
+    "suburb": "Kareela",
+    "slug": "kareela",
+    "lat": -34.016,
+    "lon": 151.078
+  },
+  {
+    "suburb": "Kearns",
+    "slug": "kearns",
+    "lat": -34.024,
+    "lon": 150.803
+  },
+  {
+    "suburb": "Kellyville",
+    "slug": "kellyville",
+    "lat": -33.718,
+    "lon": 150.955
+  },
+  {
+    "suburb": "Kemps Creek",
+    "slug": "kemps-creek",
+    "lat": -33.877,
+    "lon": 150.786
+  },
+  {
+    "suburb": "Kensington",
+    "slug": "kensington",
+    "lat": -33.914,
+    "lon": 151.223
+  },
+  {
+    "suburb": "Kenthurst",
+    "slug": "kenthurst",
+    "lat": -33.654,
+    "lon": 151.001
+  },
+  {
+    "suburb": "Kentlyn",
+    "slug": "kentlyn",
+    "lat": -34.071,
+    "lon": 150.841
+  },
+  {
+    "suburb": "Kings Park",
+    "slug": "kings-park",
+    "lat": -33.746,
+    "lon": 150.908
+  },
+  {
+    "suburb": "Kingsford",
+    "slug": "kingsford",
+    "lat": -33.923,
+    "lon": 151.228
+  },
+  {
+    "suburb": "Kingsgrove",
+    "slug": "kingsgrove",
+    "lat": -33.938,
+    "lon": 151.099
+  },
+  {
+    "suburb": "Kirribilli",
+    "slug": "kirribilli",
+    "lat": -33.848,
+    "lon": 151.216
+  },
+  {
+    "suburb": "Kogarah",
+    "slug": "kogarah",
+    "lat": -33.963,
+    "lon": 151.132
+  },
+  {
+    "suburb": "Kyeemagh",
+    "slug": "kyeemagh",
+    "lat": -33.948,
+    "lon": 151.163
+  },
+  {
+    "suburb": "Lane Cove",
+    "slug": "lane-cove",
+    "lat": -33.816,
+    "lon": 151.167
+  },
+  {
+    "suburb": "Leichhardt",
+    "slug": "leichhardt",
+    "lat": -33.882,
+    "lon": 151.156
+  },
+  {
+    "suburb": "Leppington",
+    "slug": "leppington",
+    "lat": -33.965,
+    "lon": 150.808
+  },
+  {
+    "suburb": "Lewisham",
+    "slug": "lewisham",
+    "lat": -33.894,
+    "lon": 151.149
+  },
+  {
+    "suburb": "Liberty Grove",
+    "slug": "liberty-grove",
+    "lat": -33.847,
+    "lon": 151.083
+  },
+  {
+    "suburb": "Lidcombe",
+    "slug": "lidcombe",
+    "lat": -33.864,
+    "lon": 151.045
+  },
+  {
+    "suburb": "Lilyfield",
+    "slug": "lilyfield",
+    "lat": -33.872,
+    "lon": 151.163
+  },
+  {
+    "suburb": "Liverpool",
+    "slug": "liverpool",
+    "lat": -33.924,
+    "lon": 150.924
+  },
+  {
+    "suburb": "Lurnea",
+    "slug": "lurnea",
+    "lat": -33.935,
+    "lon": 150.903
+  },
+  {
+    "suburb": "Macquarie Park",
+    "slug": "macquarie-park",
+    "lat": -33.776,
+    "lon": 151.122
+  },
+  {
+    "suburb": "Maraylya",
+    "slug": "maraylya",
+    "lat": -33.595,
+    "lon": 150.934
+  },
+  {
+    "suburb": "Maroubra",
+    "slug": "maroubra",
+    "lat": -33.943,
+    "lon": 151.241
+  },
+  {
+    "suburb": "Marrickville",
+    "slug": "marrickville",
+    "lat": -33.91,
+    "lon": 151.155
+  },
+  {
+    "suburb": "Marsfield",
+    "slug": "marsfield",
+    "lat": -33.778,
+    "lon": 151.11
+  },
+  {
+    "suburb": "Mascot",
+    "slug": "mascot",
+    "lat": -33.929,
+    "lon": 151.193
+  },
+  {
+    "suburb": "Matraville",
+    "slug": "matraville",
+    "lat": -33.948,
+    "lon": 151.233
+  },
+  {
+    "suburb": "Merrylands",
+    "slug": "merrylands",
+    "lat": -33.834,
+    "lon": 150.991
+  },
+  {
+    "suburb": "Middle Dural",
+    "slug": "middle-dural",
+    "lat": -33.667,
+    "lon": 151.015
+  },
+  {
+    "suburb": "Middleton Grange",
+    "slug": "middleton-grange",
+    "lat": -33.919,
+    "lon": 150.842
+  },
+  {
+    "suburb": "Minchinbury",
+    "slug": "minchinbury",
+    "lat": -33.789,
+    "lon": 150.84
+  },
+  {
+    "suburb": "Miranda",
+    "slug": "miranda",
+    "lat": -34.034,
+    "lon": 151.103
+  },
+  {
+    "suburb": "Moorebank",
+    "slug": "moorebank",
+    "lat": -33.939,
+    "lon": 150.938
+  },
+  {
+    "suburb": "Mortdale",
+    "slug": "mortdale",
+    "lat": -33.969,
+    "lon": 151.076
+  },
+  {
+    "suburb": "Mortlake",
+    "slug": "mortlake",
+    "lat": -33.84,
+    "lon": 151.111
+  },
+  {
+    "suburb": "Mosman",
+    "slug": "mosman",
+    "lat": -33.829,
+    "lon": 151.244
+  },
+  {
+    "suburb": "Narellan",
+    "slug": "narellan",
+    "lat": -34.044,
+    "lon": 150.729
+  },
+  {
+    "suburb": "Nelson",
+    "slug": "nelson",
+    "lat": -33.977,
+    "lon": 150.818
+  },
+  {
+    "suburb": "Neutral Bay",
+    "slug": "neutral-bay",
+    "lat": -33.832,
+    "lon": 151.218
+  },
+  {
+    "suburb": "Newtown",
+    "slug": "newtown",
+    "lat": -33.897,
+    "lon": 151.179
+  },
+  {
+    "suburb": "North Rocks",
+    "slug": "north-rocks",
+    "lat": -33.769,
+    "lon": 151.023
+  },
+  {
+    "suburb": "North Ryde",
+    "slug": "north-ryde",
+    "lat": -33.797,
+    "lon": 151.129
+  },
+  {
+    "suburb": "North Shore",
+    "slug": "north-shore",
+    "lat": -33.797,
+    "lon": 151.183
+  },
+  {
+    "suburb": "North Sydney",
+    "slug": "north-sydney",
+    "lat": -33.839,
+    "lon": 151.207
+  },
+  {
+    "suburb": "Northern Beaches",
+    "slug": "northern-beaches",
+    "lat": -33.7544,
+    "lon": 151.2854
+  },
+  {
+    "suburb": "Northmead",
+    "slug": "northmead",
+    "lat": -33.781,
+    "lon": 151.002
+  },
+  {
+    "suburb": "Oatlands",
+    "slug": "oatlands",
+    "lat": -33.796,
+    "lon": 151.024
+  },
+  {
+    "suburb": "Paddington",
+    "slug": "paddington",
+    "lat": -33.884,
+    "lon": 151.226
+  },
+  {
+    "suburb": "Padstow",
+    "slug": "padstow",
+    "lat": -33.951,
+    "lon": 151.032
+  },
+  {
+    "suburb": "Parramatta",
+    "slug": "parramatta",
+    "lat": -33.815,
+    "lon": 151.001
+  },
+  {
+    "suburb": "Pennant Hills",
+    "slug": "pennant-hills",
+    "lat": -33.738,
+    "lon": 151.072
+  },
+  {
+    "suburb": "Penrith",
+    "slug": "penrith",
+    "lat": -33.7511,
+    "lon": 150.6942
+  },
+  {
+    "suburb": "Petersham",
+    "slug": "petersham",
+    "lat": -33.894,
+    "lon": 151.155
+  },
+  {
+    "suburb": "Pleasure Point",
+    "slug": "pleasure-point",
+    "lat": -33.981,
+    "lon": 150.968
+  },
+  {
+    "suburb": "Prestons",
+    "slug": "prestons",
+    "lat": -33.946,
+    "lon": 150.869
+  },
+  {
+    "suburb": "Prospect",
+    "slug": "prospect",
+    "lat": -33.802,
+    "lon": 150.913
+  },
+  {
+    "suburb": "Quakers Hill",
+    "slug": "quakers-hill",
+    "lat": -33.731,
+    "lon": 150.881
+  },
+  {
+    "suburb": "Randwick",
+    "slug": "randwick",
+    "lat": -33.914,
+    "lon": 151.241
+  },
+  {
+    "suburb": "Redfern",
+    "slug": "redfern",
+    "lat": -33.893,
+    "lon": 151.204
+  },
+  {
+    "suburb": "Revesby",
+    "slug": "revesby",
+    "lat": -33.948,
+    "lon": 151.015
+  },
+  {
+    "suburb": "Riverstone",
+    "slug": "riverstone",
+    "lat": -33.681,
+    "lon": 150.862
+  },
+  {
+    "suburb": "Riverview",
+    "slug": "riverview",
+    "lat": -33.827,
+    "lon": 151.16
+  },
+  {
+    "suburb": "Rockdale",
+    "slug": "rockdale",
+    "lat": -33.951,
+    "lon": 151.137
+  },
+  {
+    "suburb": "Rodd Point",
+    "slug": "rodd-point",
+    "lat": -33.87,
+    "lon": 151.142
+  },
+  {
+    "suburb": "Roselands",
+    "slug": "roselands",
+    "lat": -33.93,
+    "lon": 151.075
+  },
+  {
+    "suburb": "Rossmore",
+    "slug": "rossmore",
+    "lat": -33.933,
+    "lon": 150.79
+  },
+  {
+    "suburb": "Rouse Hill",
+    "slug": "rouse-hill",
+    "lat": -33.685,
+    "lon": 150.917
+  },
+  {
+    "suburb": "Rozelle",
+    "slug": "rozelle",
+    "lat": -33.862,
+    "lon": 151.171
+  },
+  {
+    "suburb": "Ruse",
+    "slug": "ruse",
+    "lat": -34.068,
+    "lon": 150.831
+  },
+  {
+    "suburb": "Rushcutters Bay",
+    "slug": "rushcutters-bay",
+    "lat": -33.874,
+    "lon": 151.228
+  },
+  {
+    "suburb": "Russell Lea",
+    "slug": "russell-lea",
+    "lat": -33.864,
+    "lon": 151.139
+  },
+  {
+    "suburb": "Ryde",
+    "slug": "ryde",
+    "lat": -33.815,
+    "lon": 151.107
+  },
+  {
+    "suburb": "Sadleir",
+    "slug": "sadleir",
+    "lat": -33.919,
+    "lon": 150.893
+  },
+  {
+    "suburb": "Sandringham",
+    "slug": "sandringham",
+    "lat": -34.004,
+    "lon": 151.137
+  },
+  {
+    "suburb": "Sandy Point",
+    "slug": "sandy-point",
+    "lat": -33.998,
+    "lon": 150.976
+  },
+  {
+    "suburb": "Seven Hills",
+    "slug": "seven-hills",
+    "lat": -33.774,
+    "lon": 150.934
+  },
+  {
+    "suburb": "Silverwater",
+    "slug": "silverwater",
+    "lat": -33.833,
+    "lon": 151.048
+  },
+  {
+    "suburb": "Smithfield",
+    "slug": "smithfield",
+    "lat": -33.852,
+    "lon": 150.942
+  },
+  {
+    "suburb": "South West Sydney",
+    "slug": "south-west-sydney",
+    "lat": -33.95,
+    "lon": 150.83
+  },
+  {
+    "suburb": "South Western Sydney",
+    "slug": "south-western-sydney",
+    "lat": -33.92092,
+    "lon": 150.92314
+  },
+  {
+    "suburb": "Spring Farm",
+    "slug": "spring-farm",
+    "lat": -34.069,
+    "lon": 150.721
+  },
+  {
+    "suburb": "St Clair",
+    "slug": "st-clair",
+    "lat": -33.795,
+    "lon": 150.785
+  },
+  {
+    "suburb": "St George Area",
+    "slug": "st-george-area",
+    "lat": -33.967,
+    "lon": 151.133
+  },
+  {
+    "suburb": "St Marys",
+    "slug": "st-marys",
+    "lat": -33.762,
+    "lon": 150.773
+  },
+  {
+    "suburb": "Stanmore",
+    "slug": "stanmore",
+    "lat": -33.893,
+    "lon": 151.166
+  },
+  {
+    "suburb": "Strathfield",
+    "slug": "strathfield",
+    "lat": -33.879,
+    "lon": 151.093
+  },
+  {
+    "suburb": "Summer Hill",
+    "slug": "summer-hill",
+    "lat": -33.891,
+    "lon": 151.139
+  },
+  {
+    "suburb": "Surry Hills",
+    "slug": "surry-hills",
+    "lat": -33.884,
+    "lon": 151.213
+  },
+  {
+    "suburb": "Sutherland Shire",
+    "slug": "sutherland-shire",
+    "lat": -34.031,
+    "lon": 151.058
+  },
+  {
+    "suburb": "Sydney CBD",
+    "slug": "sydney-cbd",
+    "lat": -33.8688,
+    "lon": 151.2093
+  },
+  {
+    "suburb": "Taren Point",
+    "slug": "taren-point",
+    "lat": -34.013,
+    "lon": 151.122
+  },
+  {
+    "suburb": "Thornleigh",
+    "slug": "thornleigh",
+    "lat": -33.731,
+    "lon": 151.079
+  },
+  {
+    "suburb": "Turramurra",
+    "slug": "turramurra",
+    "lat": -33.737,
+    "lon": 151.13
+  },
+  {
+    "suburb": "Vaucluse",
+    "slug": "vaucluse",
+    "lat": -33.858,
+    "lon": 151.272
+  },
+  {
+    "suburb": "Voyager Point",
+    "slug": "voyager-point",
+    "lat": -33.981,
+    "lon": 150.977
+  },
+  {
+    "suburb": "Wahroonga",
+    "slug": "wahroonga",
+    "lat": -33.719,
+    "lon": 151.117
+  },
+  {
+    "suburb": "Wallacia",
+    "slug": "wallacia",
+    "lat": -33.867,
+    "lon": 150.64
+  },
+  {
+    "suburb": "Wareemba",
+    "slug": "wareemba",
+    "lat": -33.854,
+    "lon": 151.131
+  },
+  {
+    "suburb": "Warwick Farm",
+    "slug": "warwick-farm",
+    "lat": -33.914,
+    "lon": 150.936
+  },
+  {
+    "suburb": "Waterloo",
+    "slug": "waterloo",
+    "lat": -33.9,
+    "lon": 151.209
+  },
+  {
+    "suburb": "Wattle Grove",
+    "slug": "wattle-grove",
+    "lat": -33.96,
+    "lon": 150.939
+  },
+  {
+    "suburb": "Waverley",
+    "slug": "waverley",
+    "lat": -33.898,
+    "lon": 151.254
+  },
+  {
+    "suburb": "Waverton",
+    "slug": "waverton",
+    "lat": -33.838,
+    "lon": 151.2
+  },
+  {
+    "suburb": "Wentworth Point",
+    "slug": "wentworth-point",
+    "lat": -33.832,
+    "lon": 151.071
+  },
+  {
+    "suburb": "West Hoxton",
+    "slug": "west-hoxton",
+    "lat": -33.933,
+    "lon": 150.853
+  },
+  {
+    "suburb": "West Pennant Hills",
+    "slug": "west-pennant-hills",
+    "lat": -33.748,
+    "lon": 151.052
+  },
+  {
+    "suburb": "West Ryde",
+    "slug": "west-ryde",
+    "lat": -33.808,
+    "lon": 151.089
+  },
+  {
+    "suburb": "Western Sydney",
+    "slug": "western-sydney",
+    "lat": -33.815,
+    "lon": 151.0011
+  },
+  {
+    "suburb": "Wetherill Park",
+    "slug": "wetherill-park",
+    "lat": -33.843,
+    "lon": 150.91
+  },
+  {
+    "suburb": "Wolli Creek",
+    "slug": "wolli-creek",
+    "lat": -33.933,
+    "lon": 151.153
+  },
+  {
+    "suburb": "Woodpark",
+    "slug": "woodpark",
+    "lat": -33.831,
+    "lon": 150.962
+  },
+  {
+    "suburb": "Woolooware",
+    "slug": "woolooware",
+    "lat": -34.046,
+    "lon": 151.14
+  },
+  {
+    "suburb": "Woronora Heights",
+    "slug": "woronora-heights",
+    "lat": -34.04,
+    "lon": 151.035
+  },
+  {
+    "suburb": "Zetland",
+    "slug": "zetland",
+    "lat": -33.906,
+    "lon": 151.21
+  }
+]

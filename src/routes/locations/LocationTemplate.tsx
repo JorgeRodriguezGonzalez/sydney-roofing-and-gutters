@@ -13,6 +13,7 @@ import FaqSection from "@/components/FaqSection";
 import ContentBlock3 from "@/components/ContentBlock3";
 import ColorSwitchWidget from "@/components/ColorSwitchWidget";
 import BrandsSlider from "@/components/BrandsSlider";
+import locationsIndex from "@/data/locations-index.json";
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ChevronDown, Phone, Calculator, Send } from "lucide-react";
@@ -664,6 +665,8 @@ export function LocationPageTemplate({
 
       <InlineCtaPill />
 
+      <NearbySuburbs currentSlug={config.slug} lat={parseFloat(config.latitude)} lon={parseFloat(config.longitude)} />
+
       {/* Reutiliza tu bloque de 3 pasos */}
       <ContentBlock3 />
 
@@ -673,6 +676,55 @@ export function LocationPageTemplate({
       <Footer />
       <FloatingBanner />
     </div>
+  );
+}
+
+
+function haversineKm(lat1: number, lon1: number, lat2: number, lon2: number) {
+  const R = 6371;
+  const dLat = ((lat2 - lat1) * Math.PI) / 180;
+  const dLon = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos((lat1 * Math.PI) / 180) *
+      Math.cos((lat2 * Math.PI) / 180) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function NearbySuburbs({ currentSlug, lat, lon }: { currentSlug: string; lat: number; lon: number }) {
+  const nearby = useMemo(() => {
+    return locationsIndex
+      .filter((loc: { slug: string }) => loc.slug !== currentSlug)
+      .map((loc: { slug: string; suburb: string; lat: number; lon: number }) => ({
+        ...loc,
+        dist: haversineKm(lat, lon, loc.lat, loc.lon),
+      }))
+      .sort((a: { dist: number }, b: { dist: number }) => a.dist - b.dist)
+      .slice(0, 6);
+  }, [currentSlug, lat, lon]);
+
+  if (nearby.length === 0) return null;
+
+  return (
+    <section className="py-14 bg-[#F6F6F6]">
+      <div className="container mx-auto px-7 lg:px-14 xl:px-20">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Nearby Suburbs We Service</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          {nearby.map((loc: { slug: string; suburb: string; dist: number }) => (
+            
+              key={loc.slug}
+              href={`/roofing-${loc.slug}/`}
+              className="bg-white rounded-lg border shadow-sm p-4 text-center hover:shadow-md transition-shadow group"
+            >
+              <div className="font-bold text-sm group-hover:text-[#179DC2] transition-colors">{loc.suburb}</div>
+              <div className="text-xs mt-1" style={{ color: "#999999" }}>{loc.dist.toFixed(1)} km away</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
