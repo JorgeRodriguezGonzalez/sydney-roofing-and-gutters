@@ -713,7 +713,7 @@ function NearbySuburbs({ currentSlug, lat, lon }: { currentSlug: string; lat: nu
         <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Nearby Suburbs We Service</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {nearby.map((loc: { slug: string; suburb: string; dist: number }) => (
-            
+            <a
               key={loc.slug}
               href={`/roofing-${loc.slug}/`}
               className="bg-white rounded-lg border shadow-sm p-4 text-center hover:shadow-md transition-shadow group"
