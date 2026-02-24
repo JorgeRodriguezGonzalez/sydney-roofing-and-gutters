@@ -6,8 +6,8 @@ const config = {
   path: "/guides/why-is-my-whirlybird-noisy-5-misconceptions-about-whirlybirds/",
   description: "Discover why your whirlybird is making noise and debunk 5 common myths about roof ventilation turbines. Learn maintenance tips and when to replace whirlybirds in Sydney homes.",
   keywords: "whirlybird noise, noisy roof ventilator, whirlybird maintenance sydney, roof turbine repair, whirlybird misconceptions",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-10-01",
+  modifiedISO: "2025-11-10",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/painting-colorbond-roof-can-it-be-done/",
   description: "Discover whether you can paint a Colorbond roof, what preparation is required, costs involved and whether repainting or replacement makes better sense for Sydney homes.",
   keywords: "paint colorbond roof, colorbond roof painting, metal roof painting sydney, roof repainting cost, colorbond maintenance",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-08-25",
+  modifiedISO: "2025-11-20",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

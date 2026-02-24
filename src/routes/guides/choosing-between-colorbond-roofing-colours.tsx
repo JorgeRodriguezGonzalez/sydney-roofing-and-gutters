@@ -6,8 +6,8 @@ const config = {
   path: "/guides/choosing-between-colorbond-roofing-colours/",
   description: "Expert guide to selecting the best Colorbond roof colour for Sydney homes. Learn how colour affects temperature, resale value and visual appeal in Australian conditions.",
   keywords: "colorbond colours, roof colour selection sydney, colorbond colour guide, best roof colour australia, colorbond thermal performance",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-05-06",
+  modifiedISO: "2025-12-02",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

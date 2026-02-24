@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-professional-roof-painting-cost/",
   description: "Discover the real cost of professional roof painting in Sydney. Learn about pricing factors, different roof types, surface preparation and how to choose a quality roof painting contractor.",
   keywords: "roof painting cost sydney, roof painting prices, colorbond roof painting, tile roof painting cost, roof restoration cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-08-19",
+  modifiedISO: "2025-12-23",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

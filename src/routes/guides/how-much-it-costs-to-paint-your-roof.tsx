@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-it-costs-to-paint-your-roof/",
   description: "Find out how much roof painting costs in Sydney. Learn about pricing factors, paint types, preparation work and how to get accurate quotes for your roof painting project.",
   keywords: "roof painting cost sydney, roof painting prices, roof coating cost, roof restoration price, roof painting quote",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-10-17",
+  modifiedISO: "2025-11-28",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

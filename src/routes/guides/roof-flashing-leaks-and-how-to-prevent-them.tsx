@@ -6,8 +6,8 @@ const config = {
   path: "/guides/roof-flashing-leaks-and-how-to-prevent-them/",
   description: "Learn how to identify, fix and prevent roof flashing leaks in Sydney homes. Expert advice on common flashing problems, maintenance tips and when to call a professional roofer.",
   keywords: "roof flashing leaks, flashing repair sydney, roof leak prevention, flashing maintenance, roof waterproofing",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-10-20",
+  modifiedISO: "2025-11-28",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

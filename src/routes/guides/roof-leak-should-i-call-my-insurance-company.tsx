@@ -6,8 +6,8 @@ const config = {
   path: "/guides/roof-leak-should-i-call-my-insurance-company/",
   description: "Learn when to contact your insurance company for a roof leak, what damage is covered, how to document claims and what to do first when you discover water damage in your Sydney home.",
   keywords: "roof leak insurance claim, storm damage insurance, roof repair insurance, water damage claim sydney, home insurance roof",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-10-25",
+  modifiedISO: "2025-11-08",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

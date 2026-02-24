@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-a-new-roof-cost-how-to-save-in-2023/",
   description: "Discover the true cost of a new roof in Sydney. Learn pricing factors, material comparisons and proven strategies to save thousands without compromising quality or safety.",
   keywords: "roof replacement cost sydney, new roof price, roof cost savings, roof installation budget, sydney roofing prices",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-04-05",
+  modifiedISO: "2026-01-04",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

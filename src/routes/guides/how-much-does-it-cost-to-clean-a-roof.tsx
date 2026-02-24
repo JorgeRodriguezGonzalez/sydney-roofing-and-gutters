@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-it-cost-to-clean-a-roof/",
   description: "A detailed guide to roof cleaning costs in Sydney. Learn what affects pricing, average rates for different roof types, DIY vs professional cleaning and when to clean your roof.",
   keywords: "roof cleaning cost sydney, roof cleaning prices, professional roof cleaning, tile roof cleaning, colorbond roof cleaning",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-04-24",
+  modifiedISO: "2025-08-11",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

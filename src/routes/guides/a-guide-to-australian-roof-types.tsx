@@ -6,8 +6,8 @@ const config = {
   path: "/guides/a-guide-to-australian-roof-types/",
   description: "Learn about the different roof types used across Australia. Compare gable, hip, skillion, flat and Dutch gable roofs for Sydney homes with pros, cons and costs.",
   keywords: "australian roof types, gable roof sydney, hip roof design, roof styles australia, roof type comparison",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-01-04",
+  modifiedISO: "2025-11-08",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

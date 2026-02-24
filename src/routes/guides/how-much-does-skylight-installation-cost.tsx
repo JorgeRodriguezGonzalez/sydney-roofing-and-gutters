@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-skylight-installation-cost/",
   description: "A complete breakdown of skylight installation costs in Sydney, including materials, labour, different skylight types and factors that impact your final quote.",
   keywords: "skylight installation cost, skylight price sydney, roof window cost, skylight installation nsw, tubular skylight cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-09-04",
+  modifiedISO: "2026-01-02",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

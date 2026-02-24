@@ -6,8 +6,8 @@ const config = {
   path: "/guides/corrugated-metal-roofing-prices/",
   description: "Detailed breakdown of corrugated metal roofing prices in Sydney. Compare Colorbond vs Zincalume costs, understand installation pricing and learn what affects your total budget.",
   keywords: "corrugated metal roofing prices, colorbond cost sydney, zincalume roofing prices, metal roof cost per square metre, roofing quotes",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-07-18",
+  modifiedISO: "2025-12-25",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

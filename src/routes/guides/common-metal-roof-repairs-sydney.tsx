@@ -6,8 +6,8 @@ const config = {
   path: "/guides/common-metal-roof-repairs-sydney/",
   description: "Learn about the most common metal roof repairs in Sydney, from fixing leaks and replacing damaged sheets to addressing corrosion. Get cost estimates and prevention tips.",
   keywords: "metal roof repairs sydney, colorbond roof repair, roof leak repair, metal roofing maintenance, sydney roof repair cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-06-27",
+  modifiedISO: "2025-11-18",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

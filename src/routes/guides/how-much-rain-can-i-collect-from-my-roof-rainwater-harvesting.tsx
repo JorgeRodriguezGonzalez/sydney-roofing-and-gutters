@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-rain-can-i-collect-from-my-roof-rainwater-harvesting/",
   description: "Calculate how much rainwater you can harvest from your Sydney roof. Learn about tank sizing, collection efficiency, regulations and savings from rainwater collection systems.",
   keywords: "rainwater harvesting sydney, roof water collection, rainwater tank sizing, water collection calculation, rainwater systems nsw",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-11-02",
+  modifiedISO: "2026-02-19",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

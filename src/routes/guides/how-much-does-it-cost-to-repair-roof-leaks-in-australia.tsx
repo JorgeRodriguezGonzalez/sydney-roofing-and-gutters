@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-it-cost-to-repair-roof-leaks-in-australia/",
   description: "Discover the real costs of roof leak repairs in Australia. From minor fixes to major structural work, learn what to expect and how to budget for roof leak repairs in Sydney and NSW.",
   keywords: "roof leak repair cost, roof repair sydney, roof leak prices australia, roof repair cost nsw, fixing roof leaks",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-06-24",
+  modifiedISO: "2026-02-17",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

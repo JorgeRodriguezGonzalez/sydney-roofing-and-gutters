@@ -6,8 +6,8 @@ const config = {
   path: "/guides/do-whirlybirds-work/",
   description: "An honest assessment of whirlybird roof vents for Sydney homes. Learn how effective they are, when they work best, costs, alternatives and whether you actually need them.",
   keywords: "whirlybirds sydney, roof ventilation, turbine vents, whirlybird effectiveness, roof ventilation cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-08-05",
+  modifiedISO: "2025-11-24",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

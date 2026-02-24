@@ -6,8 +6,8 @@ const config = {
   path: "/guides/the-ultimate-guide-to-roof-bedding-and-pointing/",
   description: "Complete guide to roof bedding and pointing for Sydney homes. Learn when to rebedding, costs, materials, and how to choose the right contractor for your tile roof maintenance.",
   keywords: "roof bedding sydney, roof pointing, rebedding tiles, roof maintenance sydney, tile roof repair",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-04-21",
+  modifiedISO: "2026-01-01",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

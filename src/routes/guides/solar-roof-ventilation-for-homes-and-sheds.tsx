@@ -6,8 +6,8 @@ const config = {
   path: "/guides/solar-roof-ventilation-for-homes-and-sheds/",
   description: "Learn how solar roof ventilation systems improve airflow, reduce heat and prevent moisture damage in Sydney homes and sheds. Compare costs, installation and benefits.",
   keywords: "solar roof ventilation, whirlybird solar, roof ventilation sydney, shed ventilation, attic ventilation",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-08-12",
+  modifiedISO: "2025-11-17",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/who-repairs-skylights/",
   description: "Find out which trades repair skylights in Sydney. Learn when to call a roofer, skylight specialist or glazier, plus costs, licensing and what to expect from your repair.",
   keywords: "skylight repair sydney, who fixes skylights, skylight leak repair, skylight replacement cost, licensed roofer",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-08-27",
+  modifiedISO: "2025-11-09",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

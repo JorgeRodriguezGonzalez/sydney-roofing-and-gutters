@@ -6,8 +6,8 @@ const config = {
   path: "/guides/does-home-warranty-cover-roof-leaks/",
   description: "Find out whether your home warranty insurance covers roof leaks in Sydney. Learn about typical exclusions, structural defects, policy limits and how to claim.",
   keywords: "home warranty roof leaks, building insurance roof damage, roof leak coverage sydney, warranty claim roof, structural defects nsw",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-02-04",
+  modifiedISO: "2025-08-25",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

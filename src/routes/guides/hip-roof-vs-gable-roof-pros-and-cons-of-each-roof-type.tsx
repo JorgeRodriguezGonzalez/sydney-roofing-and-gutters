@@ -6,8 +6,8 @@ const config = {
   path: "/guides/hip-roof-vs-gable-roof-pros-and-cons-of-each-roof-type/",
   description: "Compare hip and gable roof styles for Sydney homes. Learn the key differences, structural advantages, cost implications and which design suits your property best.",
   keywords: "hip roof vs gable roof, roof types sydney, hip roof advantages, gable roof pros cons, roofing styles",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-01-04",
+  modifiedISO: "2026-02-12",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/gutter-replacement-cost/",
   description: "A comprehensive cost guide for replacing gutters in Sydney. Learn about pricing factors, material options, labour costs and how to budget for your gutter replacement project.",
   keywords: "gutter replacement cost, gutter installation sydney, gutter replacement price, new gutters cost, gutter system sydney",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-02-09",
+  modifiedISO: "2025-08-03",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

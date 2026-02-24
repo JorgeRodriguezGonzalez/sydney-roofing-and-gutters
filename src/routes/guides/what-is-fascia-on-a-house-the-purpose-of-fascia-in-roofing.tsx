@@ -6,8 +6,8 @@ const config = {
   path: "/guides/what-is-fascia-on-a-house-the-purpose-of-fascia-in-roofing/",
   description: "Learn what fascia boards are, why they matter for your roof and home, the materials available, and how to maintain or replace fascia in Sydney homes.",
   keywords: "fascia board, roof fascia, fascia purpose, fascia replacement sydney, roofing components",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-06-07",
+  modifiedISO: "2026-01-05",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

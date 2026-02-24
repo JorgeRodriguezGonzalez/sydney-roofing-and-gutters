@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-make-amazing-christmas-rooftop-displays/",
   description: "Create stunning Christmas rooftop displays safely. Learn about lighting options, roof safety, power requirements, and regulations for festive decorations in Sydney.",
   keywords: "christmas rooftop displays, christmas lights sydney, roof decorations safety, festive lighting installation, holiday roof lights",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-06-05",
+  modifiedISO: "2026-01-24",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

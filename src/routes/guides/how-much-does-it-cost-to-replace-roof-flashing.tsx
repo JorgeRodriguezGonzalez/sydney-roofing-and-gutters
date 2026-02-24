@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-it-cost-to-replace-roof-flashing/",
   description: "A complete breakdown of roof flashing replacement costs in Sydney. Learn about different flashing types, price factors, materials and when to repair versus replace.",
   keywords: "roof flashing cost, flashing replacement sydney, roof flashing repair, chimney flashing cost, valley flashing",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-07-30",
+  modifiedISO: "2025-11-22",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

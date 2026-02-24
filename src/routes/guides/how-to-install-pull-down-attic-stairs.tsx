@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-install-pull-down-attic-stairs/",
   description: "Step-by-step guide to installing pull down attic stairs in Sydney homes. Learn about sizing, structural requirements, insulation, safety and costs.",
   keywords: "attic stairs installation, pull down ladder sydney, attic access, ceiling ladder installation, attic stairs cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-05-22",
+  modifiedISO: "2025-09-14",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

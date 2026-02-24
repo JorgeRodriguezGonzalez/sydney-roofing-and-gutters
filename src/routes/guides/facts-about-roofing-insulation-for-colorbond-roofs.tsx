@@ -6,8 +6,8 @@ const config = {
   path: "/guides/facts-about-roofing-insulation-for-colorbond-roofs/",
   description: "Learn essential facts about insulation for Colorbond metal roofs in Sydney. Discover R-values, condensation control, thermal performance and compliance with NSW standards.",
   keywords: "colorbond insulation, roof insulation sydney, metal roof sarking, reflective insulation, thermal performance",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-10-20",
+  modifiedISO: "2025-12-02",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

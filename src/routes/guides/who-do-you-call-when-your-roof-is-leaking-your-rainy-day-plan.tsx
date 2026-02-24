@@ -6,8 +6,8 @@ const config = {
   path: "/guides/who-do-you-call-when-your-roof-is-leaking-your-rainy-day-plan/",
   description: "A practical guide for Sydney homeowners on how to respond to a roof leak, who to call, how to find emergency roofers and what to expect from repairs.",
   keywords: "roof leak emergency, emergency roofer sydney, roof leak repair, emergency roof repair, roof leak who to call",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-08-08",
+  modifiedISO: "2026-01-16",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

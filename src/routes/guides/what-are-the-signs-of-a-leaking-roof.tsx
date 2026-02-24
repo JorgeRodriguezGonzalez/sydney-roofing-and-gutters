@@ -6,7 +6,7 @@ const config = {
   path: "/guides/what-are-the-signs-of-a-leaking-roof/",
   description: "Learn to identify the early warning signs of a leaking roof before serious damage occurs. A Sydney homeowner guide to roof leak detection, inspection tips and when to call a professional.",
   keywords: "roof leak signs, leaking roof symptoms, roof damage detection, water damage ceiling, sydney roof inspection",
-  publishedISO: "2026-02-18",
+  publishedISO: "2024-05-12",
   modifiedISO: "2026-02-18",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",

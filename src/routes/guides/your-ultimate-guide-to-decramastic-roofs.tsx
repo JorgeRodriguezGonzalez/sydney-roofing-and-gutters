@@ -6,8 +6,8 @@ const config = {
   path: "/guides/your-ultimate-guide-to-decramastic-roofs/",
   description: "Complete guide to Decramastic roofing for Sydney homes. Learn about this steel tile system, its benefits, installation, maintenance and whether it is the right choice for your property.",
   keywords: "decramastic roof, steel tile roofing, decramastic sydney, steel roof tiles, lightweight roofing",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-10-02",
+  modifiedISO: "2025-12-01",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

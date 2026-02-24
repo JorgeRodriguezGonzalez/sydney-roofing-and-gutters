@@ -6,7 +6,7 @@ const config = {
   path: "/guides/how-long-does-a-roof-last/",
   description: "Discover how long different roofing materials last in Sydney conditions. Learn about Colorbond, tile and other roof lifespans, plus maintenance tips to maximise durability.",
   keywords: "roof lifespan sydney, how long does a roof last, colorbond roof life, tile roof lifespan, roof replacement",
-  publishedISO: "2026-02-18",
+  publishedISO: "2022-02-11",
   modifiedISO: "2026-02-18",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",

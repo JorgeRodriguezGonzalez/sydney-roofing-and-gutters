@@ -6,8 +6,8 @@ const config = {
   path: "/guides/8-roof-design-ideas-for-extensions/",
   description: "Explore 8 practical roof design ideas for home extensions in Sydney. From skillion to gable roofs, learn which design suits your space, budget and local regulations.",
   keywords: "roof extension ideas, extension roof design sydney, skillion roof extension, gable extension roof, flat roof extension",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2020-12-22",
+  modifiedISO: "2025-11-13",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

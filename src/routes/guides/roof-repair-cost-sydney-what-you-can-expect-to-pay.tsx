@@ -6,8 +6,8 @@ const config = {
   path: "/guides/roof-repair-cost-sydney-what-you-can-expect-to-pay/",
   description: "Learn what roof repair costs in Sydney across different materials and damage types. Get realistic pricing for tiles, metal, leaks, storm damage and when to repair vs replace.",
   keywords: "roof repair cost sydney, roof leak repair price, tile roof repair cost, metal roof repair sydney, roof replacement cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-08-02",
+  modifiedISO: "2025-09-10",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

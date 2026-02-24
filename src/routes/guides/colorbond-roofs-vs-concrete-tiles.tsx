@@ -6,8 +6,8 @@ const config = {
   path: "/guides/colorbond-roofs-vs-concrete-tiles/",
   description: "Compare Colorbond steel roofing and concrete tiles for Sydney homes. Learn about costs, durability, energy efficiency and which roofing material suits your needs best.",
   keywords: "colorbond vs tiles, metal roof vs concrete tiles, colorbond or tiles sydney, roof material comparison, best roofing sydney",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-01-29",
+  modifiedISO: "2025-02-07",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

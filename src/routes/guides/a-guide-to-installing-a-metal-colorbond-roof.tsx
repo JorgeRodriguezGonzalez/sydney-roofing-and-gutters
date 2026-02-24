@@ -6,8 +6,8 @@ const config = {
   path: "/guides/a-guide-to-installing-a-metal-colorbond-roof/",
   description: "A comprehensive guide to installing a Colorbond or metal roof in Sydney. Learn about materials, preparation, installation steps, costs and how to choose the right roofing contractor.",
   keywords: "colorbond roof installation, metal roof sydney, colorbond roofing guide, metal roof cost, roof installation process",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-01-16",
+  modifiedISO: "2025-12-22",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/australia-state-by-state-your-best-insulation-options/",
   description: "Compare insulation options across Australian states and territories. Learn which R-values, materials and installation methods suit your climate zone from tropical Queensland to cold Tasmania.",
   keywords: "roof insulation australia, insulation R-value by state, insulation climate zones, roof insulation sydney, best insulation materials",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-02-11",
+  modifiedISO: "2025-12-14",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/signs-its-time-to-replace-your-roof/",
   description: "Learn the warning signs that indicate your roof needs replacement. From age and storm damage to leaks and energy loss, this guide helps Sydney homeowners decide when to re-roof.",
   keywords: "roof replacement signs, when to replace roof, roof age sydney, roof damage indicators, re-roofing advice",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-01-25",
+  modifiedISO: "2025-12-11",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

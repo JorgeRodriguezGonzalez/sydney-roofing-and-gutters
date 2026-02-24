@@ -6,8 +6,8 @@ const config = {
   path: "/guides/cleaning-your-colorbond-roof-everything-you-should-know/",
   description: "Complete guide to cleaning and maintaining Colorbond roofs in Sydney. Learn safe cleaning methods, when to clean, what products to use and common mistakes to avoid.",
   keywords: "colorbond roof cleaning, metal roof maintenance sydney, colorbond care, roof cleaning guide, colorbond maintenance",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-05-23",
+  modifiedISO: "2025-11-25",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

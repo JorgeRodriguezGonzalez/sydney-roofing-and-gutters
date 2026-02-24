@@ -6,8 +6,8 @@ const config = {
   path: "/guides/top-signs-of-storm-damage-on-your-roof/",
   description: "Learn how to identify storm damage on your Sydney roof after severe weather. Recognise the warning signs, understand what to look for and when to call a professional roofing contractor.",
   keywords: "storm damage roof sydney, hail damage roof, roof damage signs, roof inspection sydney, storm damage assessment",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-05-11",
+  modifiedISO: "2026-01-04",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

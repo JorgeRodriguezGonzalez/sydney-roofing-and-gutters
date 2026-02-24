@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-replace-a-fascia-board-steps-by-steps/",
   description: "Learn how to replace a fascia board on your Sydney home. Step-by-step instructions, material costs, tools needed and when to call a professional roofing contractor.",
   keywords: "fascia board replacement, replace fascia board, fascia repair sydney, roofline repair, timber fascia replacement",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-06-16",
+  modifiedISO: "2025-08-27",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

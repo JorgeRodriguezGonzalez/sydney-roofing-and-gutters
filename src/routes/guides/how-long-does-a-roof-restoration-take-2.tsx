@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-long-does-a-roof-restoration-take-2/",
   description: "Find out how long a typical roof restoration takes in Sydney. Learn about the stages involved, factors that affect timing and how to plan around the work schedule.",
   keywords: "roof restoration time, how long roof restoration, sydney roof repair timeline, roof restoration schedule, roof restoration duration",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-03-10",
+  modifiedISO: "2025-05-25",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

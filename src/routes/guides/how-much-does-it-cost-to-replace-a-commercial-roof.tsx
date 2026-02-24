@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-it-cost-to-replace-a-commercial-roof/",
   description: "A detailed breakdown of commercial roof replacement costs in Sydney. Learn about pricing factors, material options, project timelines and how to budget for your commercial roofing project.",
   keywords: "commercial roof replacement cost, commercial roofing sydney, roof replacement pricing, industrial roofing costs, business roof quotes",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-07-11",
+  modifiedISO: "2025-12-01",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

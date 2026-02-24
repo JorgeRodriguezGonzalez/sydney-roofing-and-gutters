@@ -6,8 +6,8 @@ const config = {
   path: "/guides/the-best-roofing-options-for-suburban-homes-which-one-is-right-for-you/",
   description: "Compare the best roofing materials for suburban Sydney homes. Learn about Colorbond, terracotta tiles, concrete tiles and asphalt shingles to find the right option for your property.",
   keywords: "roofing options sydney, suburban roofing materials, best roof for sydney homes, colorbond vs tiles, roof material comparison",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-08-16",
+  modifiedISO: "2026-02-16",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

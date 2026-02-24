@@ -6,8 +6,8 @@ const config = {
   path: "/guides/australian-roofing-vs-american-roofing/",
   description: "Discover the key differences between Australian and American roofing systems. Learn about materials, building codes, installation methods and climate considerations for Sydney homes.",
   keywords: "australian roofing standards, american roofing comparison, colorbond vs asphalt shingles, AS 1562 building codes, roofing differences australia usa",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-03-07",
+  modifiedISO: "2026-02-11",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

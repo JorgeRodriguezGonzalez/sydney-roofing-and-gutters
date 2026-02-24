@@ -6,8 +6,8 @@ const config = {
   path: "/guides/3-ways-to-clean-a-tile-roof/",
   description: "Discover three effective methods to clean tile roofs in Sydney. Learn about pressure washing, chemical treatments and soft washing to restore your roof safely.",
   keywords: "tile roof cleaning sydney, roof cleaning methods, terracotta tile maintenance, concrete tile cleaning, roof restoration",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2020-11-13",
+  modifiedISO: "2026-01-23",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

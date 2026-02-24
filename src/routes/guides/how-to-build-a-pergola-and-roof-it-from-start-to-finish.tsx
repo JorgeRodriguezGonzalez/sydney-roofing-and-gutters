@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-build-a-pergola-and-roof-it-from-start-to-finish/",
   description: "Complete step-by-step guide to building a pergola and installing a roof. Learn about permits, materials, construction techniques and roofing options for Sydney outdoor structures.",
   keywords: "pergola construction, pergola roofing, build pergola sydney, pergola roof materials, outdoor structure permits",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-12-08",
+  modifiedISO: "2025-11-22",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

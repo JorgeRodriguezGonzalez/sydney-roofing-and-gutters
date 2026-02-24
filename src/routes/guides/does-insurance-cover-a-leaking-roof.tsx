@@ -6,8 +6,8 @@ const config = {
   path: "/guides/does-insurance-cover-a-leaking-roof/",
   description: "Find out when home insurance covers roof leaks in Sydney. Learn about covered events, exclusions, claims process and how to protect your coverage with proper maintenance.",
   keywords: "roof leak insurance, home insurance roof leak, insurance claim roof leak sydney, storm damage roof, roof leak coverage",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-09-26",
+  modifiedISO: "2025-12-30",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

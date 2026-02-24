@@ -6,8 +6,8 @@ const config = {
   path: "/guides/what-causes-roof-leaks/",
   description: "Discover the most common causes of roof leaks in Sydney homes. Learn to identify early warning signs, understand how weather and age affect roofs, and when to call professionals.",
   keywords: "roof leaks sydney, roof leak causes, damaged roof, roof repair, water damage prevention",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-09-03",
+  modifiedISO: "2026-01-09",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

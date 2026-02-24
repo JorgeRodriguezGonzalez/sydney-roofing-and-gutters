@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-it-cost-to-clean-a-roof-2/",
   description: "Discover the real costs of professional roof cleaning in Sydney. Learn what influences pricing, cleaning methods, how often to clean and tips for choosing the right contractor.",
   keywords: "roof cleaning cost sydney, roof cleaning prices, roof wash cost, professional roof cleaning, roof maintenance costs",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-05-30",
+  modifiedISO: "2025-11-02",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

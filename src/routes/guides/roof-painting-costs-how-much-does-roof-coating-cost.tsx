@@ -6,8 +6,8 @@ const config = {
   path: "/guides/roof-painting-costs-how-much-does-roof-coating-cost/",
   description: "Detailed breakdown of roof painting and coating costs in Sydney. Compare prices for tile, metal and concrete roofs plus how to budget for preparation, materials and labour.",
   keywords: "roof painting cost sydney, roof coating prices, roof restoration cost, tile roof painting, concrete roof painting",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-11-07",
+  modifiedISO: "2026-01-14",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

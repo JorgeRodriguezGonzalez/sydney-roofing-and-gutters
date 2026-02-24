@@ -6,8 +6,8 @@ const config = {
   path: "/guides/are-there-benefits-of-metal-roofing-that-outweigh-its-cost/",
   description: "Discover whether metal roofing benefits justify the higher upfront cost. Compare long-term savings, durability, energy efficiency and resale value for Sydney homes.",
   keywords: "metal roofing cost, colorbond benefits, roof cost comparison, metal roof lifespan, sydney roofing value",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-01-21",
+  modifiedISO: "2026-02-02",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

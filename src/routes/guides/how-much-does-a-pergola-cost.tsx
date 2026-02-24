@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-a-pergola-cost/",
   description: "Discover the real cost of building a pergola in Sydney. Compare timber, steel and aluminium options, understand permit requirements and get accurate pricing for your outdoor project.",
   keywords: "pergola cost sydney, pergola prices, timber pergola, steel pergola, outdoor structure costs",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-05-02",
+  modifiedISO: "2026-01-09",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

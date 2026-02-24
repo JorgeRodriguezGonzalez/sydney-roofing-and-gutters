@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-do-patio-covers-cost-in-2022/",
   description: "Discover what patio covers cost in Sydney in 2022. Compare materials, installation prices, council approval fees and how to budget for your outdoor entertainment area.",
   keywords: "patio cover cost sydney, pergola cost, verandah price, outdoor cover installation, patio roofing prices",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-03-24",
+  modifiedISO: "2025-11-07",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/is-a-leaking-skylight-covered-by-insurance/",
   description: "Find out if your home insurance covers a leaking skylight in Sydney. Learn about what types of damage are covered, exclusions, claim processes and how to protect your policy rights.",
   keywords: "skylight insurance, leaking skylight claim, home insurance sydney, skylight damage coverage, insurance excess",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-07-28",
+  modifiedISO: "2026-02-15",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

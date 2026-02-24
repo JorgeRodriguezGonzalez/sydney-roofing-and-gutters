@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-install-posts-and-beams-for-a-carport/",
   description: "A complete guide to installing carport posts and beams in Sydney. Learn about post selection, concrete footings, beam attachment, Australian standards and how to hire the right builder.",
   keywords: "carport post installation, carport beams sydney, concrete footings, carport construction, carport posts australia",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-03-09",
+  modifiedISO: "2026-02-09",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

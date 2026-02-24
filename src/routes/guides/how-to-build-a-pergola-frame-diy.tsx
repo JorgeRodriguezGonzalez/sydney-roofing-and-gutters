@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-build-a-pergola-frame-diy/",
   description: "A step-by-step guide to building a pergola frame yourself in Sydney. Learn about timber selection, post installation, beam framing and local council requirements.",
   keywords: "pergola frame DIY, build pergola sydney, pergola construction guide, DIY outdoor structure, timber pergola frame",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-12-30",
+  modifiedISO: "2025-11-01",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

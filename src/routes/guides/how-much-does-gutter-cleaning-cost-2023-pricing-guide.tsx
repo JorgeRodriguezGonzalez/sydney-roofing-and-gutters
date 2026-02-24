@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-much-does-gutter-cleaning-cost-2023-pricing-guide/",
   description: "Comprehensive 2023 pricing guide for gutter cleaning in Sydney. Learn about cost factors, service types, frequency recommendations and how to get the best value for your investment.",
   keywords: "gutter cleaning cost sydney, gutter cleaning price, how much gutter cleaning, gutter maintenance cost, sydney gutter cleaning",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-04-23",
+  modifiedISO: "2025-11-23",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

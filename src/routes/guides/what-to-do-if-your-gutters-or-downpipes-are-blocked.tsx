@@ -6,8 +6,8 @@ const config = {
   path: "/guides/what-to-do-if-your-gutters-or-downpipes-are-blocked/",
   description: "Practical steps for Sydney homeowners to identify and fix blocked gutters and downpipes. Learn the warning signs, immediate actions and when to call a professional.",
   keywords: "blocked gutters sydney, downpipe blockage, gutter cleaning, stormwater problems, gutter maintenance",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-09-26",
+  modifiedISO: "2025-10-17",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

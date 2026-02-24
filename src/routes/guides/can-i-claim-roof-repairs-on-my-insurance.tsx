@@ -6,8 +6,8 @@ const config = {
   path: "/guides/can-i-claim-roof-repairs-on-my-insurance/",
   description: "Learn when you can claim roof repairs through home insurance in Sydney, what damage is typically covered, and how to file a successful claim with proper documentation.",
   keywords: "roof insurance claims sydney, home insurance roof damage, storm damage claims, roof repair insurance coverage, insurance assessor",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-03-26",
+  modifiedISO: "2026-02-19",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

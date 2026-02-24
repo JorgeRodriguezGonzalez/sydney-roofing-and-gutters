@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-choose-the-best-roof-colour-for-your-home/",
   description: "Learn how to select the perfect roof colour for Sydney homes. Understand heat reflection, resale value, council rules and colour psychology to make the right choice.",
   keywords: "roof colour selection, best roof colour, colorbond colours sydney, roof heat reflection, roof colour trends",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-01-19",
+  modifiedISO: "2025-12-20",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

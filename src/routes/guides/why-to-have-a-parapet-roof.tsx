@@ -6,8 +6,8 @@ const config = {
   path: "/guides/why-to-have-a-parapet-roof/",
   description: "Discover the benefits of parapet roofs for Sydney homes. Learn about wind protection, modern aesthetics, privacy and key design considerations for this popular roofing style.",
   keywords: "parapet roof sydney, parapet roof benefits, parapet roof design, flat roof parapet, modern roof styles",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-09-19",
+  modifiedISO: "2026-02-19",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/safe-and-efficient-installation-of-manhole-unit/",
   description: "Learn how to safely install a roof manhole unit in Sydney. Covers regulations, placement, sealing techniques, costs and choosing the right access solution for your home.",
   keywords: "manhole installation sydney, roof access hatch, manhole unit roofing, roof manhole regulations, roof access nsw",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-12-19",
+  modifiedISO: "2025-11-08",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

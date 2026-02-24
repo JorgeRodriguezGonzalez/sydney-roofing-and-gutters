@@ -6,8 +6,8 @@ const config = {
   path: "/guides/lets-talk-colorbond-roof-restorations/",
   description: "Learn when and how to restore a Colorbond roof in Sydney. Expert advice on surface preparation, recoating processes, costs and the difference between restoration and replacement.",
   keywords: "colorbond roof restoration, roof recoating sydney, metal roof restoration cost, roof painting sydney, colorbond repair",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-07-19",
+  modifiedISO: "2026-01-31",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

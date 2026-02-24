@@ -7,8 +7,8 @@ const config: GuideSEOConfig = {
   path: "/guides/how-much-does-it-cost-to-fix-a-roof-leak/",
   description: "Roof leak repair costs in Australia: key factors, indicative ranges, and when to repair, restore or replace. Get a free quote from licensed roofers.",
   keywords: "roof leak repair cost, fix roof leak price, roof leak repair sydney, roof leak cost australia, cost to fix leaking roof, roof leak repair quote, leaking roof repair",
-  publishedISO: "2026-01-27",
-  modifiedISO: "2026-01-27",
+  publishedISO: "2025-05-11",
+  modifiedISO: "2025-06-15",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 };

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/choosing-a-colorbond-roof/",
   description: "Expert advice on choosing the right Colorbond roof for your Sydney home. Compare colours, profiles, finishes and costs to make an informed decision.",
   keywords: "colorbond roof sydney, colorbond colours, colorbond profiles, choosing roof material, metal roof options",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-04-21",
+  modifiedISO: "2025-11-14",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

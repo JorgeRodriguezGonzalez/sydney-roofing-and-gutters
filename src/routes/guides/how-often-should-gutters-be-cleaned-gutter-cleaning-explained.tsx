@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-often-should-gutters-be-cleaned-gutter-cleaning-explained/",
   description: "Learn how often gutters should be cleaned in Sydney, what factors affect cleaning frequency, and how to maintain your gutter system for maximum protection.",
   keywords: "gutter cleaning frequency, how often clean gutters sydney, gutter maintenance schedule, blocked gutters, gutter cleaning cost",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-11-23",
+  modifiedISO: "2025-11-08",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

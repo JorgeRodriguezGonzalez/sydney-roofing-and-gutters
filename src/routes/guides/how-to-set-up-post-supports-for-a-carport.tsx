@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-set-up-post-supports-for-a-carport/",
   description: "Learn how to properly set up post supports for your carport in Sydney. Covers in-ground footings, surface mounting, spacing, materials and NSW compliance requirements.",
   keywords: "carport post supports, carport footings sydney, carport installation, post spacing carport, concrete footings",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-06-22",
+  modifiedISO: "2025-11-15",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/fascias-soffits-and-roof-carpentry/",
   description: "Complete guide to fascia boards, soffits and roof carpentry in Sydney. Learn about materials, installation techniques, maintenance and how to choose a qualified roof carpenter.",
   keywords: "fascia boards sydney, soffit installation, roof carpentry, fascia replacement, roof carpenter",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-10-22",
+  modifiedISO: "2026-02-20",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

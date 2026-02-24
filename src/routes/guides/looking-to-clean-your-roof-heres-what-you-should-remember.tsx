@@ -6,8 +6,8 @@ const config = {
   path: "/guides/looking-to-clean-your-roof-heres-what-you-should-remember/",
   description: "Essential tips for roof cleaning in Sydney. Learn about safe methods, costs, frequency and what to look for when hiring a professional roof cleaning contractor.",
   keywords: "roof cleaning sydney, clean roof tiles, roof maintenance, pressure washing roof, roof moss removal",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-08-13",
+  modifiedISO: "2026-01-02",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

@@ -6,8 +6,8 @@ const config = {
   path: "/guides/reasons-why-proper-attic-ventilation-is-important-to-your-roof-and-home/",
   description: "Discover why proper attic ventilation is critical for Sydney homes. Learn how ventilation protects your roof, prevents moisture damage and reduces energy costs.",
   keywords: "attic ventilation, roof ventilation sydney, whirlybirds, roof vents, moisture control",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-10-03",
+  modifiedISO: "2025-12-08",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

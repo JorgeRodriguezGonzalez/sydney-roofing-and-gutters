@@ -6,8 +6,8 @@ const config = {
   path: "/guides/gutter-cleaning-cost-guide-how-much-you-should-expect-to-pay/",
   description: "Understand gutter cleaning costs in Sydney. Learn what factors affect pricing, what services include, how often to clean gutters and how to choose a reliable contractor.",
   keywords: "gutter cleaning cost sydney, gutter cleaning prices, professional gutter cleaning, gutter maintenance cost, sydney gutter service",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-11-19",
+  modifiedISO: "2025-11-10",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

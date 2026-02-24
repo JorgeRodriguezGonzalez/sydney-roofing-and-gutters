@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-efficiently-clean-your-roof-gutters/",
   description: "A complete guide to cleaning roof gutters efficiently in Sydney. Learn about safety, tools, techniques, prevention and when to call professionals for gutter maintenance.",
   keywords: "gutter cleaning sydney, roof gutter maintenance, clean gutters safely, gutter cleaning cost, gutter guard installation",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-03-04",
+  modifiedISO: "2026-02-09",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

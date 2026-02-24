@@ -6,8 +6,8 @@ const config = {
   path: "/guides/roof-restoration-cost-sydney-what-you-should-expect-to-pay/",
   description: "Discover the true cost of roof restoration in Sydney. Learn about pricing factors, average costs per square metre, and how to get the best value for your investment.",
   keywords: "roof restoration cost sydney, roof restoration prices, sydney roof repair costs, roof restoration quote, roof restoration budget",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-12-15",
+  modifiedISO: "2026-01-09",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

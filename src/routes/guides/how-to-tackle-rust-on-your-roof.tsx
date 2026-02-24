@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-tackle-rust-on-your-roof/",
   description: "Learn how to identify, treat and prevent rust on metal roofs in Sydney. Expert advice on rust removal, protective coatings and when to replace corroded roofing.",
   keywords: "roof rust removal, metal roof rust, roof corrosion sydney, rusty roof repair, colorbond rust",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2025-06-29",
+  modifiedISO: "2025-10-17",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

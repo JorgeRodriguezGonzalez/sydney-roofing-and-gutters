@@ -6,8 +6,8 @@ const config = {
   path: "/guides/problems-that-result-from-not-cleaning-gutters/",
   description: "Discover the serious problems caused by neglected gutters in Sydney homes. From foundation damage to pest infestations, learn why regular gutter cleaning is essential.",
   keywords: "gutter cleaning, blocked gutters sydney, gutter maintenance, water damage prevention, gutter problems",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-09-06",
+  modifiedISO: "2025-11-25",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

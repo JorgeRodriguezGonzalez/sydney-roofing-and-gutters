@@ -6,8 +6,8 @@ const config = {
   path: "/guides/should-i-repair-roof-or-replace-it/",
   description: "Learn when roof repair is enough and when full replacement is necessary for Sydney homes. Compare costs, lifespan and decision factors to make the right choice.",
   keywords: "roof repair vs replacement, when to replace roof sydney, roof repair cost, roof replacement cost, roof lifespan",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-01-03",
+  modifiedISO: "2026-02-04",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

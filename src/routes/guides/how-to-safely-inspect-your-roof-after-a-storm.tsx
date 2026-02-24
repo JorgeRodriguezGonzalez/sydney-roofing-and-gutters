@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-safely-inspect-your-roof-after-a-storm/",
   description: "Learn how to safely inspect your roof for storm damage in Sydney. Includes what to look for, safety tips, when to call professionals and how to document damage for insurance claims.",
   keywords: "roof inspection after storm, storm damage roof, roof safety check, sydney storm damage, roof insurance claim",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2023-05-18",
+  modifiedISO: "2026-01-29",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

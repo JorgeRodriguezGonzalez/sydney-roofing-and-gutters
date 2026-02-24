@@ -6,8 +6,8 @@ const config = {
   path: "/guides/commercial-roofing-vs-residential-roofing-the-differences/",
   description: "Understand the key differences between commercial and residential roofing systems in Sydney. Materials, installation methods, costs, and regulations explained.",
   keywords: "commercial roofing sydney, residential roofing differences, commercial roof systems, roofing contractors sydney, commercial vs residential roof",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2021-06-02",
+  modifiedISO: "2025-12-28",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

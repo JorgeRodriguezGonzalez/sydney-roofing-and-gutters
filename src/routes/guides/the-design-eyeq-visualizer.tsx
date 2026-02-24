@@ -6,8 +6,8 @@ const config = {
   path: "/guides/the-design-eyeq-visualizer/",
   description: "Discover how the Design EyeQ Visualizer helps Sydney homeowners preview roofing colours and styles before installation. Make confident design decisions with advanced visualization technology.",
   keywords: "design eyeq visualizer, roof colour visualizer, colorbond colour tool, roof design sydney, virtual roof preview",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-04-03",
+  modifiedISO: "2026-01-14",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

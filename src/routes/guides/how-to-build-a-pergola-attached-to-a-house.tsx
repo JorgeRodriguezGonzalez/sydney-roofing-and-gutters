@@ -6,8 +6,8 @@ const config = {
   path: "/guides/how-to-build-a-pergola-attached-to-a-house/",
   description: "Complete guide to building a pergola attached to your house in Sydney. Learn about design, materials, permits, attachment methods, costs and installation steps for your outdoor living space.",
   keywords: "pergola attached to house, build pergola sydney, pergola installation, attached pergola design, pergola building costs",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2022-12-12",
+  modifiedISO: "2025-12-19",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;

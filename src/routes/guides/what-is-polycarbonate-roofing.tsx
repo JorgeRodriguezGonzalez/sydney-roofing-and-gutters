@@ -6,8 +6,8 @@ const config = {
   path: "/guides/what-is-polycarbonate-roofing/",
   description: "Discover polycarbonate roofing for Sydney homes. Learn about material properties, types, applications, costs and installation requirements for this lightweight roofing solution.",
   keywords: "polycarbonate roofing, polycarbonate sheets sydney, lightweight roofing, patio roofing, pergola roofing materials",
-  publishedISO: "2026-02-18",
-  modifiedISO: "2026-02-18",
+  publishedISO: "2024-06-20",
+  modifiedISO: "2025-11-11",
   category: "Guides",
   heroBg: "/images/hero-roof.webp",
 } as const;
